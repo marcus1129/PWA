@@ -2,12 +2,9 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
 entity SubDecoder is
-    Port(InputA : in STD_LOGIC;
-         InputB : in STD_LOGIC;
-         OutputA : out STD_LOGIC;
-         OutputB : out STD_LOGIC;
-         OutputC : out STD_LOGIC;
-         OutputD : out STD_LOGIC);
+    Port(Input : in STD_LOGIC_VECTOR(0 to 1);
+         enable : in STD_LOGIC;
+         Output : out STD_LOGIC_VECTOR(0 to 3));
 end SubDecoder;
 
 architecture Behavioral of SubDecoder is
