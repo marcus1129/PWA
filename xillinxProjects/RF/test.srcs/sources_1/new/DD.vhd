@@ -1,13 +1,13 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
-entity DD is
+entity DestinationDecoder is
     port( Write : in STD_LOGIC;
           D_Address : in STD_LOGIC_VECTOR (0 to 3);
           Load : out STD_LOGIC_VECTOR (0 to 15));
-end DD;
+end DestinationDecoder;
 
-architecture Behavioral of DD is
+architecture DD_Behavioral of DestinationDecoder is
 
 component SubDecoder
     Port(Input : in STD_LOGIC_VECTOR(0 to 1);
@@ -25,4 +25,4 @@ SubDecoder4 : SubDecoder port map(D_Address(2 to 3), SubOutput(2), Load(8 to 11)
 SubDecoder5 : SubDecoder port map(D_Address(2 to 3), SubOutput(3), Load(12 to 15));
 
 
-end Behavioral;
+end DD_Behavioral;

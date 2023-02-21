@@ -1,14 +1,14 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
-entity RL is
+entity RegisterR16 is
     Port(CLK : in STD_LOGIC;
          Load : in STD_LOGIC_VECTOR(0 to 15);
          DataIn : in STD_LOGIC_VECTOR(0 to 7);
          DataOut0, DataOut1, DataOut2, DataOut3, DataOut4, DataOut5, DataOut6, DataOut7, DataOut8, DataOut9, DataOut10, DataOut11, DataOut12, DataOut13, DataOut14, DataOut15 : out STD_LOGIC_VECTOR(0 to 7));
-end RL;
+end RegisterR16;
 
-architecture Behavioral of RL is
+architecture RR16_Behavioral of RegisterR16 is
 
 component RegisterCell
     Port (Enable : in STD_LOGIC;
@@ -36,4 +36,4 @@ RC13 : RegisterCell port map(Load(13), CLK, DataIn, DataOut13);
 RC14 : RegisterCell port map(Load(14), CLK, DataIn, DataOut14);
 RC15 : RegisterCell port map(Load(15), CLK, DataIn, DataOut15);
 
-end Behavioral;
+end RR16_Behavioral;

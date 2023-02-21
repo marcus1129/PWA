@@ -1,13 +1,13 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
-entity MUX is
+entity MUX16x1x8 is
     port(Input0,Input1,Input2,Input3,Input4,Input5,Input6,Input7,Input8,Input9,Input10,Input11,Input12,Input13,Input14,Input15 : in STD_LOGIC_VECTOR(0 to 7);
          SelectAddress : in STD_LOGIC_VECTOR(0 to 3);
          Output : out STD_LOGIC_VECTOR(0 to 7));
-end MUX;
+end MUX16x1x8;
 
-architecture Behavioral of MUX is
+architecture MUX16x1x8_Behavioral of MUX16x1x8 is
 
 component SubMUX
     port(InputA : in STD_LOGIC_VECTOR(0 to 7);
@@ -31,4 +31,4 @@ SubMUX2 : SubMUX port map(Input8, Input9, Input10, Input11, SelectAddress(0 to 1
 SubMUX3 : SubMUX port map(Input12, Input13, Input14, Input15, SelectAddress(0 to 1), SubMUXOutD);
 SubMUX4 : SubMUX port map(SubMUXOutA, SubMUXOutB, SubMUXOutC, SubMUXOutD, SelectAddress(2 to 3), Output);
 
-end Behavioral;
+end MUX16x1x8_Behavioral;

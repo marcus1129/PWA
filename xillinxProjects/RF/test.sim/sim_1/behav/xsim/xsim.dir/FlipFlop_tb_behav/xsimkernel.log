@@ -1,7 +1,7 @@
-Running: xsim.dir/FlipFlop_tb_behav/xsimk -simmode gui -wdb FlipFlop_tb_behav.wdb -simrunnum 0 -socket 56670
+Running: xsim.dir/FlipFlop_tb_behav/xsimk -simmode gui -wdb FlipFlop_tb_behav.wdb -simrunnum 0 -socket 39084
 Design successfully loaded
 Design Loading Memory Usage: 42336 KB (Peak: 42336 KB)
-Design Loading CPU Usage: 20 ms
+Design Loading CPU Usage: 10 ms
 Simulation completed
 Simulation Memory Usage: 126124 KB (Peak: 191660 KB)
 Simulation CPU Usage: 20 ms
