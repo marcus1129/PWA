@@ -4,6 +4,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity RegisterCell_tb is
 end RegisterCell_tb;
 
+
 architecture Behavioral of RegisterCell_tb is
 
 component RegisterCell
