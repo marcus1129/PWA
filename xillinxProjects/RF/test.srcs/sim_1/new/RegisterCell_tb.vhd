@@ -9,6 +9,7 @@ architecture Behavioral of RegisterCell_tb is
 
 component RegisterCell
     Port (Enable : in STD_LOGIC;
+          Reset : in STD_LOGIC;
           CLK : in STD_LOGIC;
           DataIn : in STD_LOGIC_VECTOR(0 to 7);
           DataOut : out STD_LOGIC_VECTOR(0 to 7));
@@ -24,7 +25,7 @@ signal end_test: std_logic:= '1';
 
 begin
 
-UUT : RegisterCell port map(Enable, CLK, DataIn, DataOut);
+UUT : RegisterCell port map(Enable, Reset, CLK, DataIn, DataOut);
 
 clock: process
 begin

@@ -1,0 +1,7 @@
+Running: xsim.dir/RegisterLogic_tb_behav/xsimk -simmode gui -wdb RegisterLogic_tb_behav.wdb -simrunnum 0 -socket 48804
+Design successfully loaded
+Design Loading Memory Usage: 42648 KB (Peak: 42648 KB)
+Design Loading CPU Usage: 10 ms
+Simulation completed
+Simulation Memory Usage: 126404 KB (Peak: 191972 KB)
+Simulation CPU Usage: 20 ms
