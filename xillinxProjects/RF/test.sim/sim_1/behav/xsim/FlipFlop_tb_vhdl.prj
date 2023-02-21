@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../test.srcs/sources_1/new/FlipFlop.vhd" \
+"../../../../test.srcs/sim_1/new/FlipFlop_tb.vhd" \
+
+# Do not sort compile order
+nosort
