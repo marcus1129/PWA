@@ -1,6 +1,6 @@
 Vivado Simulator 2018.2
 Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
-Running: /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab -wto 0afd0da3bb0341ddad0a1cad00bd95d6 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot RegisterLogic_tb_behav xil_defaultlib.RegisterLogic_tb -log elaborate.log 
+Running: /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab -wto 0afd0da3bb0341ddad0a1cad00bd95d6 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot SubMux_tb_behav xil_defaultlib.SubMux_tb -log elaborate.log 
 Using 8 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -10,8 +10,7 @@ Time Resolution for simulation is 1ps
 Compiling package std.standard
 Compiling package std.textio
 Compiling package ieee.std_logic_1164
-Compiling architecture behavioral of entity xil_defaultlib.FlipFlop [flipflop_default]
-Compiling architecture behavioral of entity xil_defaultlib.RegisterCell [registercell_default]
-Compiling architecture rr16_behavioral of entity xil_defaultlib.RegisterR16 [registerr16_default]
-Compiling architecture behavioral of entity xil_defaultlib.registerlogic_tb
-Built simulation snapshot RegisterLogic_tb_behav
+Compiling architecture behavioral of entity xil_defaultlib.And8 [and8_default]
+Compiling architecture behavioral of entity xil_defaultlib.SubMUX [submux_default]
+Compiling architecture behavioral of entity xil_defaultlib.submux_tb
+Built simulation snapshot SubMux_tb_behav

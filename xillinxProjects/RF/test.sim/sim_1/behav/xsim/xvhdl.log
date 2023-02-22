@@ -1,2 +1,4 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/RegisterLogic_tb.vhd" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity RegisterLogic_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SubMUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SubMUX
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/SubMux_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SubMux_tb

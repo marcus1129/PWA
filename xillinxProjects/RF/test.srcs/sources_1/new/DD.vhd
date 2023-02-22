@@ -1,13 +1,13 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
-entity DestinationDecoder is
-    port( Write : in STD_LOGIC;
-          D_Address : in STD_LOGIC_VECTOR (0 to 3);
-          Load : out STD_LOGIC_VECTOR (0 to 15));
-end DestinationDecoder;
+entity Decoder4x16 is
+    port( Enable : in STD_LOGIC;
+          Input : in STD_LOGIC_VECTOR (0 to 3);
+          Output : out STD_LOGIC_VECTOR (0 to 15));
+end Decoder4x16;
 
-architecture DD_Behavioral of DestinationDecoder is
+architecture Behavioral_4x16 of Decoder4x16 is
 
 component SubDecoder
     Port(Input : in STD_LOGIC_VECTOR(0 to 1);
@@ -18,11 +18,11 @@ end component;
 signal SubOutput: STD_LOGIC_VECTOR(0 to 3);
 
 begin
-SubDecoder1 : SubDecoder port map(D_Address(0 to 1), '1', SubOutput);
-SubDecoder2 : SubDecoder port map(D_Address(2 to 3), SubOutput(0), Load(0 to 3));
-SubDecoder3 : SubDecoder port map(D_Address(2 to 3), SubOutput(1), Load(4 to 7));
-SubDecoder4 : SubDecoder port map(D_Address(2 to 3), SubOutput(2), Load(8 to 11));
-SubDecoder5 : SubDecoder port map(D_Address(2 to 3), SubOutput(3), Load(12 to 15));
+SubDecoder1 : SubDecoder port map(Input(0 to 1), '1', SubOutput);
+SubDecoder2 : SubDecoder port map(Input(2 to 3), SubOutput(0), Output(0 to 3));
+SubDecoder3 : SubDecoder port map(Input(2 to 3), SubOutput(1), Output(4 to 7));
+SubDecoder4 : SubDecoder port map(Input(2 to 3), SubOutput(2), Output(8 to 11));
+SubDecoder5 : SubDecoder port map(Input(2 to 3), SubOutput(3), Output(12 to 15));
 
 
-end DD_Behavioral;
+end Behavioral_4x16;
