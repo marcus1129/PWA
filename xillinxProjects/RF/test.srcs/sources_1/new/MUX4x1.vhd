@@ -2,9 +2,9 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date: 02/21/2023 07:16:40 AM
+-- Create Date: 02/21/2023 01:39:53 PM
 -- Design Name: 
--- Module Name: decoder2x4 - Behavioral
+-- Module Name: MUX4x1 - Behavioral
 -- Project Name: 
 -- Target Devices: 
 -- Tool Versions: 
@@ -31,28 +31,32 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity decoder2x4 is
+entity MUX4x1 is
     Port ( A : in STD_LOGIC;
            B : in STD_LOGIC;
-           E : in STD_LOGIC;
-           out0 : out STD_LOGIC;
-           out1 : out STD_LOGIC;
-           out2 : out STD_LOGIC;
-           out3 : out STD_LOGIC);
-end decoder2x4;
+           C : in STD_LOGIC;
+           D : in STD_LOGIC;
+           S0 : in STD_LOGIC;
+           S1 : in STD_LOGIC;
+           Y : out STD_LOGIC);
+end MUX4x1;
 
-architecture Behavioral of decoder2x4 is
+architecture Behavioral of MUX4x1 is
 
-signal A_not, B_not: std_logic;
+component MUX2x1 is
+    Port ( A : in STD_LOGIC;
+           B : in STD_LOGIC;
+           Sel : in STD_LOGIC;
+           Output : out STD_LOGIC);
+end component;
+
+signal MUX1_res,MUX2_res: std_logic;
 
 begin
 
-A_not <= not A;
-B_not <= not B;
+MUX1: MUX2x1 port map(A,B,S0,MUX1_res);
+MUX2: MUX2x1 port map(C,D,S0,MUX2_res);
+MUX3: MUX2x1 port map(MUX1_res,MUX2_res,S1,Y);
 
-out0 <= (A_not or B_not) and E;
-out1 <= (A_not or  B) and E;
-out2 <= (A or B_not) and E;
-out3 <= (A and B) and E;
 
 end Behavioral;

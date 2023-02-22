@@ -1,15 +1,11 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
-entity RF is
-    Port ( CLK : in STD_LOGIC;
-           RW : in STD_LOGIC;
-           D_Data : in STD_LOGIC_VECTOR (0 to 7);
-           DA : in STD_LOGIC_VECTOR (0 to 3);
-           AA : in STD_LOGIC_VECTOR (0 to 3);
-           BA : in STD_LOGIC_VECTOR (0 to 3);
-           A_Data : out STD_LOGIC_VECTOR(0 to 7);
-           B_Data : out STD_LOGIC_VECTOR(0 to 7));
+Entity RF is
+    Port (  Reset, CLK, RW: in std_logic;
+            DA, AA, BA: in std_logic_vector (3 downto 0);
+            D_Data: in std_logic_vector (7 downto 0);
+            A_Data,B_Data: out std_logic_vector (7 downto 0);
 end RF;
 
 architecture Behavioral of RF is

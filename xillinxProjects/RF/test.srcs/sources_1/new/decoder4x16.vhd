@@ -2,9 +2,9 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date: 02/21/2023 07:16:40 AM
+-- Create Date: 02/21/2023 11:46:52 AM
 -- Design Name: 
--- Module Name: decoder2x4 - Behavioral
+-- Module Name: decoder4x16 - Behavioral
 -- Project Name: 
 -- Target Devices: 
 -- Tool Versions: 
@@ -31,7 +31,14 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity decoder2x4 is
+entity decoder4x16 is
+    Port ( X : in STD_LOGIC_VECTOR (3 downto 0);
+           Y : out STD_LOGIC_VECTOR (15 downto 0));
+end decoder4x16;
+
+architecture Behavioral of decoder4x16 is
+
+component decoder2x4 is
     Port ( A : in STD_LOGIC;
            B : in STD_LOGIC;
            E : in STD_LOGIC;
@@ -39,20 +46,22 @@ entity decoder2x4 is
            out1 : out STD_LOGIC;
            out2 : out STD_LOGIC;
            out3 : out STD_LOGIC);
-end decoder2x4;
+end component;
 
-architecture Behavioral of decoder2x4 is
-
-signal A_not, B_not: std_logic;
+signal E: std_logic_vector(3 downto 0);
 
 begin
 
-A_not <= not A;
-B_not <= not B;
+GEN_DEC: for i in 0 to 4 generate
 
-out0 <= (A_not or B_not) and E;
-out1 <= (A_not or  B) and E;
-out2 <= (A or B_not) and E;
-out3 <= (A and B) and E;
+    DEC0: if i=0 generate
+        DEC0: decoder2x4 port map(X(3),X(2),'1',E(0),E(1),E(2),E(3));
+    end generate DEC0;
+    
+    DECX: if (i>0) generate
+        DECX: decoder2x4 port map(X(1), X(0), E(i-1), Y((i-1)*4), Y((i-1)*4 + 1),Y((i-1)*4 +2),Y((i-1)*4 + 3));
+    end generate DECX;
+        
+end generate GEN_DEC;
 
 end Behavioral;

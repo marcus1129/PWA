@@ -2,9 +2,9 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date: 02/21/2023 07:16:40 AM
+-- Create Date: 02/21/2023 02:00:53 PM
 -- Design Name: 
--- Module Name: decoder2x4 - Behavioral
+-- Module Name: logic_unit8bit - Behavioral
 -- Project Name: 
 -- Target Devices: 
 -- Tool Versions: 
@@ -31,28 +31,28 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity decoder2x4 is
+entity logic_unit8bit is
+    Port ( A : in STD_LOGIC_VECTOR (7 downto 0);
+           B : in STD_LOGIC_VECTOR (7 downto 0);
+           Y : out STD_LOGIC_VECTOR (7 downto 0);
+           S0 : in STD_LOGIC;
+           S1 : in STD_LOGIC);
+end logic_unit8bit;
+
+architecture Behavioral of logic_unit8bit is
+
+component logic_unit is
     Port ( A : in STD_LOGIC;
            B : in STD_LOGIC;
-           E : in STD_LOGIC;
-           out0 : out STD_LOGIC;
-           out1 : out STD_LOGIC;
-           out2 : out STD_LOGIC;
-           out3 : out STD_LOGIC);
-end decoder2x4;
-
-architecture Behavioral of decoder2x4 is
-
-signal A_not, B_not: std_logic;
+           Res : out STD_LOGIC;
+           S0 : in STD_LOGIC;
+           S1 : in STD_LOGIC);
+end component;
 
 begin
 
-A_not <= not A;
-B_not <= not B;
-
-out0 <= (A_not or B_not) and E;
-out1 <= (A_not or  B) and E;
-out2 <= (A or B_not) and E;
-out3 <= (A and B) and E;
+GEN_LU: for i in 0 to 7 generate
+    LU: logic_unit port map(A(i),B(i),Y(i),S0,S1);
+end generate GEN_LU;
 
 end Behavioral;

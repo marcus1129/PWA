@@ -40,6 +40,17 @@ end ALU;
 
 architecture ALU_Behavorial of ALU is
 
+component enabler8bit is
+    Port ( X : in STD_LOGIC_VECTOR (7 downto 0);
+           E : in STD_LOGIC;
+           Y : out STD_LOGIC_VECTOR (7 downto 0));
+end component;
+
+component decoder4x16 is
+    Port ( X : in STD_LOGIC_VECTOR (3 downto 0);
+           Y : out STD_LOGIC_VECTOR (15 downto 0));
+end component;
+
 component ADD_SUBB_8bit is
     Port ( A : in STD_LOGIC_VECTOR (7 downto 0);
            B : in STD_LOGIC_VECTOR (7 downto 0);
@@ -49,22 +60,40 @@ component ADD_SUBB_8bit is
            C_out: out STD_LOGIC);
 end component;
 
-signal plus_one, invert : std_logic;
+component logic_unit8bit is
+    Port ( A : in STD_LOGIC_VECTOR (7 downto 0);
+           B : in STD_LOGIC_VECTOR (7 downto 0);
+           Y : out STD_LOGIC_VECTOR (7 downto 0);
+           S0 : in STD_LOGIC;
+           S1 : in STD_LOGIC);
+end component;
 
+component MUX2x1x8 is
+    port (  R,S: in std_logic_vector (7 downto 0); 
+            MUX_Select: in std_logic;
+            Y: out std_logic_vector (7 downto 0));
+end component;
+
+signal plus_one, invert,B_En : std_logic; --logisk værdi afgører arytmetriske funktioenr.
 signal C_out: std_logic;
-signal Res: std_logic_vector (7 downto 0);
+signal SUB_Res,LU_Res: std_logic_vector (7 downto 0);
+signal B_out: std_logic_vector(7 downto 0);
+signal func : std_logic_vector(15 downto 0);
 
 begin
 
-plus_one <= A(0); -- dette skal ændres ofc
-invert <= A(0); -- dette skal ændres ofc
-J <= Res;
-
-V <= C_out xor Res(7);
+V <= C_out xor SUB_Res(7);
 C <= C_out;
 
-ADD_SUB: ADD_SUBB_8bit port map(A,B,plus_one,invert, Res, C_out);
+--MF Select tabel
+B_EN <= func(2) or func(3) or func(4) or func(5);
+invert <= func(4) or func(5) or func(6);
+plus_one <= func(1) or func(3) or func(5); 
 
-
+ADD_SUB: ADD_SUBB_8bit port map(A,B_out,plus_one,invert, SUB_Res, C_out);
+DEC: decoder4x16 port map(J_Select, func);
+ENABLE: enabler8bit port map(B,B_En,B_out);
+LU: logic_unit8bit port map(A,B,LU_Res,J_Select(0),J_Select(1));
+MUX: MUX2x1x8 port map(SUB_Res,LU_Res, J_Select(3),J);
 
 end ALU_Behavorial;

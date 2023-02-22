@@ -2,9 +2,9 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date: 02/21/2023 07:16:40 AM
+-- Create Date: 02/21/2023 12:48:32 PM
 -- Design Name: 
--- Module Name: decoder2x4 - Behavioral
+-- Module Name: enabler8bit - Behavioral
 -- Project Name: 
 -- Target Devices: 
 -- Tool Versions: 
@@ -31,28 +31,24 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity decoder2x4 is
-    Port ( A : in STD_LOGIC;
-           B : in STD_LOGIC;
+entity enabler8bit is
+    Port ( X : in STD_LOGIC_VECTOR (7 downto 0);
            E : in STD_LOGIC;
-           out0 : out STD_LOGIC;
-           out1 : out STD_LOGIC;
-           out2 : out STD_LOGIC;
-           out3 : out STD_LOGIC);
-end decoder2x4;
+           Y : out STD_LOGIC_VECTOR (7 downto 0));
+end enabler8bit;
 
-architecture Behavioral of decoder2x4 is
+architecture Behavioral of enabler8bit is
 
-signal A_not, B_not: std_logic;
+component Enabler is
+    Port ( input : in STD_LOGIC;
+           enable : in STD_LOGIC;
+           output : out STD_LOGIC);
+end component;
 
 begin
 
-A_not <= not A;
-B_not <= not B;
-
-out0 <= (A_not or B_not) and E;
-out1 <= (A_not or  B) and E;
-out2 <= (A or B_not) and E;
-out3 <= (A and B) and E;
+GEN_Enabler: for i in 0 to 7 generate
+    ENABLE: Enabler port map(X(i),E,Y(i));     
+end generate GEN_Enabler;
 
 end Behavioral;

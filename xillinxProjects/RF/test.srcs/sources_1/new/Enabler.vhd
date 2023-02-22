@@ -2,9 +2,9 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date: 02/21/2023 07:16:40 AM
+-- Create Date: 02/21/2023 12:47:01 PM
 -- Design Name: 
--- Module Name: decoder2x4 - Behavioral
+-- Module Name: Enabler - Behavioral
 -- Project Name: 
 -- Target Devices: 
 -- Tool Versions: 
@@ -31,28 +31,16 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity decoder2x4 is
-    Port ( A : in STD_LOGIC;
-           B : in STD_LOGIC;
-           E : in STD_LOGIC;
-           out0 : out STD_LOGIC;
-           out1 : out STD_LOGIC;
-           out2 : out STD_LOGIC;
-           out3 : out STD_LOGIC);
-end decoder2x4;
+entity Enabler is
+    Port ( input : in STD_LOGIC;
+           enable : in STD_LOGIC;
+           output : out STD_LOGIC);
+end Enabler;
 
-architecture Behavioral of decoder2x4 is
-
-signal A_not, B_not: std_logic;
+architecture Behavioral of Enabler is
 
 begin
 
-A_not <= not A;
-B_not <= not B;
-
-out0 <= (A_not or B_not) and E;
-out1 <= (A_not or  B) and E;
-out2 <= (A or B_not) and E;
-out3 <= (A and B) and E;
+output <= input and enable;
 
 end Behavioral;
