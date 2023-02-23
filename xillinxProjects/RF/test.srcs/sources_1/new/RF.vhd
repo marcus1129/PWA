@@ -1,7 +1,7 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
-entity RegisterFile is
+entity RF is
     Port ( CLK : in STD_LOGIC;
            Reset : in STD_LOGIC;
            RW : in STD_LOGIC;
@@ -11,9 +11,9 @@ entity RegisterFile is
            BA : in STD_LOGIC_VECTOR (0 to 3);
            A_Data : out STD_LOGIC_VECTOR(0 to 7);
            B_Data : out STD_LOGIC_VECTOR(0 to 7));
-end RegisterFile;
+end RF;
 
-architecture RF_Behavioral of RegisterFile is
+architecture RF_Behavioral of RF is
 
 component DestinationDecoder
     port(Write : in STD_LOGIC;

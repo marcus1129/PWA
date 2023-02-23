@@ -1,13 +1,13 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
-entity Decoder4x16 is
+entity Decoder4x16M is
     port( Enable : in STD_LOGIC;
           Input : in STD_LOGIC_VECTOR (0 to 3);
           Output : out STD_LOGIC_VECTOR (0 to 15));
-end Decoder4x16;
+end Decoder4x16M;
 
-architecture Behavioral_4x16 of Decoder4x16 is
+architecture Behavioral_4x16 of Decoder4x16M is
 
 component SubDecoder
     Port(Input : in STD_LOGIC_VECTOR(0 to 1);
