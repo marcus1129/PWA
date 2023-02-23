@@ -15,10 +15,10 @@ end RegisterFile;
 
 architecture RF_Behavioral of RegisterFile is
 
-component Decoder4x16
-    port( Enable : in STD_LOGIC;
-          Input : in STD_LOGIC_VECTOR (0 to 3);
-          Output : out STD_LOGIC_VECTOR (0 to 15));
+component DestinationDecoder
+    port(Write : in STD_LOGIC;
+         D_Address : in STD_LOGIC_VECTOR(0 to 3);
+         Load : out STD_LOGIC_VECTOR(0 to 15));
 end component;
 
 component RegisterR16
@@ -56,7 +56,7 @@ signal DataOut15Sig: STD_LOGIC_VECTOR(0 to 7);
 
 begin
 
-D16_1: Decoder4x16 port map(RW, DA, LoadSig);
+D16_1: DestinationDecoder port map(RW, DA, LoadSig);
 RegisterLogic: RegisterR16 port map(CLK, Reset, LoadSig, D_Data, DataOut0Sig, DataOut1Sig, DataOut2Sig, DataOut3Sig, DataOut4Sig, DataOut5Sig, DataOut6Sig, DataOut7Sig, DataOut8Sig, DataOut9Sig, DataOut10Sig, DataOut11Sig, DataOut12Sig, DataOut13Sig, DataOut14Sig, DataOut15Sig);
 MUXA: MUX16x1x8 port map(DataOut0Sig, DataOut1Sig, DataOut2Sig, DataOut3Sig, DataOut4Sig, DataOut5Sig, DataOut6Sig, DataOut7Sig, DataOut8Sig, DataOut9Sig, DataOut10Sig, DataOut11Sig, DataOut12Sig, DataOut13Sig, DataOut14Sig, DataOut15Sig, AA, A_Data);
 MUXB: MUX16x1x8 port map(DataOut0Sig, DataOut1Sig, DataOut2Sig, DataOut3Sig, DataOut4Sig, DataOut5Sig, DataOut6Sig, DataOut7Sig, DataOut8Sig, DataOut9Sig, DataOut10Sig, DataOut11Sig, DataOut12Sig, DataOut13Sig, DataOut14Sig, DataOut15Sig, BA, B_Data);

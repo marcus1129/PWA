@@ -94,3 +94,15 @@ INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/
 INFO: [VRFC 10-307] analyzing entity SubMUX
 INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/SubMux_tb.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity SubMux_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MUX_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX16x1x8
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MUX_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DD.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder4x16
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Decoder4x16_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder4x16_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DD.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder4x16

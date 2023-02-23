@@ -18,7 +18,7 @@ end component;
 signal SubOutput: STD_LOGIC_VECTOR(0 to 3);
 
 begin
-SubDecoder1 : SubDecoder port map(Input(0 to 1), '1', SubOutput);
+SubDecoder1 : SubDecoder port map(Input(0 to 1), enable, SubOutput);
 SubDecoder2 : SubDecoder port map(Input(2 to 3), SubOutput(0), Output(0 to 3));
 SubDecoder3 : SubDecoder port map(Input(2 to 3), SubOutput(1), Output(4 to 7));
 SubDecoder4 : SubDecoder port map(Input(2 to 3), SubOutput(2), Output(8 to 11));
