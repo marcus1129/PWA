@@ -1,0 +1,581 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Feb 23 07:56:54 2023
+# Process ID: 24304
+# Current directory: /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.runs/synth_1
+# Command line: vivado -log Datapath.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Datapath.tcl
+# Log file: /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.runs/synth_1/Datapath.vds
+# Journal file: /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source Datapath.tcl -notrace
+Command: synth_design -top Datapath -part xc7vx485tffg1157-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-1540] The version limit for your license is '2023.01' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 24341 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 1413.711 ; gain = 87.000 ; free physical = 185208 ; free virtual = 235829
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Datapath' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd:42]
+INFO: [Synth 8-3491] module 'FunctionUnit' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FunctionUnit.vhd:35' bound to instance 'FU' of component 'FunctionUnit' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd:69]
+INFO: [Synth 8-638] synthesizing module 'FunctionUnit' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FunctionUnit.vhd:43]
+INFO: [Synth 8-3491] module 'ALU' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd:34' bound to instance 'ALU_1' of component 'ALU' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FunctionUnit.vhd:88]
+INFO: [Synth 8-638] synthesizing module 'ALU' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd:41]
+INFO: [Synth 8-3491] module 'ADD_SUBB_8bit' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ADD_SUBB_8bit.vhd:34' bound to instance 'ADD_SUB' of component 'ADD_SUBB_8bit' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd:93]
+INFO: [Synth 8-638] synthesizing module 'ADD_SUBB_8bit' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ADD_SUBB_8bit.vhd:43]
+INFO: [Synth 8-3491] module 'Adder_Subtractor' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Adder_Subtractor.vhd:34' bound to instance 'U0' of component 'Adder_Subtractor' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ADD_SUBB_8bit.vhd:61]
+INFO: [Synth 8-638] synthesizing module 'Adder_Subtractor' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Adder_Subtractor.vhd:43]
+INFO: [Synth 8-3491] module 'Full_adder' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Full_adder.vhd:34' bound to instance 'ADD_SUB' of component 'Full_adder' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Adder_Subtractor.vhd:59]
+INFO: [Synth 8-638] synthesizing module 'Full_adder' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Full_adder.vhd:42]
+INFO: [Synth 8-3491] module 'Half_adder' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Half_adder.vhd:34' bound to instance 'HA1' of component 'Half_adder' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Full_adder.vhd:56]
+INFO: [Synth 8-638] synthesizing module 'Half_adder' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Half_adder.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'Half_adder' (1#1) [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Half_adder.vhd:41]
+INFO: [Synth 8-3491] module 'Half_adder' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Half_adder.vhd:34' bound to instance 'HA2' of component 'Half_adder' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Full_adder.vhd:57]
+INFO: [Synth 8-256] done synthesizing module 'Full_adder' (2#1) [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Full_adder.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'Adder_Subtractor' (3#1) [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Adder_Subtractor.vhd:43]
+INFO: [Synth 8-3491] module 'Adder_Subtractor' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Adder_Subtractor.vhd:34' bound to instance 'UX' of component 'Adder_Subtractor' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ADD_SUBB_8bit.vhd:65]
+INFO: [Synth 8-3491] module 'Adder_Subtractor' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Adder_Subtractor.vhd:34' bound to instance 'UX' of component 'Adder_Subtractor' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ADD_SUBB_8bit.vhd:65]
+INFO: [Synth 8-3491] module 'Adder_Subtractor' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Adder_Subtractor.vhd:34' bound to instance 'UX' of component 'Adder_Subtractor' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ADD_SUBB_8bit.vhd:65]
+INFO: [Synth 8-3491] module 'Adder_Subtractor' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Adder_Subtractor.vhd:34' bound to instance 'UX' of component 'Adder_Subtractor' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ADD_SUBB_8bit.vhd:65]
+INFO: [Synth 8-3491] module 'Adder_Subtractor' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Adder_Subtractor.vhd:34' bound to instance 'UX' of component 'Adder_Subtractor' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ADD_SUBB_8bit.vhd:65]
+INFO: [Synth 8-3491] module 'Adder_Subtractor' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Adder_Subtractor.vhd:34' bound to instance 'UX' of component 'Adder_Subtractor' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ADD_SUBB_8bit.vhd:65]
+INFO: [Synth 8-3491] module 'Adder_Subtractor' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Adder_Subtractor.vhd:34' bound to instance 'U7' of component 'Adder_Subtractor' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ADD_SUBB_8bit.vhd:69]
+INFO: [Synth 8-256] done synthesizing module 'ADD_SUBB_8bit' (4#1) [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ADD_SUBB_8bit.vhd:43]
+INFO: [Synth 8-3491] module 'decoder4x16' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder4x16.vhd:34' bound to instance 'DEC' of component 'decoder4x16' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd:94]
+INFO: [Synth 8-638] synthesizing module 'decoder4x16' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder4x16.vhd:39]
+INFO: [Synth 8-3491] module 'decoder2x4' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder2x4.vhd:34' bound to instance 'DEC0' of component 'decoder2x4' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder4x16.vhd:58]
+INFO: [Synth 8-638] synthesizing module 'decoder2x4' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder2x4.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'decoder2x4' (5#1) [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder2x4.vhd:44]
+INFO: [Synth 8-3491] module 'decoder2x4' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder2x4.vhd:34' bound to instance 'DECX' of component 'decoder2x4' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder4x16.vhd:62]
+INFO: [Synth 8-3491] module 'decoder2x4' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder2x4.vhd:34' bound to instance 'DECX' of component 'decoder2x4' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder4x16.vhd:62]
+INFO: [Synth 8-3491] module 'decoder2x4' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder2x4.vhd:34' bound to instance 'DECX' of component 'decoder2x4' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder4x16.vhd:62]
+INFO: [Synth 8-3491] module 'decoder2x4' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder2x4.vhd:34' bound to instance 'DECX' of component 'decoder2x4' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder4x16.vhd:62]
+INFO: [Synth 8-256] done synthesizing module 'decoder4x16' (6#1) [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder4x16.vhd:39]
+INFO: [Synth 8-3491] module 'enabler8bit' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/enabler8bit.vhd:34' bound to instance 'ENABLE' of component 'enabler8bit' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd:95]
+INFO: [Synth 8-638] synthesizing module 'enabler8bit' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/enabler8bit.vhd:40]
+INFO: [Synth 8-3491] module 'Enabler' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Enabler.vhd:34' bound to instance 'ENABLE' of component 'Enabler' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/enabler8bit.vhd:51]
+INFO: [Synth 8-638] synthesizing module 'Enabler' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Enabler.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'Enabler' (7#1) [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Enabler.vhd:40]
+INFO: [Synth 8-3491] module 'Enabler' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Enabler.vhd:34' bound to instance 'ENABLE' of component 'Enabler' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/enabler8bit.vhd:51]
+INFO: [Synth 8-3491] module 'Enabler' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Enabler.vhd:34' bound to instance 'ENABLE' of component 'Enabler' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/enabler8bit.vhd:51]
+INFO: [Synth 8-3491] module 'Enabler' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Enabler.vhd:34' bound to instance 'ENABLE' of component 'Enabler' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/enabler8bit.vhd:51]
+INFO: [Synth 8-3491] module 'Enabler' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Enabler.vhd:34' bound to instance 'ENABLE' of component 'Enabler' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/enabler8bit.vhd:51]
+INFO: [Synth 8-3491] module 'Enabler' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Enabler.vhd:34' bound to instance 'ENABLE' of component 'Enabler' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/enabler8bit.vhd:51]
+INFO: [Synth 8-3491] module 'Enabler' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Enabler.vhd:34' bound to instance 'ENABLE' of component 'Enabler' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/enabler8bit.vhd:51]
+INFO: [Synth 8-3491] module 'Enabler' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Enabler.vhd:34' bound to instance 'ENABLE' of component 'Enabler' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/enabler8bit.vhd:51]
+INFO: [Synth 8-256] done synthesizing module 'enabler8bit' (8#1) [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/enabler8bit.vhd:40]
+INFO: [Synth 8-3491] module 'logic_unit8bit' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit8bit.vhd:34' bound to instance 'LU' of component 'logic_unit8bit' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd:96]
+INFO: [Synth 8-638] synthesizing module 'logic_unit8bit' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit8bit.vhd:42]
+INFO: [Synth 8-3491] module 'logic_unit' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit.vhd:34' bound to instance 'LU' of component 'logic_unit' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit8bit.vhd:55]
+INFO: [Synth 8-638] synthesizing module 'logic_unit' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit.vhd:42]
+INFO: [Synth 8-3491] module 'MUX4x1' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX4x1.vhd:34' bound to instance 'MUX' of component 'MUX4x1' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit.vhd:63]
+INFO: [Synth 8-638] synthesizing module 'MUX4x1' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX4x1.vhd:44]
+INFO: [Synth 8-3491] module 'MUX2x1' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1.vhd:34' bound to instance 'MUX1' of component 'MUX2x1' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX4x1.vhd:57]
+INFO: [Synth 8-638] synthesizing module 'MUX2x1' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'MUX2x1' (9#1) [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1.vhd:41]
+INFO: [Synth 8-3491] module 'MUX2x1' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1.vhd:34' bound to instance 'MUX2' of component 'MUX2x1' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX4x1.vhd:58]
+INFO: [Synth 8-3491] module 'MUX2x1' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1.vhd:34' bound to instance 'MUX3' of component 'MUX2x1' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX4x1.vhd:59]
+INFO: [Synth 8-256] done synthesizing module 'MUX4x1' (10#1) [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX4x1.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'logic_unit' (11#1) [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit.vhd:42]
+INFO: [Synth 8-3491] module 'logic_unit' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit.vhd:34' bound to instance 'LU' of component 'logic_unit' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit8bit.vhd:55]
+INFO: [Synth 8-3491] module 'logic_unit' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit.vhd:34' bound to instance 'LU' of component 'logic_unit' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit8bit.vhd:55]
+INFO: [Synth 8-3491] module 'logic_unit' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit.vhd:34' bound to instance 'LU' of component 'logic_unit' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit8bit.vhd:55]
+INFO: [Synth 8-3491] module 'logic_unit' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit.vhd:34' bound to instance 'LU' of component 'logic_unit' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit8bit.vhd:55]
+INFO: [Synth 8-3491] module 'logic_unit' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit.vhd:34' bound to instance 'LU' of component 'logic_unit' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit8bit.vhd:55]
+INFO: [Synth 8-3491] module 'logic_unit' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit.vhd:34' bound to instance 'LU' of component 'logic_unit' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit8bit.vhd:55]
+INFO: [Synth 8-3491] module 'logic_unit' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit.vhd:34' bound to instance 'LU' of component 'logic_unit' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit8bit.vhd:55]
+INFO: [Synth 8-256] done synthesizing module 'logic_unit8bit' (12#1) [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit8bit.vhd:42]
+INFO: [Synth 8-3491] module 'MUX2x1x8' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x8.vhd:34' bound to instance 'MUX' of component 'MUX2x1x8' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd:97]
+INFO: [Synth 8-638] synthesizing module 'MUX2x1x8' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x8.vhd:40]
+INFO: [Synth 8-3491] module 'MUX2x1' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1.vhd:34' bound to instance 'MUX' of component 'MUX2x1' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x8.vhd:52]
+INFO: [Synth 8-3491] module 'MUX2x1' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1.vhd:34' bound to instance 'MUX' of component 'MUX2x1' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x8.vhd:52]
+INFO: [Synth 8-3491] module 'MUX2x1' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1.vhd:34' bound to instance 'MUX' of component 'MUX2x1' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x8.vhd:52]
+INFO: [Synth 8-3491] module 'MUX2x1' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1.vhd:34' bound to instance 'MUX' of component 'MUX2x1' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x8.vhd:52]
+INFO: [Synth 8-3491] module 'MUX2x1' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1.vhd:34' bound to instance 'MUX' of component 'MUX2x1' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x8.vhd:52]
+INFO: [Synth 8-3491] module 'MUX2x1' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1.vhd:34' bound to instance 'MUX' of component 'MUX2x1' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x8.vhd:52]
+INFO: [Synth 8-3491] module 'MUX2x1' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1.vhd:34' bound to instance 'MUX' of component 'MUX2x1' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x8.vhd:52]
+INFO: [Synth 8-3491] module 'MUX2x1' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1.vhd:34' bound to instance 'MUX' of component 'MUX2x1' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x8.vhd:52]
+INFO: [Synth 8-256] done synthesizing module 'MUX2x1x8' (13#1) [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x8.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (14#1) [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd:41]
+INFO: [Synth 8-3491] module 'FunctionSelect' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FunctionSelect.vhd:34' bound to instance 'Fsel' of component 'FunctionSelect' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FunctionUnit.vhd:89]
+INFO: [Synth 8-638] synthesizing module 'FunctionSelect' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FunctionSelect.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'FunctionSelect' (15#1) [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FunctionSelect.vhd:39]
+INFO: [Synth 8-3491] module 'Shifter' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Shifter.vhd:34' bound to instance 'Shifter_1' of component 'Shifter' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FunctionUnit.vhd:90]
+INFO: [Synth 8-638] synthesizing module 'Shifter' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Shifter.vhd:40]
+INFO: [Synth 8-3491] module 'MUX2x1x8' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x8.vhd:34' bound to instance 'MUX0' of component 'MUX2x1x8' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Shifter.vhd:57]
+INFO: [Synth 8-3491] module 'MUX2x1x8' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x8.vhd:34' bound to instance 'MUX1' of component 'MUX2x1x8' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Shifter.vhd:58]
+INFO: [Synth 8-256] done synthesizing module 'Shifter' (16#1) [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Shifter.vhd:40]
+INFO: [Synth 8-3491] module 'MUX2x1x8' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x8.vhd:34' bound to instance 'MUXF' of component 'MUX2x1x8' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FunctionUnit.vhd:91]
+INFO: [Synth 8-3491] module 'NegZero' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/NegZero.vhd:34' bound to instance 'NegZero_1' of component 'NegZero' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FunctionUnit.vhd:92]
+INFO: [Synth 8-638] synthesizing module 'NegZero' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/NegZero.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'NegZero' (17#1) [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/NegZero.vhd:39]
+WARNING: [Synth 8-3848] Net F in module/entity FunctionUnit does not have driver. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FunctionUnit.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'FunctionUnit' (18#1) [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FunctionUnit.vhd:43]
+INFO: [Synth 8-3491] module 'MUX2x1x8' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x8.vhd:34' bound to instance 'MUXD' of component 'MUX2x1x8' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd:70]
+INFO: [Synth 8-3491] module 'MUX2x1x8' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x8.vhd:34' bound to instance 'MUXB' of component 'MUX2x1x8' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd:71]
+WARNING: [Synth 8-3848] Net Address_Out in module/entity Datapath does not have driver. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd:38]
+WARNING: [Synth 8-3848] Net Data_Out in module/entity Datapath does not have driver. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd:38]
+WARNING: [Synth 8-3848] Net A in module/entity Datapath does not have driver. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd:64]
+WARNING: [Synth 8-3848] Net B_Data in module/entity Datapath does not have driver. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd:64]
+INFO: [Synth 8-256] done synthesizing module 'Datapath' (19#1) [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd:42]
+WARNING: [Synth 8-3331] design FunctionUnit has unconnected port F[7]
+WARNING: [Synth 8-3331] design FunctionUnit has unconnected port F[6]
+WARNING: [Synth 8-3331] design FunctionUnit has unconnected port F[5]
+WARNING: [Synth 8-3331] design FunctionUnit has unconnected port F[4]
+WARNING: [Synth 8-3331] design FunctionUnit has unconnected port F[3]
+WARNING: [Synth 8-3331] design FunctionUnit has unconnected port F[2]
+WARNING: [Synth 8-3331] design FunctionUnit has unconnected port F[1]
+WARNING: [Synth 8-3331] design FunctionUnit has unconnected port F[0]
+WARNING: [Synth 8-3331] design Datapath has unconnected port Address_Out[7]
+WARNING: [Synth 8-3331] design Datapath has unconnected port Address_Out[6]
+WARNING: [Synth 8-3331] design Datapath has unconnected port Address_Out[5]
+WARNING: [Synth 8-3331] design Datapath has unconnected port Address_Out[4]
+WARNING: [Synth 8-3331] design Datapath has unconnected port Address_Out[3]
+WARNING: [Synth 8-3331] design Datapath has unconnected port Address_Out[2]
+WARNING: [Synth 8-3331] design Datapath has unconnected port Address_Out[1]
+WARNING: [Synth 8-3331] design Datapath has unconnected port Address_Out[0]
+WARNING: [Synth 8-3331] design Datapath has unconnected port Data_Out[7]
+WARNING: [Synth 8-3331] design Datapath has unconnected port Data_Out[6]
+WARNING: [Synth 8-3331] design Datapath has unconnected port Data_Out[5]
+WARNING: [Synth 8-3331] design Datapath has unconnected port Data_Out[4]
+WARNING: [Synth 8-3331] design Datapath has unconnected port Data_Out[3]
+WARNING: [Synth 8-3331] design Datapath has unconnected port Data_Out[2]
+WARNING: [Synth 8-3331] design Datapath has unconnected port Data_Out[1]
+WARNING: [Synth 8-3331] design Datapath has unconnected port Data_Out[0]
+WARNING: [Synth 8-3331] design Datapath has unconnected port RESET
+WARNING: [Synth 8-3331] design Datapath has unconnected port CLK
+WARNING: [Synth 8-3331] design Datapath has unconnected port RW
+WARNING: [Synth 8-3331] design Datapath has unconnected port DA[3]
+WARNING: [Synth 8-3331] design Datapath has unconnected port DA[2]
+WARNING: [Synth 8-3331] design Datapath has unconnected port DA[1]
+WARNING: [Synth 8-3331] design Datapath has unconnected port DA[0]
+WARNING: [Synth 8-3331] design Datapath has unconnected port AA[3]
+WARNING: [Synth 8-3331] design Datapath has unconnected port AA[2]
+WARNING: [Synth 8-3331] design Datapath has unconnected port AA[1]
+WARNING: [Synth 8-3331] design Datapath has unconnected port AA[0]
+WARNING: [Synth 8-3331] design Datapath has unconnected port BA[3]
+WARNING: [Synth 8-3331] design Datapath has unconnected port BA[2]
+WARNING: [Synth 8-3331] design Datapath has unconnected port BA[1]
+WARNING: [Synth 8-3331] design Datapath has unconnected port BA[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1459.352 ; gain = 132.641 ; free physical = 185220 ; free virtual = 235841
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin FU:A[7] to constant 0 [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd:69]
+WARNING: [Synth 8-3295] tying undriven pin FU:A[6] to constant 0 [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd:69]
+WARNING: [Synth 8-3295] tying undriven pin FU:A[5] to constant 0 [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd:69]
+WARNING: [Synth 8-3295] tying undriven pin FU:A[4] to constant 0 [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd:69]
+WARNING: [Synth 8-3295] tying undriven pin FU:A[3] to constant 0 [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd:69]
+WARNING: [Synth 8-3295] tying undriven pin FU:A[2] to constant 0 [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd:69]
+WARNING: [Synth 8-3295] tying undriven pin FU:A[1] to constant 0 [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd:69]
+WARNING: [Synth 8-3295] tying undriven pin FU:A[0] to constant 0 [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd:69]
+WARNING: [Synth 8-3295] tying undriven pin MUXB:R[7] to constant 0 [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd:71]
+WARNING: [Synth 8-3295] tying undriven pin MUXB:R[6] to constant 0 [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd:71]
+WARNING: [Synth 8-3295] tying undriven pin MUXB:R[5] to constant 0 [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd:71]
+WARNING: [Synth 8-3295] tying undriven pin MUXB:R[4] to constant 0 [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd:71]
+WARNING: [Synth 8-3295] tying undriven pin MUXB:R[3] to constant 0 [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd:71]
+WARNING: [Synth 8-3295] tying undriven pin MUXB:R[2] to constant 0 [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd:71]
+WARNING: [Synth 8-3295] tying undriven pin MUXB:R[1] to constant 0 [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd:71]
+WARNING: [Synth 8-3295] tying undriven pin MUXB:R[0] to constant 0 [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd:71]
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1459.352 ; gain = 132.641 ; free physical = 185220 ; free virtual = 235841
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1459.352 ; gain = 132.641 ; free physical = 185220 ; free virtual = 235841
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7vx485tffg1157-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc]
+CRITICAL WARNING: [Common 17-163] Missing value for option 'objects', please type 'set_property -help' for usage info. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:9]
+WARNING: [Vivado 12-584] No ports matched 'SW[0]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[1]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[2]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[3]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[4]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[5]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[6]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[7]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[0]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[1]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[2]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[3]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[4]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[5]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[6]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[7]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segments[0]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segments[1]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:65]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:65]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segments[2]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segments[3]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segments[4]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:68]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segments[5]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:69]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:69]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segments[6]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'dp'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[0]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:74]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:74]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[1]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:75]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:75]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[2]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:76]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:76]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[3]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:77]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:77]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[4]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:78]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:78]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[5]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:79]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:79]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[6]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:80]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:80]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[7]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:81]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:81]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNC'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:88]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:88]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNU'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:89]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:89]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNL'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:90]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:90]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNR'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:91]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:91]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTND'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:92]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:92]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Datapath_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Datapath_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1984.258 ; gain = 0.000 ; free physical = 184702 ; free virtual = 235414
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:43 ; elapsed = 00:03:01 . Memory (MB): peak = 1984.258 ; gain = 657.547 ; free physical = 184811 ; free virtual = 235523
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7vx485tffg1157-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:43 ; elapsed = 00:03:01 . Memory (MB): peak = 1984.258 ; gain = 657.547 ; free physical = 184811 ; free virtual = 235523
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:43 ; elapsed = 00:03:01 . Memory (MB): peak = 1984.258 ; gain = 657.547 ; free physical = 184813 ; free virtual = 235525
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:44 ; elapsed = 00:03:01 . Memory (MB): peak = 1984.258 ; gain = 657.547 ; free physical = 184811 ; free virtual = 235524
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 34    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Half_adder 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module Adder_Subtractor 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module logic_unit 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module ALU 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module Shifter 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 2800 (col length:140)
+BRAMs: 2060 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design Datapath has unconnected port Address_Out[7]
+WARNING: [Synth 8-3331] design Datapath has unconnected port Address_Out[6]
+WARNING: [Synth 8-3331] design Datapath has unconnected port Address_Out[5]
+WARNING: [Synth 8-3331] design Datapath has unconnected port Address_Out[4]
+WARNING: [Synth 8-3331] design Datapath has unconnected port Address_Out[3]
+WARNING: [Synth 8-3331] design Datapath has unconnected port Address_Out[2]
+WARNING: [Synth 8-3331] design Datapath has unconnected port Address_Out[1]
+WARNING: [Synth 8-3331] design Datapath has unconnected port Address_Out[0]
+WARNING: [Synth 8-3331] design Datapath has unconnected port Data_Out[7]
+WARNING: [Synth 8-3331] design Datapath has unconnected port Data_Out[6]
+WARNING: [Synth 8-3331] design Datapath has unconnected port Data_Out[5]
+WARNING: [Synth 8-3331] design Datapath has unconnected port Data_Out[4]
+WARNING: [Synth 8-3331] design Datapath has unconnected port Data_Out[3]
+WARNING: [Synth 8-3331] design Datapath has unconnected port Data_Out[2]
+WARNING: [Synth 8-3331] design Datapath has unconnected port Data_Out[1]
+WARNING: [Synth 8-3331] design Datapath has unconnected port Data_Out[0]
+WARNING: [Synth 8-3331] design Datapath has unconnected port RESET
+WARNING: [Synth 8-3331] design Datapath has unconnected port CLK
+WARNING: [Synth 8-3331] design Datapath has unconnected port RW
+WARNING: [Synth 8-3331] design Datapath has unconnected port DA[3]
+WARNING: [Synth 8-3331] design Datapath has unconnected port DA[2]
+WARNING: [Synth 8-3331] design Datapath has unconnected port DA[1]
+WARNING: [Synth 8-3331] design Datapath has unconnected port DA[0]
+WARNING: [Synth 8-3331] design Datapath has unconnected port AA[3]
+WARNING: [Synth 8-3331] design Datapath has unconnected port AA[2]
+WARNING: [Synth 8-3331] design Datapath has unconnected port AA[1]
+WARNING: [Synth 8-3331] design Datapath has unconnected port AA[0]
+WARNING: [Synth 8-3331] design Datapath has unconnected port BA[3]
+WARNING: [Synth 8-3331] design Datapath has unconnected port BA[2]
+WARNING: [Synth 8-3331] design Datapath has unconnected port BA[1]
+WARNING: [Synth 8-3331] design Datapath has unconnected port BA[0]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:03:01 . Memory (MB): peak = 1984.258 ; gain = 657.547 ; free physical = 184800 ; free virtual = 235514
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:51 ; elapsed = 00:03:15 . Memory (MB): peak = 1984.258 ; gain = 657.547 ; free physical = 184667 ; free virtual = 235388
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:51 ; elapsed = 00:03:15 . Memory (MB): peak = 1984.258 ; gain = 657.547 ; free physical = 184667 ; free virtual = 235388
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:51 ; elapsed = 00:03:15 . Memory (MB): peak = 1984.258 ; gain = 657.547 ; free physical = 184666 ; free virtual = 235387
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:52 ; elapsed = 00:03:16 . Memory (MB): peak = 1984.258 ; gain = 657.547 ; free physical = 184670 ; free virtual = 235391
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:52 ; elapsed = 00:03:16 . Memory (MB): peak = 1984.258 ; gain = 657.547 ; free physical = 184670 ; free virtual = 235391
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:52 ; elapsed = 00:03:16 . Memory (MB): peak = 1984.258 ; gain = 657.547 ; free physical = 184670 ; free virtual = 235391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:52 ; elapsed = 00:03:16 . Memory (MB): peak = 1984.258 ; gain = 657.547 ; free physical = 184669 ; free virtual = 235390
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:52 ; elapsed = 00:03:16 . Memory (MB): peak = 1984.258 ; gain = 657.547 ; free physical = 184669 ; free virtual = 235390
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:52 ; elapsed = 00:03:16 . Memory (MB): peak = 1984.258 ; gain = 657.547 ; free physical = 184669 ; free virtual = 235390
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT2  |     5|
+|2     |LUT4  |     2|
+|3     |LUT6  |    12|
+|4     |IBUF  |    13|
+|5     |OBUF  |     4|
+|6     |OBUFT |    16|
++------+------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    52|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:52 ; elapsed = 00:03:16 . Memory (MB): peak = 1984.258 ; gain = 657.547 ; free physical = 184669 ; free virtual = 235390
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 31 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:25 . Memory (MB): peak = 1984.258 ; gain = 132.641 ; free physical = 184724 ; free virtual = 235445
+Synthesis Optimization Complete : Time (s): cpu = 00:00:52 ; elapsed = 00:03:16 . Memory (MB): peak = 1984.258 ; gain = 657.547 ; free physical = 184734 ; free virtual = 235455
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 13 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+110 Infos, 128 Warnings, 38 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:54 ; elapsed = 00:03:18 . Memory (MB): peak = 1984.262 ; gain = 684.137 ; free physical = 184701 ; free virtual = 235422
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.runs/synth_1/Datapath.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Datapath_utilization_synth.rpt -pb Datapath_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00.50 ; elapsed = 00:00:00.95 . Memory (MB): peak = 2014.281 ; gain = 0.000 ; free physical = 184702 ; free virtual = 235423
+INFO: [Common 17-206] Exiting Vivado at Thu Feb 23 08:00:28 2023...
