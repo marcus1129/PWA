@@ -52,5 +52,9 @@ C <= Csig;
 N <= Nsig;
 Z <= Zsig;
 F <= Fsig;
+Address_out <= A_out;
+Data_out <= D_out;
+
+
 
 end Datapath_Behavioral;
