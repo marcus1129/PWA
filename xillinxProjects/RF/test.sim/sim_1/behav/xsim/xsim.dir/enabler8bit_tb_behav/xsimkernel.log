@@ -1,0 +1,4 @@
+Running: xsim.dir/enabler8bit_tb_behav/xsimk -simmode gui -wdb enabler8bit_tb_behav.wdb -simrunnum 0 -socket 50024
+Design successfully loaded
+Design Loading Memory Usage: 42340 KB (Peak: 42340 KB)
+Design Loading CPU Usage: 20 ms

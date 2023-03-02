@@ -2,11 +2,11 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Thu Feb 23 07:56:54 2023
-# Process ID: 24304
+# Start of session at: Tue Feb 28 18:12:34 2023
+# Process ID: 12857
 # Current directory: /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.runs/synth_1
-# Command line: vivado -log Datapath.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Datapath.tcl
-# Log file: /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.runs/synth_1/Datapath.vds
+# Command line: vivado -log decoder4x16.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source decoder4x16.tcl
+# Log file: /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.runs/synth_1/decoder4x16.vds
 # Journal file: /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.runs/synth_1/vivado.jou
 #-----------------------------------------------------------
-source Datapath.tcl -notrace
+source decoder4x16.tcl -notrace

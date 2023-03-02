@@ -1,0 +1,386 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Feb 28 18:12:34 2023
+# Process ID: 12857
+# Current directory: /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.runs/synth_1
+# Command line: vivado -log decoder4x16.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source decoder4x16.tcl
+# Log file: /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.runs/synth_1/decoder4x16.vds
+# Journal file: /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source decoder4x16.tcl -notrace
+Command: synth_design -top decoder4x16 -part xc7vx485tffg1157-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-1540] The version limit for your license is '2023.01' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 12891 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 1413.715 ; gain = 87.000 ; free physical = 189897 ; free virtual = 253231
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'decoder4x16' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder4x16.vhd:9]
+INFO: [Synth 8-3491] module 'decoder2x4' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder2x4.vhd:4' bound to instance 'DEC0' of component 'decoder2x4' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder4x16.vhd:28]
+INFO: [Synth 8-638] synthesizing module 'decoder2x4' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder2x4.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'decoder2x4' (1#1) [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder2x4.vhd:14]
+INFO: [Synth 8-3491] module 'decoder2x4' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder2x4.vhd:4' bound to instance 'DECX' of component 'decoder2x4' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder4x16.vhd:32]
+INFO: [Synth 8-3491] module 'decoder2x4' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder2x4.vhd:4' bound to instance 'DECX' of component 'decoder2x4' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder4x16.vhd:32]
+INFO: [Synth 8-3491] module 'decoder2x4' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder2x4.vhd:4' bound to instance 'DECX' of component 'decoder2x4' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder4x16.vhd:32]
+INFO: [Synth 8-3491] module 'decoder2x4' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder2x4.vhd:4' bound to instance 'DECX' of component 'decoder2x4' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder4x16.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'decoder4x16' (2#1) [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder4x16.vhd:9]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1458.355 ; gain = 131.641 ; free physical = 189931 ; free virtual = 253265
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1458.355 ; gain = 131.641 ; free physical = 189931 ; free virtual = 253265
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1458.355 ; gain = 131.641 ; free physical = 189931 ; free virtual = 253265
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7vx485tffg1157-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc]
+CRITICAL WARNING: [Common 17-163] Missing value for option 'objects', please type 'set_property -help' for usage info. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:9]
+WARNING: [Vivado 12-584] No ports matched 'CLK'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CLK'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:14]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports CLK]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:14]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'SW[0]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[1]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[2]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[3]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[4]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[5]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[6]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[7]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[0]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[1]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[2]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[3]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[4]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[5]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[6]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[7]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segments[0]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segments[1]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:65]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:65]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segments[2]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segments[3]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segments[4]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:68]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segments[5]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:69]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:69]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segments[6]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'dp'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[0]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:74]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:74]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[1]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:75]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:75]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[2]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:76]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:76]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[3]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:77]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:77]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[4]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:78]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:78]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[5]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:79]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:79]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[6]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:80]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:80]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[7]'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:81]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:81]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'RESET'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:86]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:86]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNC'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:88]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:88]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNU'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:89]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:89]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNL'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:90]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:90]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNR'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:91]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:91]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTND'. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:92]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:92]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/zhome/4a/d/162008/project1/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/decoder4x16_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/decoder4x16_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1979.707 ; gain = 0.000 ; free physical = 193896 ; free virtual = 257127
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:48 ; elapsed = 00:03:23 . Memory (MB): peak = 1979.707 ; gain = 652.992 ; free physical = 194064 ; free virtual = 257296
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7vx485tffg1157-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:48 ; elapsed = 00:03:23 . Memory (MB): peak = 1979.707 ; gain = 652.992 ; free physical = 194064 ; free virtual = 257296
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:48 ; elapsed = 00:03:23 . Memory (MB): peak = 1979.707 ; gain = 652.992 ; free physical = 194066 ; free virtual = 257298
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:48 ; elapsed = 00:03:23 . Memory (MB): peak = 1979.707 ; gain = 652.992 ; free physical = 194065 ; free virtual = 257297
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 2800 (col length:140)
+BRAMs: 2060 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:48 ; elapsed = 00:03:23 . Memory (MB): peak = 1979.707 ; gain = 652.992 ; free physical = 194055 ; free virtual = 257288
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:56 ; elapsed = 00:03:39 . Memory (MB): peak = 1979.707 ; gain = 652.992 ; free physical = 193933 ; free virtual = 257167
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:56 ; elapsed = 00:03:39 . Memory (MB): peak = 1979.707 ; gain = 652.992 ; free physical = 193933 ; free virtual = 257167
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:56 ; elapsed = 00:03:39 . Memory (MB): peak = 1979.707 ; gain = 652.992 ; free physical = 193933 ; free virtual = 257167
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:56 ; elapsed = 00:03:40 . Memory (MB): peak = 1979.707 ; gain = 652.992 ; free physical = 193932 ; free virtual = 257166
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:56 ; elapsed = 00:03:40 . Memory (MB): peak = 1979.707 ; gain = 652.992 ; free physical = 193932 ; free virtual = 257166
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:56 ; elapsed = 00:03:40 . Memory (MB): peak = 1979.707 ; gain = 652.992 ; free physical = 193932 ; free virtual = 257166
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:56 ; elapsed = 00:03:40 . Memory (MB): peak = 1979.707 ; gain = 652.992 ; free physical = 193932 ; free virtual = 257166
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:56 ; elapsed = 00:03:40 . Memory (MB): peak = 1979.707 ; gain = 652.992 ; free physical = 193932 ; free virtual = 257166
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:56 ; elapsed = 00:03:40 . Memory (MB): peak = 1979.707 ; gain = 652.992 ; free physical = 193932 ; free virtual = 257166
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT4 |    16|
+|2     |IBUF |     4|
+|3     |OBUF |    16|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    36|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:56 ; elapsed = 00:03:40 . Memory (MB): peak = 1979.707 ; gain = 652.992 ; free physical = 193932 ; free virtual = 257166
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:27 . Memory (MB): peak = 1979.707 ; gain = 131.641 ; free physical = 193987 ; free virtual = 257221
+Synthesis Optimization Complete : Time (s): cpu = 00:00:57 ; elapsed = 00:03:40 . Memory (MB): peak = 1979.707 ; gain = 652.992 ; free physical = 193998 ; free virtual = 257231
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+22 Infos, 40 Warnings, 41 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:59 ; elapsed = 00:03:42 . Memory (MB): peak = 1979.711 ; gain = 679.582 ; free physical = 193945 ; free virtual = 257179
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.runs/synth_1/decoder4x16.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file decoder4x16_utilization_synth.rpt -pb decoder4x16_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00.44 ; elapsed = 00:00:00.86 . Memory (MB): peak = 2009.730 ; gain = 0.000 ; free physical = 193942 ; free virtual = 257175
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 28 18:16:32 2023...

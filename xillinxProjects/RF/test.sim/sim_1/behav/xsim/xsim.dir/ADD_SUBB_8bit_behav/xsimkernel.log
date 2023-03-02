@@ -1,0 +1,7 @@
+Running: xsim.dir/ADD_SUBB_8bit_behav/xsimk -simmode gui -wdb ADD_SUBB_8bit_behav.wdb -simrunnum 0 -socket 57575
+Design successfully loaded
+Design Loading Memory Usage: 42360 KB (Peak: 42360 KB)
+Design Loading CPU Usage: 20 ms
+Simulation completed
+Simulation Memory Usage: 126148 KB (Peak: 191684 KB)
+Simulation CPU Usage: 30 ms

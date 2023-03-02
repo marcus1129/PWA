@@ -1,35 +1,5 @@
-----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date: 02/20/2023 09:04:45 PM
--- Design Name: 
--- Module Name: ADD_SUBB_8bit - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
--- Description: 
--- 
--- Dependencies: 
--- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
--- 
-----------------------------------------------------------------------------------
-
-
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx leaf cells in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
 
 entity ADD_SUBB_8bit is
     Port ( A : in STD_LOGIC_VECTOR (7 downto 0);
@@ -58,15 +28,15 @@ begin
 GEN_ADD_SUB: for i in 0 to 7 generate
 
     lsb: if i=0 generate
-        U0: adder_Subtractor port map(A(i),B(i),C_in,S_in,cc(i),Sum(i));
+        U0: Adder_Subtractor port map(A(i),B(i),C_in,S_in,cc(i),Sum(i));
     end generate lsb;
     
     bits: if (i>0 and i<7) generate
-        UX: adder_Subtractor port map(A(i),B(i),cc(i-1),S_in,cc(i),Sum(i));
+        UX: Adder_Subtractor port map(A(i),B(i),cc(i-1),S_in,cc(i),Sum(i));
     end generate bits;
     
     msb: if i=7 generate
-        U7: adder_Subtractor port map(A(i),B(i),cc(i-1),S_in,C_out,Sum(i));
+        U7: Adder_Subtractor port map(A(i),B(i),cc(i-1),S_in,C_out,Sum(i));
     end generate msb;
         
 end generate GEN_ADD_SUB;

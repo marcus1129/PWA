@@ -1,0 +1,7 @@
+Running: xsim.dir/logic_unit8bit_tb_behav/xsimk -simmode gui -wdb logic_unit8bit_tb_behav.wdb -simrunnum 0 -socket 46391
+Design successfully loaded
+Design Loading Memory Usage: 42376 KB (Peak: 42376 KB)
+Design Loading CPU Usage: 10 ms
+Simulation completed
+Simulation Memory Usage: 126164 KB (Peak: 191700 KB)
+Simulation CPU Usage: 10 ms

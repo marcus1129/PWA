@@ -2,3 +2,6 @@ Running: xsim.dir/Datapath_behav/xsimk -simmode gui -wdb Datapath_behav.wdb -sim
 Design successfully loaded
 Design Loading Memory Usage: 42532 KB (Peak: 42532 KB)
 Design Loading CPU Usage: 20 ms
+Simulation completed
+Simulation Memory Usage: 126280 KB (Peak: 191856 KB)
+Simulation CPU Usage: 30 ms

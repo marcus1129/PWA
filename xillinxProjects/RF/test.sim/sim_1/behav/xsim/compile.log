@@ -60,3 +60,672 @@ INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinx
 INFO: [VRFC 10-307] analyzing entity Full_adder_tb
 INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/full_adder_test.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity Full_adder_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Adder_Subtractor_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Adder_Subtractor_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Adder_Subtractor_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Adder_Subtractor_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/full_adder_test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Full_adder_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/full_adder_test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Full_adder_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Half_adder_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Half_adder_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/full_adder_test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Full_adder_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/full_adder_test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Full_adder_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Adder_Subtractor_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Adder_Subtractor_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Adder_Subtractor_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Adder_Subtractor_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ADD_SUBB_8bit_test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ADD_SUBB_8bit_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ADD_SUBB_8bit_test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ADD_SUBB_8bit_tb
+ERROR: [VRFC 10-724] found '0' definitions of operator "+", cannot determine exact overloaded matching definition for "+" [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ADD_SUBB_8bit_test.vhd:61]
+ERROR: [VRFC 10-724] found '0' definitions of operator "+", cannot determine exact overloaded matching definition for "+" [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ADD_SUBB_8bit_test.vhd:63]
+ERROR: [VRFC 10-1504] unit bench ignored due to previous errors [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ADD_SUBB_8bit_test.vhd:15]
+INFO: [VRFC 10-240] VHDL file /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ADD_SUBB_8bit_test.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ADD_SUBB_8bit_test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ADD_SUBB_8bit_tb
+ERROR: [VRFC 10-724] found '0' definitions of operator "&", cannot determine exact overloaded matching definition for "&" [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ADD_SUBB_8bit_test.vhd:61]
+ERROR: [VRFC 10-724] found '0' definitions of operator "&", cannot determine exact overloaded matching definition for "&" [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ADD_SUBB_8bit_test.vhd:63]
+ERROR: [VRFC 10-1504] unit bench ignored due to previous errors [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ADD_SUBB_8bit_test.vhd:15]
+INFO: [VRFC 10-240] VHDL file /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ADD_SUBB_8bit_test.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DD.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity DD
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FlipFlop.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FlipFlop
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RF
+ERROR: [VRFC 10-1412] syntax error near end [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:9]
+ERROR: [VRFC 10-1412] syntax error near component [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:17]
+ERROR: [VRFC 10-91] dd is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:53]
+ERROR: [VRFC 10-91] rl is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:54]
+ERROR: [VRFC 10-91] mux is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:55]
+ERROR: [VRFC 10-91] mux is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:56]
+ERROR: [VRFC 10-1012] mismatch on label ; expected rf [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:59]
+ERROR: [VRFC 10-1504] unit rf ignored due to previous errors [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:4]
+INFO: [VRFC 10-240] VHDL file /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DD.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity DD
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FlipFlop.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FlipFlop
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RF
+ERROR: [VRFC 10-1412] syntax error near end [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:9]
+ERROR: [VRFC 10-1412] syntax error near component [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:17]
+ERROR: [VRFC 10-91] dd is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:53]
+ERROR: [VRFC 10-91] rl is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:54]
+ERROR: [VRFC 10-91] mux is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:55]
+ERROR: [VRFC 10-91] mux is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:56]
+ERROR: [VRFC 10-1012] mismatch on label ; expected rf [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:59]
+ERROR: [VRFC 10-1504] unit rf ignored due to previous errors [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:4]
+INFO: [VRFC 10-240] VHDL file /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DD.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity DD
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FlipFlop.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FlipFlop
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RF
+ERROR: [VRFC 10-1412] syntax error near end [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:9]
+ERROR: [VRFC 10-1412] syntax error near component [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:17]
+ERROR: [VRFC 10-91] dd is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:53]
+ERROR: [VRFC 10-91] rl is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:54]
+ERROR: [VRFC 10-91] mux is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:55]
+ERROR: [VRFC 10-91] mux is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:56]
+ERROR: [VRFC 10-1012] mismatch on label ; expected rf [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:59]
+ERROR: [VRFC 10-1504] unit rf ignored due to previous errors [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:4]
+INFO: [VRFC 10-240] VHDL file /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DD.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity DD
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FlipFlop.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FlipFlop
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RF
+ERROR: [VRFC 10-1412] syntax error near end [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:9]
+ERROR: [VRFC 10-1412] syntax error near component [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:17]
+ERROR: [VRFC 10-91] dd is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:53]
+ERROR: [VRFC 10-91] rl is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:54]
+ERROR: [VRFC 10-91] mux is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:55]
+ERROR: [VRFC 10-91] mux is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:56]
+ERROR: [VRFC 10-1012] mismatch on label ; expected rf [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:59]
+ERROR: [VRFC 10-1504] unit rf ignored due to previous errors [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:4]
+INFO: [VRFC 10-240] VHDL file /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DD.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity DD
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FlipFlop.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FlipFlop
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RF
+ERROR: [VRFC 10-1412] syntax error near end [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:9]
+ERROR: [VRFC 10-1412] syntax error near component [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:17]
+ERROR: [VRFC 10-91] dd is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:53]
+ERROR: [VRFC 10-91] rl is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:54]
+ERROR: [VRFC 10-91] mux is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:55]
+ERROR: [VRFC 10-91] mux is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:56]
+ERROR: [VRFC 10-1012] mismatch on label ; expected rf [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:59]
+ERROR: [VRFC 10-1504] unit rf ignored due to previous errors [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:4]
+INFO: [VRFC 10-240] VHDL file /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DD.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity DD
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FlipFlop.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FlipFlop
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RF
+ERROR: [VRFC 10-1412] syntax error near end [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:9]
+ERROR: [VRFC 10-1412] syntax error near component [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:17]
+ERROR: [VRFC 10-91] dd is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:53]
+ERROR: [VRFC 10-91] rl is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:54]
+ERROR: [VRFC 10-91] mux is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:55]
+ERROR: [VRFC 10-91] mux is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:56]
+ERROR: [VRFC 10-1012] mismatch on label ; expected rf [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:59]
+ERROR: [VRFC 10-1504] unit rf ignored due to previous errors [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:4]
+INFO: [VRFC 10-240] VHDL file /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ADD_SUBB_8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ADD_SUBB_8bit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DD.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity DD
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FlipFlop.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FlipFlop
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RL.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RL
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RegisterCell.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegisterCell
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SubDecoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SubDecoder
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SubMUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SubMUX
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ADD_SUBB_8bit_test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ADD_SUBB_8bit_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Half_adder_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Half_adder_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MUX_test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX2x1x8_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ADD_SUB_8bit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ADD_SUBB_8bit_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ADD_SUBB_8bit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ADD_SUBB_8bit_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ADD_SUBB_8bit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ADD_SUBB_8bit_tb
+ERROR: [VRFC 10-1412] syntax error near if [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ADD_SUBB_8bit_tb.vhd:62]
+ERROR: [VRFC 10-1504] unit bench ignored due to previous errors [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ADD_SUBB_8bit_tb.vhd:8]
+INFO: [VRFC 10-240] VHDL file /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ADD_SUBB_8bit_tb.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ADD_SUBB_8bit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ADD_SUBB_8bit_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ADD_SUBB_8bit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ADD_SUBB_8bit_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ADD_SUBB_8bit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ADD_SUBB_8bit_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ADD_SUBB_8bit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ADD_SUBB_8bit_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ADD_SUBB_8bit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ADD_SUBB_8bit_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ADD_SUBB_8bit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ADD_SUBB_8bit_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MUX2x1_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX2x1_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MUX2x1_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX2x1_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MUX2x1_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX2x1_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX2x1
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MUX2x1_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX2x1_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MUX2x1_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX2x1_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FunctionUnit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionUnit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX2x1x8
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Shifter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Shifter
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MUX2x1x8_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX2x1x8_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/decoder2x4_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder2x4_tb
+ERROR: [VRFC 10-724] found '4' definitions of operator "=", cannot determine exact overloaded matching definition for "=" [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/decoder2x4_tb.vhd:71]
+ERROR: [VRFC 10-724] found '4' definitions of operator "=", cannot determine exact overloaded matching definition for "=" [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/decoder2x4_tb.vhd:73]
+ERROR: [VRFC 10-724] found '4' definitions of operator "=", cannot determine exact overloaded matching definition for "=" [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/decoder2x4_tb.vhd:75]
+ERROR: [VRFC 10-724] found '4' definitions of operator "=", cannot determine exact overloaded matching definition for "=" [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/decoder2x4_tb.vhd:69]
+ERROR: [VRFC 10-1504] unit bench ignored due to previous errors [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/decoder2x4_tb.vhd:8]
+INFO: [VRFC 10-240] VHDL file /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/decoder2x4_tb.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/decoder2x4_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder2x4_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/decoder2x4_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder2x4_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/decoder2x4_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder2x4_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/decoder2x4_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder2x4_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder2x4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder2x4
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder4x16.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder4x16
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/decoder4x16_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder4x16_tb
+ERROR: [VRFC 10-1412] syntax error near range [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/decoder4x16_tb.vhd:30]
+ERROR: [XSIM 43-3316] Signal SIGSEGV received.
+Printing stacktrace...
+
+[0] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(Verific::VhdlForScheme::VhdlForScheme(Verific::VhdlIdRef*, Verific::VhdlDiscreteRange*, unsigned int)+0xc7) [0x7f2dfa03cfb7]
+[1] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(vhdlparse()+0x764c) [0x7f2dfa13229c]
+[2] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(Verific::vhdl_file::Analyze(char const*, char const*, unsigned int)+0xb9) [0x7f2dfa108029]
+[3] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl() [0x46d418]
+[4] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl(main+0x3e0) [0x44bfd0]
+[5] /lib64/libc.so.6(__libc_start_main+0xf5) [0x7f2df83b0555]
+[6] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl() [0x4655f1]
+
+Done
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder4x16.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder4x16
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/decoder4x16_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder4x16_tb
+ERROR: [VRFC 10-1412] syntax error near range [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/decoder4x16_tb.vhd:30]
+ERROR: [XSIM 43-3316] Signal SIGSEGV received.
+Printing stacktrace...
+
+[0] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(Verific::VhdlForScheme::VhdlForScheme(Verific::VhdlIdRef*, Verific::VhdlDiscreteRange*, unsigned int)+0xc7) [0x7f4d029cffb7]
+[1] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(vhdlparse()+0x764c) [0x7f4d02ac529c]
+[2] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(Verific::vhdl_file::Analyze(char const*, char const*, unsigned int)+0xb9) [0x7f4d02a9b029]
+[3] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl() [0x46d418]
+[4] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl(main+0x3e0) [0x44bfd0]
+[5] /lib64/libc.so.6(__libc_start_main+0xf5) [0x7f4d00d43555]
+[6] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl() [0x4655f1]
+
+Done
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ADD_SUBB_8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ADD_SUBB_8bit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Adder_Subtractor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Adder_Subtractor
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Enabler.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Enabler
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FunctionSelect.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionSelect
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FunctionUnit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionUnit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX2x1
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX2x1x8
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX4x1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX4x1
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/NegZero.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity NegZero
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Shifter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Shifter
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder2x4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder2x4
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder4x16.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder4x16
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/enabler8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity enabler8bit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity logic_unit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity logic_unit8bit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/decoder4x16_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder4x16_tb
+ERROR: [VRFC 10-1412] syntax error near range [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/decoder4x16_tb.vhd:30]
+ERROR: [XSIM 43-3316] Signal SIGSEGV received.
+Printing stacktrace...
+
+[0] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(Verific::VhdlForScheme::VhdlForScheme(Verific::VhdlIdRef*, Verific::VhdlDiscreteRange*, unsigned int)+0xc7) [0x7f1611064fb7]
+[1] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(vhdlparse()+0x764c) [0x7f161115a29c]
+[2] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(Verific::vhdl_file::Analyze(char const*, char const*, unsigned int)+0xb9) [0x7f1611130029]
+[3] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl() [0x46d418]
+[4] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl(main+0x3e0) [0x44bfd0]
+[5] /lib64/libc.so.6(__libc_start_main+0xf5) [0x7f160f3d8555]
+[6] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl() [0x4655f1]
+
+Done
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ADD_SUBB_8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ADD_SUBB_8bit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Adder_Subtractor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Adder_Subtractor
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Enabler.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Enabler
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FunctionSelect.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionSelect
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FunctionUnit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionUnit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX2x1
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX2x1x8
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX4x1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX4x1
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/NegZero.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity NegZero
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Shifter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Shifter
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder2x4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder2x4
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder4x16.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder4x16
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/enabler8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity enabler8bit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity logic_unit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity logic_unit8bit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/decoder4x16_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder4x16_tb
+ERROR: [VRFC 10-1412] syntax error near range [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/decoder4x16_tb.vhd:30]
+ERROR: [XSIM 43-3316] Signal SIGSEGV received.
+Printing stacktrace...
+
+[0] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(Verific::VhdlForScheme::VhdlForScheme(Verific::VhdlIdRef*, Verific::VhdlDiscreteRange*, unsigned int)+0xc7) [0x7f4857424fb7]
+[1] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(vhdlparse()+0x764c) [0x7f485751a29c]
+[2] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(Verific::vhdl_file::Analyze(char const*, char const*, unsigned int)+0xb9) [0x7f48574f0029]
+[3] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl() [0x46d418]
+[4] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl(main+0x3e0) [0x44bfd0]
+[5] /lib64/libc.so.6(__libc_start_main+0xf5) [0x7f4855798555]
+[6] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl() [0x4655f1]
+
+Done
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ADD_SUBB_8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ADD_SUBB_8bit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Adder_Subtractor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Adder_Subtractor
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Enabler.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Enabler
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FunctionSelect.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionSelect
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FunctionUnit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionUnit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX2x1
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX2x1x8
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX4x1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX4x1
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/NegZero.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity NegZero
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Shifter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Shifter
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder2x4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder2x4
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder4x16.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder4x16
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/enabler8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity enabler8bit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity logic_unit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity logic_unit8bit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/decoder4x16_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder4x16_tb
+ERROR: [VRFC 10-1412] syntax error near range [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/decoder4x16_tb.vhd:30]
+ERROR: [XSIM 43-3316] Signal SIGSEGV received.
+Printing stacktrace...
+
+[0] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(Verific::VhdlForScheme::VhdlForScheme(Verific::VhdlIdRef*, Verific::VhdlDiscreteRange*, unsigned int)+0xc7) [0x7f81a350efb7]
+[1] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(vhdlparse()+0x764c) [0x7f81a360429c]
+[2] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(Verific::vhdl_file::Analyze(char const*, char const*, unsigned int)+0xb9) [0x7f81a35da029]
+[3] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl() [0x46d418]
+[4] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl(main+0x3e0) [0x44bfd0]
+[5] /lib64/libc.so.6(__libc_start_main+0xf5) [0x7f81a1882555]
+[6] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl() [0x4655f1]
+
+Done
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ADD_SUBB_8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ADD_SUBB_8bit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Adder_Subtractor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Adder_Subtractor
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Enabler.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Enabler
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FunctionSelect.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionSelect
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FunctionUnit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionUnit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX2x1
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX2x1x8
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX4x1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX4x1
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/NegZero.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity NegZero
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Shifter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Shifter
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder2x4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder2x4
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder4x16.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder4x16
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/enabler8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity enabler8bit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity logic_unit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity logic_unit8bit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/decoder4x16_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder4x16_tb
+ERROR: [VRFC 10-1412] syntax error near range [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/decoder4x16_tb.vhd:30]
+ERROR: [XSIM 43-3316] Signal SIGSEGV received.
+Printing stacktrace...
+
+[0] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(Verific::VhdlForScheme::VhdlForScheme(Verific::VhdlIdRef*, Verific::VhdlDiscreteRange*, unsigned int)+0xc7) [0x7fb2dbffbfb7]
+[1] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(vhdlparse()+0x764c) [0x7fb2dc0f129c]
+[2] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(Verific::vhdl_file::Analyze(char const*, char const*, unsigned int)+0xb9) [0x7fb2dc0c7029]
+[3] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl() [0x46d418]
+[4] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl(main+0x3e0) [0x44bfd0]
+[5] /lib64/libc.so.6(__libc_start_main+0xf5) [0x7fb2da36f555]
+[6] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl() [0x4655f1]
+
+Done
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ADD_SUBB_8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ADD_SUBB_8bit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Adder_Subtractor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Adder_Subtractor
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Enabler.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Enabler
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FunctionSelect.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionSelect
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FunctionUnit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionUnit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX2x1
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX2x1x8
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX4x1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX4x1
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/NegZero.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity NegZero
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Shifter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Shifter
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder2x4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder2x4
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder4x16.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder4x16
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/enabler8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity enabler8bit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity logic_unit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity logic_unit8bit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/decoder4x16_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder4x16_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/decoder4x16_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder4x16_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Enabler.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Enabler_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Enabler_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/enabler8bit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity enabler8bit_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/decoder4x16_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder4x16_tb
+ERROR: [VRFC 10-1412] syntax error near integer [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/decoder4x16_tb.vhd:31]
+ERROR: [XSIM 43-3316] Signal SIGSEGV received.
+Printing stacktrace...
+
+[0] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(Verific::VhdlForScheme::VhdlForScheme(Verific::VhdlIdRef*, Verific::VhdlDiscreteRange*, unsigned int)+0xc7) [0x7f72a6cb3fb7]
+[1] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(vhdlparse()+0x764c) [0x7f72a6da929c]
+[2] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(Verific::vhdl_file::Analyze(char const*, char const*, unsigned int)+0xb9) [0x7f72a6d7f029]
+[3] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl() [0x46d418]
+[4] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl(main+0x3e0) [0x44bfd0]
+[5] /lib64/libc.so.6(__libc_start_main+0xf5) [0x7f72a5027555]
+[6] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl() [0x4655f1]
+
+Done
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/decoder4x16_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder4x16_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/decoder4x16_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder4x16_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Shifter_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Shifter_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/NegZero_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity NegZero_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/NegZero_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity NegZero_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/logic_unit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity logic_unit_tb
+ERROR: [VRFC 10-1412] syntax error near ' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/logic_unit_tb.vhd:46]
+ERROR: [XSIM 43-3316] Signal SIGSEGV received.
+Printing stacktrace...
+
+[0] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(Verific::VhdlForScheme::VhdlForScheme(Verific::VhdlIdRef*, Verific::VhdlDiscreteRange*, unsigned int)+0xc7) [0x7fbb809b0fb7]
+[1] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(vhdlparse()+0x764c) [0x7fbb80aa629c]
+[2] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(Verific::vhdl_file::Analyze(char const*, char const*, unsigned int)+0xb9) [0x7fbb80a7c029]
+[3] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl() [0x46d418]
+[4] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl(main+0x3e0) [0x44bfd0]
+[5] /lib64/libc.so.6(__libc_start_main+0xf5) [0x7fbb7ed24555]
+[6] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl() [0x4655f1]
+
+Done
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/logic_unit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity logic_unit_tb
+ERROR: [VRFC 10-91] a_cnt is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/logic_unit_tb.vhd:48]
+ERROR: [VRFC 10-91] b_cnt is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/logic_unit_tb.vhd:49]
+ERROR: [VRFC 10-91] a_cnt is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/logic_unit_tb.vhd:50]
+ERROR: [VRFC 10-2123] 0 definitions of operator "or" match here [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/logic_unit_tb.vhd:50]
+ERROR: [VRFC 10-1412] syntax error near ' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/logic_unit_tb.vhd:60]
+ERROR: [XSIM 43-3316] Signal SIGSEGV received.
+Printing stacktrace...
+
+[0] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(Verific::VhdlForScheme::VhdlForScheme(Verific::VhdlIdRef*, Verific::VhdlDiscreteRange*, unsigned int)+0xc7) [0x7f2cf68e8fb7]
+[1] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(vhdlparse()+0x764c) [0x7f2cf69de29c]
+[2] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(Verific::vhdl_file::Analyze(char const*, char const*, unsigned int)+0xb9) [0x7f2cf69b4029]
+[3] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl() [0x46d418]
+[4] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl(main+0x3e0) [0x44bfd0]
+[5] /lib64/libc.so.6(__libc_start_main+0xf5) [0x7f2cf4c5c555]
+[6] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl() [0x4655f1]
+
+Done
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/logic_unit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity logic_unit_tb
+ERROR: [VRFC 10-1412] syntax error near ' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/logic_unit_tb.vhd:60]
+ERROR: [XSIM 43-3316] Signal SIGSEGV received.
+Printing stacktrace...
+
+[0] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(Verific::VhdlForScheme::VhdlForScheme(Verific::VhdlIdRef*, Verific::VhdlDiscreteRange*, unsigned int)+0xc7) [0x7fc20b659fb7]
+[1] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(vhdlparse()+0x764c) [0x7fc20b74f29c]
+[2] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(Verific::vhdl_file::Analyze(char const*, char const*, unsigned int)+0xb9) [0x7fc20b725029]
+[3] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl() [0x46d418]
+[4] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl(main+0x3e0) [0x44bfd0]
+[5] /lib64/libc.so.6(__libc_start_main+0xf5) [0x7fc2099cd555]
+[6] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl() [0x4655f1]
+
+Done
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/logic_unit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity logic_unit_tb
+ERROR: [VRFC 10-1412] syntax error near ' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/logic_unit_tb.vhd:72]
+ERROR: [XSIM 43-3316] Signal SIGSEGV received.
+Printing stacktrace...
+
+[0] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(Verific::VhdlForScheme::VhdlForScheme(Verific::VhdlIdRef*, Verific::VhdlDiscreteRange*, unsigned int)+0xc7) [0x7ff312017fb7]
+[1] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(vhdlparse()+0x764c) [0x7ff31210d29c]
+[2] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(Verific::vhdl_file::Analyze(char const*, char const*, unsigned int)+0xb9) [0x7ff3120e3029]
+[3] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl() [0x46d418]
+[4] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl(main+0x3e0) [0x44bfd0]
+[5] /lib64/libc.so.6(__libc_start_main+0xf5) [0x7ff31038b555]
+[6] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl() [0x4655f1]
+
+Done
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/logic_unit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity logic_unit_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/logic_unit8bit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity logic_unit8bit_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/logic_unit8bit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity logic_unit8bit_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/logic_unit8bit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity logic_unit8bit_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ALU_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ALU_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ALU_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ALU_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU_tb
+ERROR: [VRFC 10-1412] syntax error near ; [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ALU_tb.vhd:19]
+ERROR: [VRFC 10-91] v is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ALU_tb.vhd:27]
+ERROR: [VRFC 10-283] actual of formal out port v cannot be an expression [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ALU_tb.vhd:27]
+ERROR: [VRFC 10-91] c is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ALU_tb.vhd:28]
+ERROR: [VRFC 10-283] actual of formal out port c cannot be an expression [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ALU_tb.vhd:28]
+ERROR: [VRFC 10-91] v_exp is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ALU_tb.vhd:43]
+ERROR: [VRFC 10-91] v_exp is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ALU_tb.vhd:53]
+ERROR: [VRFC 10-91] v_exp is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ALU_tb.vhd:62]
+ERROR: [VRFC 10-91] v_exp is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ALU_tb.vhd:71]
+ERROR: [VRFC 10-91] v_exp is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ALU_tb.vhd:80]
+ERROR: [VRFC 10-91] v_exp is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ALU_tb.vhd:89]
+ERROR: [VRFC 10-91] v_exp is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ALU_tb.vhd:98]
+ERROR: [VRFC 10-91] v_exp is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ALU_tb.vhd:107]
+ERROR: [VRFC 10-91] v_exp is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ALU_tb.vhd:116]
+ERROR: [VRFC 10-91] v_exp is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ALU_tb.vhd:125]
+ERROR: [VRFC 10-91] v_exp is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ALU_tb.vhd:134]
+ERROR: [VRFC 10-91] v_exp is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ALU_tb.vhd:143]
+ERROR: [VRFC 10-91] v_exp is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ALU_tb.vhd:152]
+ERROR: [VRFC 10-1504] unit bench ignored due to previous errors [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ALU_tb.vhd:8]
+INFO: [VRFC 10-240] VHDL file /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ALU_tb.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ALU_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ALU_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ALU_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ALU_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ALU_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ALU_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ALU_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ALU_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ALU_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ALU_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ALU_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ALU_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ALU_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/FunctionUnit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionUnit_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/FunctionUnit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionUnit_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/FunctionUnit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionUnit_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/FunctionUnit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionUnit_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/FunctionUnit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionUnit_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/FunctionUnit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionUnit_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/FunctionUnit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionUnit_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/FunctionUnit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionUnit_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/FunctionUnit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionUnit_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FunctionUnit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionUnit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/FunctionUnit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionUnit_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/FunctionUnit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionUnit_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/FunctionUnit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionUnit_tb

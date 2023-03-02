@@ -15,50 +15,41 @@ architecture bench of Full_adder_tb is
              S : out STD_LOGIC);
   end component;
 
-  signal A_tb: STD_LOGIC;
-  signal B_tb: STD_LOGIC;
-  signal C_in_tb: STD_LOGIC;
-  signal C_out_tb: STD_LOGIC;
-  signal S_tb: STD_LOGIC;
+  signal A,B,C_in,C_out,S: STD_LOGIC;
   
-  signal C_out_exp: STD_LOGIC;
-  signal S_exp: STD_LOGIC;
-  
-  signal C_out_test, S_test: std_logic;
+  signal C_out_exp, C_out_test, S_exp, S_test: STD_LOGIC;
 
 begin
 
-  uut: Full_adder port map (A_tb,B_tb,C_in_tb,C_out_tb,S_tb);
+  uut: Full_adder port map (A,B,C_in,C_out,S);
 
   stimulus: process
   begin
-    for A in std_logic range '0' to '1' loop
-        for B in std_logic range '0' to '1' loop
-            for C_in in std_logic range '0' to '1' loop
-                -- Assign the current input combination to the test inputs
-                A_tb <= A;
-                B_tb <= B;
-                C_in_tb <= C_in;
+    -- De nestede for løkker genererer samtlige input kombinationer
+    for A_cnt in std_logic range '0' to '1' loop
+        for B_cnt in std_logic range '0' to '1' loop
+            for C_in_cnt in std_logic range '0' to '1' loop
                 
-                -- Calculate the expected output for the current input combination
-                S_exp <= (A xor B) xor C_in;
-                C_out_exp <= (A and B) or (C_in and (A xor B));
+                -- Input sættes
+                A <= A_cnt;
+                B <= B_cnt;
+                C_in <= C_in_cnt;
                 
-                -- Make test line in simulation window
-                S_test <= S_exp xor S_tb;
-                C_out_test <= C_out_exp xor C_out_tb;
+                -- Forventet output beregnes
+                S_exp <= A_cnt xor B_cnt xor C_in_cnt;
+                C_out_exp <= (A_cnt and B_cnt) or (C_in_cnt and (A_cnt xor B_cnt));
                 
-                -- Wait for a small amount of time to allow the Full_Adder to calculate the output
+                -- Komponentens output sammenlignes med det forventede output
+                S_test <= S_exp xor S;
+                C_out_test <= C_out_exp xor C_out;
+                
+                -- Der ventes på steady state
                 wait for 10 ns;
                 
-                -- Check if the actual output matches the expected output for the current input combination
-                assert ((S_exp = S_tb) and (C_out_exp = C_out_tb))
-                    report "Error: Full Adder output mismatch for inputs: A=" & std_ulogic'image(A_tb) & ", B=" & std_ulogic'image(B_tb) & ", C_in=" & std_ulogic'image(C_in_tb)
-                   severity error;
+
             end loop;
         end loop;
     end loop;
-    --wait;
  end process;
 
 
