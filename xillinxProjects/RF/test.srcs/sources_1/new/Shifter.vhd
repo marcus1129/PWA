@@ -52,9 +52,10 @@ begin
 
 B_sr <= '0' & B(7 downto 1);
 B_sl <= B(6 downto 0) & '0';
-MUX1_sel <= H_Select(1) xor H_Select(0);
+MUX1_sel <= not(H_Select(1) xor H_Select(0));
 
-MUX0: MUX2x1x8 port map (B_sr, B_sl, H_Select(1), MUX0_res);
+
+MUX0: MUX2x1x8 port map (B_sl, B_sr, H_Select(1), MUX0_res);
 MUX1: MUX2x1x8 port map (B, MUX0_res, MUX1_sel, H);
 
 

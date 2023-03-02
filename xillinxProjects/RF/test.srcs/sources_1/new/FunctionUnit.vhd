@@ -74,7 +74,7 @@ end component;
 
 signal J_Select: STD_LOGIC_VECTOR (3 downto 0);
 signal J: STD_LOGIC_VECTOR (7 downto 0);
-signal MF: std_logic;
+signal MF, temp: std_logic;
 signal H: STD_LOGIC_VECTOR (7 downto 0);
 signal H_Select: STD_LOGIC_VECTOR (1 downto 0);
 signal Y: std_logic_vector (7 downto 0);
@@ -84,12 +84,13 @@ begin
 J_Select <= (FS3,FS2,FS1,FS0);
 H_Select <= (FS1, FS0);
 
-
+temp <= not MF;
 ALU_1: ALU port map(A,B,J_Select,V,C,J);
 Fsel: FunctionSelect port map(FS3,FS2,MF);
 Shifter_1: Shifter port map(B,H_Select,H);
-MUXF: MUX2x1x8 port map(J,H,MF,Y);
+MUXF: MUX2x1x8 port map(J,H,temp,Y);
 NegZero_1: NegZero port map(Y,N,Z);
 
+F <= Y;
 
 end FU_Behavorial;

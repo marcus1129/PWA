@@ -51,7 +51,7 @@ component MUX4x1 is
            Y : out STD_LOGIC);
 end component;
 
-signal op_or, op_and, op_xor, op_not: std_logic;
+signal op_or, op_and, op_xor, op_not, temp1, temp2: std_logic;
 
 begin
 
@@ -60,6 +60,8 @@ op_and <= A and B;
 op_xor <= A xor B;
 op_not <= not A;
 
-MUX: MUX4x1 port map (op_or, op_and, op_xor, op_not, S0, S1, Res);
+temp1 <= not S0;
+temp2 <= not S1;
+MUX: MUX4x1 port map (op_or, op_and, op_xor, op_not, temp1, temp2, Res);
 
 end Behavioral;

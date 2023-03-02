@@ -10,15 +10,15 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="150000000fs"></ZoomStartTime>
-      <ZoomEndTime time="267400001fs"></ZoomEndTime>
-      <Cursor1Time time="2000000000fs"></Cursor1Time>
+      <ZoomStartTime time="70000000fs"></ZoomStartTime>
+      <ZoomEndTime time="204000001fs"></ZoomEndTime>
+      <Cursor1Time time="100000000fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="175"></NameColumnWidth>
-      <ValueColumnWidth column_width="146"></ValueColumnWidth>
+      <ValueColumnWidth column_width="142"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="10" />
+   <WVObjectSize size="7" />
    <wvobject type="group" fp_name="group291">
       <obj_property name="label">Datapath</obj_property>
       <obj_property name="DisplayName">label</obj_property>
@@ -38,30 +38,6 @@
       <wvobject type="logic" fp_name="/Datapath_tb/V">
          <obj_property name="ElementShortName">V</obj_property>
          <obj_property name="ObjectShortName">V</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/Datapath_tb/ConstantIn">
-         <obj_property name="ElementShortName">ConstantIn[7:0]</obj_property>
-         <obj_property name="ObjectShortName">ConstantIn[7:0]</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/Datapath_tb/BA">
-         <obj_property name="ElementShortName">BA[3:0]</obj_property>
-         <obj_property name="ObjectShortName">BA[3:0]</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/Datapath_tb/AA">
-         <obj_property name="ElementShortName">AA[3:0]</obj_property>
-         <obj_property name="ObjectShortName">AA[3:0]</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/Datapath_tb/DA">
-         <obj_property name="ElementShortName">DA[3:0]</obj_property>
-         <obj_property name="ObjectShortName">DA[3:0]</obj_property>
-      </wvobject>
-      <wvobject type="logic" fp_name="/Datapath_tb/MD">
-         <obj_property name="ElementShortName">MD</obj_property>
-         <obj_property name="ObjectShortName">MD</obj_property>
-      </wvobject>
-      <wvobject type="logic" fp_name="/Datapath_tb/MB">
-         <obj_property name="ElementShortName">MB</obj_property>
-         <obj_property name="ObjectShortName">MB</obj_property>
       </wvobject>
       <wvobject type="logic" fp_name="/Datapath_tb/RW">
          <obj_property name="ElementShortName">RW</obj_property>
@@ -196,47 +172,6 @@
          <obj_property name="ObjectShortName">LoadSig[0:15]</obj_property>
       </wvobject>
    </wvobject>
-   <wvobject type="group" fp_name="group293">
-      <obj_property name="label">MUXD</obj_property>
-      <obj_property name="DisplayName">label</obj_property>
-      <wvobject type="array" fp_name="/Datapath_tb/UUT/MUXD/R">
-         <obj_property name="ElementShortName">R[7:0]</obj_property>
-         <obj_property name="ObjectShortName">R[7:0]</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/Datapath_tb/UUT/MUXD/S">
-         <obj_property name="ElementShortName">S[7:0]</obj_property>
-         <obj_property name="ObjectShortName">S[7:0]</obj_property>
-      </wvobject>
-      <wvobject type="logic" fp_name="/Datapath_tb/UUT/MUXD/MUX_Select">
-         <obj_property name="ElementShortName">MUX_Select</obj_property>
-         <obj_property name="ObjectShortName">MUX_Select</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/Datapath_tb/UUT/MUXD/Y">
-         <obj_property name="ElementShortName">Y[7:0]</obj_property>
-         <obj_property name="ObjectShortName">Y[7:0]</obj_property>
-      </wvobject>
-   </wvobject>
-   <wvobject type="group" fp_name="group318">
-      <obj_property name="label">MUXF</obj_property>
-      <obj_property name="DisplayName">label</obj_property>
-      <obj_property name="isExpanded"></obj_property>
-      <wvobject type="array" fp_name="/Datapath_tb/UUT/FU/MUXF/Y">
-         <obj_property name="ElementShortName">Y[7:0]</obj_property>
-         <obj_property name="ObjectShortName">Y[7:0]</obj_property>
-      </wvobject>
-      <wvobject type="logic" fp_name="/Datapath_tb/UUT/FU/MUXF/MUX_Select">
-         <obj_property name="ElementShortName">MUX_Select</obj_property>
-         <obj_property name="ObjectShortName">MUX_Select</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/Datapath_tb/UUT/FU/MUXF/S">
-         <obj_property name="ElementShortName">S[7:0]</obj_property>
-         <obj_property name="ObjectShortName">S[7:0]</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/Datapath_tb/UUT/FU/MUXF/R">
-         <obj_property name="ElementShortName">R[7:0]</obj_property>
-         <obj_property name="ObjectShortName">R[7:0]</obj_property>
-      </wvobject>
-   </wvobject>
    <wvobject type="logic" fp_name="/Datapath_tb/UUT/FS3">
       <obj_property name="ElementShortName">FS3</obj_property>
       <obj_property name="ObjectShortName">FS3</obj_property>
@@ -253,12 +188,8 @@
       <obj_property name="ElementShortName">FS0</obj_property>
       <obj_property name="ObjectShortName">FS0</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/Datapath_tb/UUT/F">
-      <obj_property name="ElementShortName">F[7:0]</obj_property>
-      <obj_property name="ObjectShortName">F[7:0]</obj_property>
-   </wvobject>
    <wvobject type="array" fp_name="/Datapath_tb/UUT/Fsig">
-      <obj_property name="ElementShortName">Fsig[0:7]</obj_property>
-      <obj_property name="ObjectShortName">Fsig[0:7]</obj_property>
+      <obj_property name="ElementShortName">Fsig[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Fsig[7:0]</obj_property>
    </wvobject>
 </wave_config>
