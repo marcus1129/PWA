@@ -1,6 +1,6 @@
 Vivado Simulator 2018.2
 Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
-Running: /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab -wto 0afd0da3bb0341ddad0a1cad00bd95d6 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot Decoder4x16_tb_behav xil_defaultlib.Decoder4x16_tb -log elaborate.log 
+Running: /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab -wto 0afd0da3bb0341ddad0a1cad00bd95d6 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot Datapath_tb_behav xil_defaultlib.Datapath_tb -log elaborate.log 
 Using 8 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -12,5 +12,32 @@ Compiling package std.textio
 Compiling package ieee.std_logic_1164
 Compiling architecture behavioral of entity xil_defaultlib.SubDecoder [subdecoder_default]
 Compiling architecture behavioral_4x16 of entity xil_defaultlib.Decoder4x16M [decoder4x16m_default]
-Compiling architecture behavioral of entity xil_defaultlib.decoder4x16_tb
-Built simulation snapshot Decoder4x16_tb_behav
+Compiling architecture dd_behavioral of entity xil_defaultlib.DestinationDecoder [destinationdecoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.FlipFlop [flipflop_default]
+Compiling architecture behavioral of entity xil_defaultlib.RegisterCell [registercell_default]
+Compiling architecture rr16_behavioral of entity xil_defaultlib.RegisterR16 [registerr16_default]
+Compiling architecture behavioral of entity xil_defaultlib.And8 [and8_default]
+Compiling architecture behavioral of entity xil_defaultlib.SubMUX [submux_default]
+Compiling architecture mux16x1x8_behavioral of entity xil_defaultlib.MUX16x1x8 [mux16x1x8_default]
+Compiling architecture rf_behavioral of entity xil_defaultlib.RF [rf_default]
+Compiling architecture behavioral of entity xil_defaultlib.Half_adder [half_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Full_adder [full_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Adder_Subtractor [adder_subtractor_default]
+Compiling architecture behavioral of entity xil_defaultlib.ADD_SUBB_8bit [add_subb_8bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.decoder2x4 [decoder2x4_default]
+Compiling architecture behavioral of entity xil_defaultlib.decoder4x16 [decoder4x16_default]
+Compiling architecture behavioral of entity xil_defaultlib.Enabler [enabler_default]
+Compiling architecture behavioral of entity xil_defaultlib.enabler8bit [enabler8bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX2x1 [mux2x1_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX4x1 [mux4x1_default]
+Compiling architecture behavioral of entity xil_defaultlib.logic_unit [logic_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.logic_unit8bit [logic_unit8bit_default]
+Compiling architecture mux2x1x8_behavorial of entity xil_defaultlib.MUX2x1x8 [mux2x1x8_default]
+Compiling architecture alu_behavorial of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture fd_behavorial of entity xil_defaultlib.FunctionSelect [functionselect_default]
+Compiling architecture shifter_behavorial of entity xil_defaultlib.Shifter [shifter_default]
+Compiling architecture negzero_behavorial of entity xil_defaultlib.NegZero [negzero_default]
+Compiling architecture fu_behavorial of entity xil_defaultlib.FunctionUnit [functionunit_default]
+Compiling architecture datapath_behavioral of entity xil_defaultlib.Datapath [datapath_default]
+Compiling architecture behavioral of entity xil_defaultlib.datapath_tb
+Built simulation snapshot Datapath_tb_behav

@@ -43,7 +43,7 @@ signal Fsig : STD_LOGIC_VECTOR(0 to 7);
 begin
 
 RegisterFile: RF port map (CLK, RESET, RW, D, DA, AA, BA, A_out, B_Data);
-FU: FunctionUnit port map (A_out,D_out,FS3,FS2,FS1,FS0,Vsig,Csig,Nsig,Zsig,Fsig);
+FU: FunctionUnit port map (A_out, D_out,FS3,FS2,FS1,FS0,Vsig,Csig,Nsig,Zsig,Fsig);
 MUXD: MUX2x1x8 port map (F, DataIn, MD, D);
 MUXB: MUX2x1x8 port map (B_Data, ConstantIn, MB, D_out);
 
