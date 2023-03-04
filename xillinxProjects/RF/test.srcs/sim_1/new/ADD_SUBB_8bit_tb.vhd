@@ -32,62 +32,51 @@ begin
   stimulus: process
   begin
 
-    -- Række 1
-    A <= "10010001";
-    B <= "01100100";
+    -- A + B
+    A <= "00110010";
+    B <= "00111100";
     C_in <= '0';
     S_in <= '0';
+    
+    Sum_exp <= "01101110";
+    C_out_exp <= '0';
+    wait for 10 ns;
+    
+    --A + B + 1
+    C_in <= '1';
+    S_in <= '0';
+    
+    Sum_exp <= "01101111";
+    C_out_exp <= '0';
+    wait for 10 ns;
+    
+    -- A - B - 1
+
+    C_in <= '0';
+    S_in <= '1';
     
     Sum_exp <= "11110101";
     C_out_exp <= '0';
     wait for 10 ns;
     
-    A <= "10010001";
-    B <= "01100100";
+    -- A - B
     C_in <= '1';
     S_in <= '1';
     
-    Sum_exp <= "00101101";
-    C_out_exp <= '1';
-    wait for 10 ns;
-    
-    -- Række 2
-    A <= "10010001";
-    B <= "10100011";
-    C_in <= '0';
-    S_in <= '0';
-    
-    Sum_exp <= "00110100";
-    C_out_exp <= '1';
-    wait for 10 ns;
-    
-    A <= "10010001";
-    B <= "10100011";
-    C_in <= '1';
-    S_in <= '1';
-    
-    Sum_exp <= "11101110";
+    Sum_exp <= "11110110";
     C_out_exp <= '0';
     wait for 10 ns;
     
-    -- Række 3
-    A <= "00001000";
-    B <= "11111000";
+    -- Overflow test
+    A <= "01111111";
+    B <= "11111111";
     C_in <= '0';
     S_in <= '0';
     
-    Sum_exp <= "00000000";
+    Sum_exp <= "01111110";
     C_out_exp <= '1';
     wait for 10 ns;
-    
-    A <= "00001000";
-    B <= "11111000";
-    C_in <= '1';
-    S_in <= '1';
-    
-    Sum_exp <= "00010000";
-    C_out_exp <= '0';
-    wait for 10 ns;
+
     
 end process;
 

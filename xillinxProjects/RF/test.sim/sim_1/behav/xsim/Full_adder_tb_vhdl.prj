@@ -19,19 +19,23 @@ vhdl xil_defaultlib  \
 "../../../../test.srcs/sources_1/new/logic_unit.vhd" \
 "../../../../test.srcs/sources_1/new/logic_unit8bit.vhd" \
 "../../../../test.srcs/sources_1/new/Datapath.vhd" \
-"../../../../test.srcs/sources_1/new/DD.vhd" \
-"../../../../test.srcs/sources_1/new/FlipFlop.vhd" \
-"../../../../test.srcs/sources_1/new/MUX.vhd" \
-"../../../../test.srcs/sources_1/new/RL.vhd" \
-"../../../../test.srcs/sources_1/new/RegisterCell.vhd" \
-"../../../../test.srcs/sources_1/new/SubDecoder.vhd" \
-"../../../../test.srcs/sources_1/new/SubMUX.vhd" \
-"../../../../test.srcs/sim_1/new/ADD_SUBB_8bit_test.vhd" \
 "../../../../test.srcs/sim_1/new/Adder_Subtractor_tb.vhd" \
 "../../../../test.srcs/sim_1/new/full_adder_test.vhd" \
 "../../../../test.srcs/sim_1/new/Half_adder_tb.vhd" \
-"../../../../test.srcs/sim_1/new/MUX_test.vhd" \
-"../../../../test.srcs/sim_1/new/ADD_SUB_8bit_tb.vhd" \
+"../../../../test.srcs/sim_1/new/ADD_SUBB_8bit_tb.vhd" \
+"../../../../test.srcs/sim_1/new/MUX2x1_tb.vhd" \
+"../../../../test.srcs/sim_1/new/MUX2x1x8_tb.vhd" \
+"../../../../test.srcs/sim_1/new/decoder2x4_tb.vhd" \
+"../../../../test.srcs/sim_1/new/decoder4x16_tb.vhd" \
+"../../../../test.srcs/sim_1/new/Enabler.vhd" \
+"../../../../test.srcs/sim_1/new/Enabler_tb.vhd" \
+"../../../../test.srcs/sim_1/new/enabler8bit_tb.vhd" \
+"../../../../test.srcs/sim_1/new/Shifter_tb.vhd" \
+"../../../../test.srcs/sim_1/new/NegZero_tb.vhd" \
+"../../../../test.srcs/sim_1/new/logic_unit_tb.vhd" \
+"../../../../test.srcs/sim_1/new/logic_unit8bit_tb.vhd" \
+"../../../../test.srcs/sim_1/new/ALU_tb.vhd" \
+"../../../../test.srcs/sim_1/new/FunctionUnit_tb.vhd" \
 
 # Do not sort compile order
 nosort

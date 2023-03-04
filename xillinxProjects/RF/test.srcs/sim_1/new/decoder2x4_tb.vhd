@@ -47,7 +47,11 @@ begin
     -- Put initialisation code here
     A <= '0';
     B <= '0';
-    E <= '0';    
+    E <= '0'; 
+    out0_exp <= '0';
+    out1_exp <= '0';
+    out2_exp <= '0';
+    out3_exp <= '0';
     wait for 10 ns;
 
     -- De nestede løkker gennemløber samtlige inputkombinationer.
@@ -83,6 +87,11 @@ begin
                             out2_exp <= '0';
                             out3_exp <= '1';
                         end if;
+                    else
+                        out0_exp <= '0';
+                        out1_exp <= '0';
+                        out2_exp <= '0';
+                        out3_exp <= '0';
                     end if;
                     
                     wait for 10 ns;

@@ -729,3 +729,41 @@ INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinx
 INFO: [VRFC 10-307] analyzing entity FunctionUnit_tb
 INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/FunctionUnit_tb.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity FunctionUnit_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/FunctionUnit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionUnit_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Adder_Subtractor_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Adder_Subtractor_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/full_adder_test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Full_adder_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Half_adder_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Half_adder_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MUX2x1x8_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX2x1x8_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Shifter_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Shifter_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/decoder2x4_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder2x4_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/decoder2x4_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder2x4_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/enabler8bit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity enabler8bit_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ADD_SUBB_8bit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ADD_SUBB_8bit_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/FunctionUnit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionUnit_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ADD_SUBB_8bit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ADD_SUBB_8bit_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ADD_SUBB_8bit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ADD_SUBB_8bit_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ADD_SUBB_8bit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ADD_SUBB_8bit_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ADD_SUBB_8bit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ADD_SUBB_8bit_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ADD_SUBB_8bit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ADD_SUBB_8bit_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MUX4x1_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX4x1_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MUX4x1_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX4x1_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/FunctionSelect_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionSelect_tb

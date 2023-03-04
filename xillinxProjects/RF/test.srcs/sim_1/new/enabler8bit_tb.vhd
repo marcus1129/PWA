@@ -82,7 +82,7 @@ begin
     Y_exp <= x"80";
     wait for 10 ns;
 
-    wait;
+
   end process;
 
 

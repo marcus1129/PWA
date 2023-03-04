@@ -60,7 +60,6 @@ begin
     Output_exp <= x"FF";
     wait for 10 ns;
 
-    wait;
   end process;
 
 

@@ -18,7 +18,7 @@ architecture bench of Adder_Subtractor_tb is
 
   signal A, B, C_in, S_in, C_out, S_out: STD_LOGIC;
   
-  signal S_out_exp, S_out_test, C_out_exp, C_out_test: std_logic;
+  signal S_out_exp, C_out_exp: std_logic;
 
 begin
 
@@ -45,10 +45,6 @@ begin
                         S_out_exp <= (A_cnt xor (not B_cnt)) xor C_in_cnt;
                         C_out_exp <= (A_cnt and (not B_cnt)) or (C_in_cnt and (A_cnt xor (not B_cnt)));
                     end if;
-                        
-                    -- Komponentens output sammenlignes med det forventede output
-                    S_out_test <= S_out xor S_out_exp;
-                    C_out_test <= C_out xor C_out_exp;
                     
                     -- Der ventes på steady state
                     wait for 10 ns;

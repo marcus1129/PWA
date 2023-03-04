@@ -17,7 +17,7 @@ architecture bench of Full_adder_tb is
 
   signal A,B,C_in,C_out,S: STD_LOGIC;
   
-  signal C_out_exp, C_out_test, S_exp, S_test: STD_LOGIC;
+  signal C_out_exp, S_exp: STD_LOGIC;
 
 begin
 
@@ -38,10 +38,6 @@ begin
                 -- Forventet output beregnes
                 S_exp <= A_cnt xor B_cnt xor C_in_cnt;
                 C_out_exp <= (A_cnt and B_cnt) or (C_in_cnt and (A_cnt xor B_cnt));
-                
-                -- Komponentens output sammenlignes med det forventede output
-                S_test <= S_exp xor S;
-                C_out_test <= C_out_exp xor C_out;
                 
                 -- Der ventes på steady state
                 wait for 10 ns;

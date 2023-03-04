@@ -54,7 +54,6 @@ begin
     H_exp <= x"ff";
     wait for 10 ns;
 
-    wait;
   end process;
 
 

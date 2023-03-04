@@ -16,8 +16,8 @@ architecture bench of Half_adder_tb is
 
   signal X: STD_LOGIC;
   signal Y: STD_LOGIC;
-  signal S, S_exp, S_test: STD_LOGIC;
-  signal C, C_exp, C_test: STD_LOGIC;
+  signal S, S_exp: STD_LOGIC;
+  signal C, C_exp: STD_LOGIC;
 
 begin
 
@@ -39,10 +39,6 @@ begin
             -- Forventet output beregnes
             S_exp <= A xor B;
             C_exp <= A and B;           
-            
-            -- Komponentens output sammenlignes med det forventede output
-            S_test <= S xor S_exp;
-            C_test <= C xor C_exp;
             
             -- Der ventes på steady state
             wait for 10 ns;

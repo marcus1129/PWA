@@ -34,6 +34,8 @@ vhdl xil_defaultlib  \
 "../../../../test.srcs/sim_1/new/NegZero_tb.vhd" \
 "../../../../test.srcs/sim_1/new/logic_unit_tb.vhd" \
 "../../../../test.srcs/sim_1/new/logic_unit8bit_tb.vhd" \
+"../../../../test.srcs/sim_1/new/ALU_tb.vhd" \
+"../../../../test.srcs/sim_1/new/FunctionUnit_tb.vhd" \
 
 # Do not sort compile order
 nosort

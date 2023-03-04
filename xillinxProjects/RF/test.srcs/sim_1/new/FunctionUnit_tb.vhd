@@ -40,7 +40,6 @@ begin
   stimulus: process
   begin
     
-    wait for 10 ns;
     
     -- Put initialisation code here
     A <= x"00";
@@ -54,179 +53,179 @@ begin
     wait for 10 ns;
     
     A <= x"55";
-        B <= x"AA";
-        FS0 <= '0';
-        FS1 <= '0';
-        FS2 <= '0';
-        FS3 <= '0';
-        C_exp <= '0';
-        F_exp <= x"55";
-        wait for 10 ns;
+    B <= x"AA";
+    FS0 <= '0';
+    FS1 <= '0';
+    FS2 <= '0';
+    FS3 <= '0';
+    C_exp <= '0';
+    F_exp <= x"55";
+    wait for 10 ns;
+
+    -- A + 1 
+   A <= x"00";
+   B <= x"AA";
+   FS0 <= '1';
+   FS1 <= '0';
+   FS2 <= '0';
+   FS3 <= '0';
+   C_exp <= '0';
+   F_exp <= x"01";
+   wait for 10 ns;
+   
+   -- A + B
+   A <= "10010001";
+   B <= "01100100";
+   FS0 <= '0';
+   FS1 <= '1';
+   FS2 <= '0';
+   FS3 <= '0';
+   C_exp <= '0';
+   F_exp <= "11110101";
+   wait for 10 ns;
+   
+   -- A + B + 1
+   A <= "10010001";
+   B <= "01100100";
+   FS0 <= '1';
+   FS1 <= '1';
+   FS2 <= '0';
+   FS3 <= '0';
+   C_exp <= '0';
+   F_exp <= "11110110";
+   wait for 10 ns;
+       
+        -- A + not B
+    A <= "10010001";
+    B <= "01100100";
+    FS0 <= '0';
+    FS1 <= '0';
+    FS2 <= '1';
+    FS3 <= '0';
+    C_exp <= '1';
+    F_exp <= "00101100";
+    wait for 10 ns;
     
-        -- A + 1 
-       A <= x"00";
-       B <= x"AA";
-       FS0 <= '1';
-       FS1 <= '0';
-       FS2 <= '0';
-       FS3 <= '0';
-       C_exp <= '0';
-       F_exp <= x"01";
-       wait for 10 ns;
-       
-       -- A + B
-       A <= "10010001";
-       B <= "01100100";
-       FS0 <= '0';
-       FS1 <= '1';
-       FS2 <= '0';
-       FS3 <= '0';
-       C_exp <= '0';
-       F_exp <= "11110101";
-       wait for 10 ns;
-       
-       -- A + B + 1
-       A <= "10010001";
-       B <= "01100100";
-       FS0 <= '1';
-       FS1 <= '1';
-       FS2 <= '0';
-       FS3 <= '0';
-       C_exp <= '0';
-       F_exp <= "11110110";
-       wait for 10 ns;
-       
--- A + not B
-              A <= "10010001";
-              B <= "01100100";
-              FS0 <= '0';
-              FS1 <= '0';
-              FS2 <= '1';
-              FS3 <= '0';
-              C_exp <= '1';
-              F_exp <= "00101100";
-              wait for 10 ns;
-              
-              -- A + not B + 1
-              A <= "10010001";
-              B <= "01100100";
-              FS0 <= '1';
-              FS1 <= '0';
-              FS2 <= '1';
-              FS3 <= '0';
-              C_exp <= '1';
-              F_exp <= "00101101";
-              wait for 10 ns;
-              
-              -- A - 1
-              A <= "00001000";
-              B <= x"00";
-              FS0 <= '0';
-              FS1 <= '1';
-              FS2 <= '1';
-              FS3 <= '0';
-              C_exp <= '1';
-              F_exp <= "00000111";
-              wait for 10 ns;
-              
-              -- A
-              A <= x"55";
-              B <= x"00";
-              FS0 <= '1';
-              FS1 <= '1';
-              FS2 <= '1';
-              FS3 <= '0';
-              C_exp <= '-';
-              F_exp <= x"55";
-              wait for 10 ns;
-              
-              -- A or B
-              A <= x"55";
-              B <= x"AA";
-              FS0 <= '0';
-              FS1 <= '0';
-              FS2 <= '0';
-              FS3 <= '1';
-              C_exp <= '-';
-              F_exp <= x"FF";
-              wait for 10 ns;
-              
-              -- A and B
-              A <= x"55";
-              B <= x"AA";
-              FS0 <= '1';
-              FS1 <= '0';
-              FS2 <= '0';
-              FS3 <= '1';
-              C_exp <= '-';
-              F_exp <= x"00";
-              wait for 10 ns;
-              
-              -- A xor B
-              A <= x"55";
-              B <= x"AA";
-              FS0 <= '0';
-              FS1 <= '1';
-              FS2 <= '0';
-              FS3 <= '1';
-              C_exp <= '-';
-              F_exp <= x"FF";
-              wait for 10 ns;
-              
-              -- not A
-              A <= x"55";
-              B <= x"AA";
-              FS0 <= '1';
-              FS1 <= '1';
-              FS2 <= '0';
-              FS3 <= '1';
-              C_exp <= '-';
-              F_exp <= x"AA";
-              wait for 10 ns;
-              
-              -- B
-            A <= x"55";
-            B <= x"AA";
-            FS0 <= '0';
-            FS1 <= '0';
-            FS2 <= '1';
-            FS3 <= '1';
-            C_exp <= '-';
-            F_exp <= x"AA";
-            wait for 10 ns;
-            
-          -- SR B
-          A <= x"00";
-          B <= x"FF";
-          FS0 <= '1';
-          FS1 <= '0';
-          FS2 <= '1';
-          FS3 <= '1';
-          C_exp <= '-';
-          F_exp <= x"7F";
-          wait for 10 ns;
+    -- A + not B + 1
+    A <= "10010001";
+    B <= "01100100";
+    FS0 <= '1';
+    FS1 <= '0';
+    FS2 <= '1';
+    FS3 <= '0';
+    C_exp <= '1';
+    F_exp <= "00101101";
+    wait for 10 ns;
+    
+    -- A - 1
+    A <= "00001000";
+    B <= x"00";
+    FS0 <= '0';
+    FS1 <= '1';
+    FS2 <= '1';
+    FS3 <= '0';
+    C_exp <= '1';
+    F_exp <= "00000111";
+    wait for 10 ns;
+    
+    -- A
+    A <= x"55";
+    B <= x"00";
+    FS0 <= '1';
+    FS1 <= '1';
+    FS2 <= '1';
+    FS3 <= '0';
+    C_exp <= '-';
+    F_exp <= x"55";
+    wait for 10 ns;
+    
+    -- A or B
+    A <= x"55";
+    B <= x"AA";
+    FS0 <= '0';
+    FS1 <= '0';
+    FS2 <= '0';
+    FS3 <= '1';
+    C_exp <= '-';
+    F_exp <= x"FF";
+    wait for 10 ns;
+    
+    -- A and B
+    A <= x"55";
+    B <= x"AA";
+    FS0 <= '1';
+    FS1 <= '0';
+    FS2 <= '0';
+    FS3 <= '1';
+    C_exp <= '-';
+    F_exp <= x"00";
+    wait for 10 ns;
+    
+    -- A xor B
+    A <= x"55";
+    B <= x"AA";
+    FS0 <= '0';
+    FS1 <= '1';
+    FS2 <= '0';
+    FS3 <= '1';
+    C_exp <= '-';
+    F_exp <= x"FF";
+    wait for 10 ns;
+    
+    -- not A
+    A <= x"55";
+    B <= x"AA";
+    FS0 <= '1';
+    FS1 <= '1';
+    FS2 <= '0';
+    FS3 <= '1';
+    C_exp <= '-';
+    F_exp <= x"AA";
+    wait for 10 ns;
+    
+    -- B
+    A <= x"55";
+    B <= x"AA";
+    FS0 <= '0';
+    FS1 <= '0';
+    FS2 <= '1';
+    FS3 <= '1';
+    C_exp <= '-';
+    F_exp <= x"AA";
+    wait for 10 ns;
+    
+    -- SR B
+    A <= x"00";
+    B <= x"FF";
+    FS0 <= '1';
+    FS1 <= '0';
+    FS2 <= '1';
+    FS3 <= '1';
+    C_exp <= '-';
+    F_exp <= x"7F";
+    wait for 10 ns;
           
-          -- SL B
-        A <= x"00";
-        B <= x"FF";
-        FS0 <= '0';
-        FS1 <= '1';
-        FS2 <= '1';
-        FS3 <= '1';
-        C_exp <= '-';
-        F_exp <= x"FE";
-        wait for 10 ns;
-        
-        -- B
-        A <= x"00";
-        B <= x"AA";
-        FS0 <= '1';
-        FS1 <= '1';
-        FS2 <= '1';
-        FS3 <= '1';
-        C_exp <= '-';
-        F_exp <= x"AA";
-        wait for 10 ns;
+    -- SL B
+    A <= x"00";
+    B <= x"FF";
+    FS0 <= '0';
+    FS1 <= '1';
+    FS2 <= '1';
+    FS3 <= '1';
+    C_exp <= '-';
+    F_exp <= x"FE";
+    wait for 10 ns;
+    
+    -- B
+    A <= x"00";
+    B <= x"AA";
+    FS0 <= '1';
+    FS1 <= '1';
+    FS2 <= '1';
+    FS3 <= '1';
+    C_exp <= '-';
+    F_exp <= x"AA";
+    wait for 10 ns;
    
 
 
