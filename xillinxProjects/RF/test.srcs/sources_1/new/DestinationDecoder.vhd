@@ -15,8 +15,12 @@ component Decoder4x16M
           Output : out STD_LOGIC_VECTOR (0 to 15));
 end component;
 
+signal tempLoad : STD_LOGIC_VECTOR(0 to 7);
+
 begin
 
-Decoder : Decoder4x16M port map(Write, D_Address, Load);
+Decoder : Decoder4x16M port map(Write, D_Address, tempLoad);
+load <= tempLoad(0)&tempLoad(1)&tempLoad(2)&tempLoad(3)&tempLoad(4)&tempLoad(5)&tempLoad(6)&tempLoad(7)&tempLoad(8)&tempLoad(9)&tempLoad(10)&tempLoad(11)&tempLoad(12)&tempLoad(13)&tempLoad(14)&tempLoad(15);
+
 
 end DD_Behavioral;

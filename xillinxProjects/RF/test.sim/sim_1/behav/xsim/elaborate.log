@@ -1,6 +1,6 @@
 Vivado Simulator 2018.2
 Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
-Running: /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab -wto 0afd0da3bb0341ddad0a1cad00bd95d6 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot Datapath_tb_behav xil_defaultlib.Datapath_tb -log elaborate.log 
+Running: /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab -wto 0afd0da3bb0341ddad0a1cad00bd95d6 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot Decoder4x16_tb_behav xil_defaultlib.Decoder4x16_tb -log elaborate.log 
 Using 8 slave threads.
 Starting static elaboration
 Completed static elaboration

@@ -20,7 +20,7 @@ Signal ConstantIn, DataIn: std_logic_vector (7 downto 0);
 Signal Address_Out, Data_Out: std_logic_vector (7 downto 0);
 Signal V,C,N,Z: std_logic;
 signal DataOut: STD_LOGIC_VECTOR(0 to 7);
-constant clk_period: time:= 10ns;
+constant clk_period: time:= 8ns;
 signal end_test: std_logic:= '1';
 
 begin

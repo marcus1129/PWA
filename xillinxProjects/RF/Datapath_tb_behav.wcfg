@@ -3,193 +3,40 @@
    <wave_state>
    </wave_state>
    <db_ref_list>
-      <db_ref path="Datapath_tb_behav.wdb" id="1">
+      <db_ref path="Decoder4x16_tb_behav.wdb" id="1">
          <top_modules>
-            <top_module name="Datapath_tb" />
+            <top_module name="Decoder4x16_tb" />
          </top_modules>
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="70000000fs"></ZoomStartTime>
-      <ZoomEndTime time="204000001fs"></ZoomEndTime>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="263741738fs"></ZoomEndTime>
       <Cursor1Time time="100000000fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="175"></NameColumnWidth>
-      <ValueColumnWidth column_width="142"></ValueColumnWidth>
+      <ValueColumnWidth column_width="134"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="7" />
+   <WVObjectSize size="5" />
    <wvobject type="group" fp_name="group291">
       <obj_property name="label">Datapath</obj_property>
       <obj_property name="DisplayName">label</obj_property>
-      <obj_property name="isExpanded"></obj_property>
-      <wvobject type="logic" fp_name="/Datapath_tb/Z">
-         <obj_property name="ElementShortName">Z</obj_property>
-         <obj_property name="ObjectShortName">Z</obj_property>
-      </wvobject>
-      <wvobject type="logic" fp_name="/Datapath_tb/N">
-         <obj_property name="ElementShortName">N</obj_property>
-         <obj_property name="ObjectShortName">N</obj_property>
-      </wvobject>
-      <wvobject type="logic" fp_name="/Datapath_tb/C">
-         <obj_property name="ElementShortName">C</obj_property>
-         <obj_property name="ObjectShortName">C</obj_property>
-      </wvobject>
-      <wvobject type="logic" fp_name="/Datapath_tb/V">
-         <obj_property name="ElementShortName">V</obj_property>
-         <obj_property name="ObjectShortName">V</obj_property>
-      </wvobject>
-      <wvobject type="logic" fp_name="/Datapath_tb/RW">
-         <obj_property name="ElementShortName">RW</obj_property>
-         <obj_property name="ObjectShortName">RW</obj_property>
-      </wvobject>
-      <wvobject type="logic" fp_name="/Datapath_tb/CLK">
-         <obj_property name="ElementShortName">CLK</obj_property>
-         <obj_property name="ObjectShortName">CLK</obj_property>
-      </wvobject>
-      <wvobject type="logic" fp_name="/Datapath_tb/RESET">
-         <obj_property name="ElementShortName">RESET</obj_property>
-         <obj_property name="ObjectShortName">RESET</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/Datapath_tb/DataIn">
-         <obj_property name="ElementShortName">DataIn[7:0]</obj_property>
-         <obj_property name="ObjectShortName">DataIn[7:0]</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/Datapath_tb/Address_Out">
-         <obj_property name="ElementShortName">Address_Out[7:0]</obj_property>
-         <obj_property name="ObjectShortName">Address_Out[7:0]</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/Datapath_tb/Data_Out">
-         <obj_property name="ElementShortName">Data_Out[7:0]</obj_property>
-         <obj_property name="ObjectShortName">Data_Out[7:0]</obj_property>
-      </wvobject>
    </wvobject>
    <wvobject type="group" fp_name="group290">
       <obj_property name="label">RF</obj_property>
       <obj_property name="DisplayName">label</obj_property>
-      <wvobject type="logic" fp_name="/Datapath_tb/UUT/RegisterFile/CLK">
-         <obj_property name="ElementShortName">CLK</obj_property>
-         <obj_property name="ObjectShortName">CLK</obj_property>
-      </wvobject>
-      <wvobject type="logic" fp_name="/Datapath_tb/UUT/RegisterFile/Reset">
-         <obj_property name="ElementShortName">Reset</obj_property>
-         <obj_property name="ObjectShortName">Reset</obj_property>
-      </wvobject>
-      <wvobject type="logic" fp_name="/Datapath_tb/UUT/RegisterFile/RW">
-         <obj_property name="ElementShortName">RW</obj_property>
-         <obj_property name="ObjectShortName">RW</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/Datapath_tb/UUT/RegisterFile/D_Data">
-         <obj_property name="ElementShortName">D_Data[0:7]</obj_property>
-         <obj_property name="ObjectShortName">D_Data[0:7]</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/Datapath_tb/UUT/RegisterFile/DA">
-         <obj_property name="ElementShortName">DA[0:3]</obj_property>
-         <obj_property name="ObjectShortName">DA[0:3]</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/Datapath_tb/UUT/RegisterFile/AA">
-         <obj_property name="ElementShortName">AA[0:3]</obj_property>
-         <obj_property name="ObjectShortName">AA[0:3]</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/Datapath_tb/UUT/RegisterFile/BA">
-         <obj_property name="ElementShortName">BA[0:3]</obj_property>
-         <obj_property name="ObjectShortName">BA[0:3]</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/Datapath_tb/UUT/RegisterFile/A_Data">
-         <obj_property name="ElementShortName">A_Data[0:7]</obj_property>
-         <obj_property name="ObjectShortName">A_Data[0:7]</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/Datapath_tb/UUT/RegisterFile/RegisterLogic/DataOut0">
-         <obj_property name="ElementShortName">DataOut0[0:7]</obj_property>
-         <obj_property name="ObjectShortName">DataOut0[0:7]</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/Datapath_tb/UUT/RegisterFile/B_Data">
-         <obj_property name="ElementShortName">B_Data[0:7]</obj_property>
-         <obj_property name="ObjectShortName">B_Data[0:7]</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/Datapath_tb/UUT/RegisterFile/RegisterLogic/DataOut1">
-         <obj_property name="ElementShortName">DataOut1[0:7]</obj_property>
-         <obj_property name="ObjectShortName">DataOut1[0:7]</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/Datapath_tb/UUT/RegisterFile/RegisterLogic/DataOut2">
-         <obj_property name="ElementShortName">DataOut2[0:7]</obj_property>
-         <obj_property name="ObjectShortName">DataOut2[0:7]</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/Datapath_tb/UUT/RegisterFile/RegisterLogic/DataOut3">
-         <obj_property name="ElementShortName">DataOut3[0:7]</obj_property>
-         <obj_property name="ObjectShortName">DataOut3[0:7]</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/Datapath_tb/UUT/RegisterFile/RegisterLogic/DataOut4">
-         <obj_property name="ElementShortName">DataOut4[0:7]</obj_property>
-         <obj_property name="ObjectShortName">DataOut4[0:7]</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/Datapath_tb/UUT/RegisterFile/RegisterLogic/DataOut5">
-         <obj_property name="ElementShortName">DataOut5[0:7]</obj_property>
-         <obj_property name="ObjectShortName">DataOut5[0:7]</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/Datapath_tb/UUT/RegisterFile/RegisterLogic/DataOut6">
-         <obj_property name="ElementShortName">DataOut6[0:7]</obj_property>
-         <obj_property name="ObjectShortName">DataOut6[0:7]</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/Datapath_tb/UUT/RegisterFile/RegisterLogic/DataOut7">
-         <obj_property name="ElementShortName">DataOut7[0:7]</obj_property>
-         <obj_property name="ObjectShortName">DataOut7[0:7]</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/Datapath_tb/UUT/RegisterFile/RegisterLogic/DataOut8">
-         <obj_property name="ElementShortName">DataOut8[0:7]</obj_property>
-         <obj_property name="ObjectShortName">DataOut8[0:7]</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/Datapath_tb/UUT/RegisterFile/RegisterLogic/DataOut9">
-         <obj_property name="ElementShortName">DataOut9[0:7]</obj_property>
-         <obj_property name="ObjectShortName">DataOut9[0:7]</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/Datapath_tb/UUT/RegisterFile/RegisterLogic/DataOut10">
-         <obj_property name="ElementShortName">DataOut10[0:7]</obj_property>
-         <obj_property name="ObjectShortName">DataOut10[0:7]</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/Datapath_tb/UUT/RegisterFile/RegisterLogic/DataOut11">
-         <obj_property name="ElementShortName">DataOut11[0:7]</obj_property>
-         <obj_property name="ObjectShortName">DataOut11[0:7]</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/Datapath_tb/UUT/RegisterFile/RegisterLogic/DataOut12">
-         <obj_property name="ElementShortName">DataOut12[0:7]</obj_property>
-         <obj_property name="ObjectShortName">DataOut12[0:7]</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/Datapath_tb/UUT/RegisterFile/RegisterLogic/DataOut13">
-         <obj_property name="ElementShortName">DataOut13[0:7]</obj_property>
-         <obj_property name="ObjectShortName">DataOut13[0:7]</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/Datapath_tb/UUT/RegisterFile/RegisterLogic/DataOut14">
-         <obj_property name="ElementShortName">DataOut14[0:7]</obj_property>
-         <obj_property name="ObjectShortName">DataOut14[0:7]</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/Datapath_tb/UUT/RegisterFile/RegisterLogic/DataOut15">
-         <obj_property name="ElementShortName">DataOut15[0:7]</obj_property>
-         <obj_property name="ObjectShortName">DataOut15[0:7]</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/Datapath_tb/UUT/RegisterFile/LoadSig">
-         <obj_property name="ElementShortName">LoadSig[0:15]</obj_property>
-         <obj_property name="ObjectShortName">LoadSig[0:15]</obj_property>
-      </wvobject>
    </wvobject>
-   <wvobject type="logic" fp_name="/Datapath_tb/UUT/FS3">
-      <obj_property name="ElementShortName">FS3</obj_property>
-      <obj_property name="ObjectShortName">FS3</obj_property>
+   <wvobject type="logic" fp_name="/Decoder4x16_tb/Enable">
+      <obj_property name="ElementShortName">Enable</obj_property>
+      <obj_property name="ObjectShortName">Enable</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/Datapath_tb/UUT/FS2">
-      <obj_property name="ElementShortName">FS2</obj_property>
-      <obj_property name="ObjectShortName">FS2</obj_property>
+   <wvobject type="array" fp_name="/Decoder4x16_tb/Input">
+      <obj_property name="ElementShortName">Input[0:3]</obj_property>
+      <obj_property name="ObjectShortName">Input[0:3]</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/Datapath_tb/UUT/FS1">
-      <obj_property name="ElementShortName">FS1</obj_property>
-      <obj_property name="ObjectShortName">FS1</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/Datapath_tb/UUT/FS0">
-      <obj_property name="ElementShortName">FS0</obj_property>
-      <obj_property name="ObjectShortName">FS0</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/Datapath_tb/UUT/Fsig">
-      <obj_property name="ElementShortName">Fsig[7:0]</obj_property>
-      <obj_property name="ObjectShortName">Fsig[7:0]</obj_property>
+   <wvobject type="array" fp_name="/Decoder4x16_tb/Output">
+      <obj_property name="ElementShortName">Output[0:15]</obj_property>
+      <obj_property name="ObjectShortName">Output[0:15]</obj_property>
    </wvobject>
 </wave_config>
