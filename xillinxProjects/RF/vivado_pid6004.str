@@ -189,3 +189,5 @@ selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Instruc
 // TclEventType: DG_ANALYSIS_MSG_RESET
 selectCodeEditor("InstructionRegister.vhd", 203, 102); // ce (w, ck)
 // TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 85 MB (+1042kb) [00:05:15]
+// [Engine Memory]: 615 MB (+247kb) [00:05:25]
