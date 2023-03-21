@@ -2,11 +2,11 @@
 # Webtalk v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Thu Mar  2 11:42:55 2023
-# Process ID: 17983
-# Current directory: /zhome/39/2/168854/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim
-# Command line: wbtcv -mode batch -source /zhome/39/2/168854/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim/xsim.dir/Datapath_tb_behav/webtalk/xsim_webtalk.tcl -notrace
-# Log file: /zhome/39/2/168854/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim/webtalk.log
-# Journal file: /zhome/39/2/168854/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim/webtalk.jou
+# Start of session at: Sun Mar 19 15:52:28 2023
+# Process ID: 5920
+# Current directory: /zhome/ad/e/169133/VHDL_PW_project/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim
+# Command line: wbtcv -mode batch -source /zhome/ad/e/169133/VHDL_PW_project/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim/xsim.dir/IDC_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /zhome/ad/e/169133/VHDL_PW_project/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: /zhome/ad/e/169133/VHDL_PW_project/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim/webtalk.jou
 #-----------------------------------------------------------
-source /zhome/39/2/168854/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim/xsim.dir/Datapath_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+source /zhome/ad/e/169133/VHDL_PW_project/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim/xsim.dir/IDC_tb_behav/webtalk/xsim_webtalk.tcl -notrace
