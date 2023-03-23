@@ -1,18 +1,7 @@
 Vivado Simulator 2018.2
 Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
-Running: /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab -wto 0afd0da3bb0341ddad0a1cad00bd95d6 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot ProgramCounter_tb_behav xil_defaultlib.ProgramCounter_tb -log elaborate.log 
-Using 8 slave threads.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 0afd0da3bb0341ddad0a1cad00bd95d6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot SignExtender_tb_behav xil_defaultlib.SignExtender_tb -log elaborate.log 
+Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling package std.standard
-Compiling package std.textio
-Compiling package ieee.std_logic_1164
-Compiling package ieee.numeric_std
-Compiling package ieee.std_logic_arith
-Compiling package ieee.std_logic_unsigned
-Compiling architecture pc_behavioral of entity xil_defaultlib.ProgramCounter [programcounter_default]
-Compiling architecture bench of entity xil_defaultlib.programcounter_tb
-Built simulation snapshot ProgramCounter_tb_behav
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7vx485tffg1157-1" LaunchTime="1678362084">
+<GenRun Id="synth_1" LaunchPart="xc7k70tfbv676-1" LaunchTime="1679486206">
   <File Type="PA-TCL" Name="ProgramCounter.tcl"/>
   <File Type="REPORTS-TCL" Name="ProgramCounter_reports.tcl"/>
   <File Type="RDS-RDS" Name="ProgramCounter.vds"/>
-  <File Type="RDS-DCP" Name="ProgramCounter.dcp"/>
-  <File Type="RDS-UTIL-PB" Name="ProgramCounter_utilization_synth.pb"/>
   <File Type="RDS-UTIL" Name="ProgramCounter_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="ProgramCounter_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="ProgramCounter.dcp"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/ProgramCounter.vhd">
@@ -211,6 +211,27 @@
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/new/decoder4x16.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/InstructionRegister.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ZeroFiller.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/SignExtender.vhd">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>

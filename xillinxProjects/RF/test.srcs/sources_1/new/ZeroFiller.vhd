@@ -1,40 +1,15 @@
--- Testbench created online at:
---   https://www.doulos.com/knowhow/perl/vhdl-testbench-creation-using-perl/
--- Copyright Doulos Ltd
 
 library IEEE;
-use IEEE.Std_logic_1164.all;
-use IEEE.Numeric_Std.all;
+use IEEE.STD_LOGIC_1164.ALL;
 
-entity ZeroFiller_tb is
-end;
+Entity ZeroFiller is 
+    port (  IR: in std_logic_vector (15 downto 0); 
+            ZeroFilled_8: out std_logic_vector ( 7 downto 0) );
+End ZeroFiller;
+Architecture ZF_Behavorial of ZeroFiller is 
 
-architecture bench of ZeroFiller_tb is
+Begin
 
-  component ZeroFiller 
-      port (  IR: in std_logic_vector (15 downto 0); 
-              ZeroFilled_8: out std_logic_vector ( 7 downto 0) );
-  end component;
+    ZeroFilled_8 <= "00000" & IR(2 downto 0);
 
-  signal IR: std_logic_vector (15 downto 0);
-  signal ZeroFilled_8: std_logic_vector ( 7 downto 0) ;
-
-begin
-
-  uut: ZeroFiller port map ( IR           => IR,
-                             ZeroFilled_8 => ZeroFilled_8 );
-
-  stimulus: process
-  begin
-  
-    -- Put initialisation code here
-
-
-    -- Put test bench stimulus code here
-
-    wait;
-  end process;
-
-
-end;
-  
+End ZF_Behavorial;

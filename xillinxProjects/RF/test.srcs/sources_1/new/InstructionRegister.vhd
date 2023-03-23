@@ -12,28 +12,21 @@ End InstructionRegister;
 
 Architecture IR_Behavorial of InstructionRegister is 
 
-signal IR_reg: std_logic_vector (15 downto 0);
 
 Begin
 
-process is
+Process_CLK: process(CLK, RESET)
 begin
    if RESET = '1' then 
-    IR_reg <= "0";
-   elsif (CLK'event and CLK ='1') then
-     if IL = '1' then                
-       IR_reg <= Instruction_In;
-       else
-       IR_reg <= IR_reg;
-	End if;
-	else IR_reg <= IR_reg;
-   End if;
-   
-   IR <= IR_reg;
+    IR <= "0000000000000000";
+   elsif (rising_edge(clk) and IL = '1')  then              
+    IR <= Instruction_In;
+   end if;
+
 End process;
 
 
 
-End;
+End IR_Behavorial;
 
 
