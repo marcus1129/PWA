@@ -3,9 +3,9 @@
    <wave_state>
    </wave_state>
    <db_ref_list>
-      <db_ref path="Decoder4x16_tb_behav.wdb" id="1">
+      <db_ref path="ProgramCounter_tb_behav.wdb" id="1">
          <top_modules>
-            <top_module name="Decoder4x16_tb" />
+            <top_module name="ProgramCounter_tb" />
          </top_modules>
       </db_ref>
    </db_ref_list>

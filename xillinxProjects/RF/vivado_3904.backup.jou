@@ -1,0 +1,81 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Mar 21 14:59:42 2023
+# Process ID: 3904
+# Current directory: C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22372 C:\Users\thoma\Documents\DTU\_62711 digital systems design\PWA\PWA\xillinxProjects\RF\test.xpr
+# Log file: C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/vivado.log
+# Journal file: C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.xpr}
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sim_1/new/InstructionRegister_tb.vhd} w ]
+add_files -fileset sim_1 {{C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sim_1/new/InstructionRegister_tb.vhd}}
+close [ open {C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sim_1/new/SignExtender_tb.vhd} w ]
+add_files -fileset sim_1 {{C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sim_1/new/SignExtender_tb.vhd}}
+close [ open {C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ZeroFiller_tb.vhd} w ]
+add_files -fileset sim_1 {{C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ZeroFiller_tb.vhd}}
+update_compile_order -fileset sim_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse {{C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ZeroFiller_tb.vhd}}
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_simulation
+open_wave_config {C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/Datapath_tb_behav.wcfg}
+source ProgramCounter_tb.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ZeroFiller_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+open_wave_config {C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/Datapath_tb_behav.wcfg}
+source ZeroFiller_tb.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ProgramCounter_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+current_sim simulation_1
+close_sim
+launch_simulation
+open_wave_config {C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/Datapath_tb_behav.wcfg}
+source ProgramCounter_tb.tcl
+config_webtalk -user on
+set_property -name {xsim.simulate.runtime} -value {60 ns} -objects [get_filesets sim_1]
+update_ip_catalog
+update_ip_catalog
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top SignExtender_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+update_ip_catalog
+launch_simulation
+open_wave_config {C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/Datapath_tb_behav.wcfg}
+source SignExtender_tb.tcl
+close_sim
+launch_simulation
+open_wave_config {C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/Datapath_tb_behav.wcfg}
+source SignExtender_tb.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+close_sim
+launch_simulation
+open_wave_config {C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/Datapath_tb_behav.wcfg}
+source SignExtender_tb.tcl
+close_sim
+current_sim simulation_3
+close_sim
+close_sim

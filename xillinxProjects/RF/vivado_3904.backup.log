@@ -1,0 +1,491 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Mar 21 14:59:42 2023
+# Process ID: 3904
+# Current directory: C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22372 C:\Users\thoma\Documents\DTU\_62711 digital systems design\PWA\PWA\xillinxProjects\RF\test.xpr
+# Log file: C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/vivado.log
+# Journal file: C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.2/data/ip'.
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sim_1/new/InstructionRegister_tb.vhd} w ]
+add_files -fileset sim_1 {{C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sim_1/new/InstructionRegister_tb.vhd}}
+close [ open {C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sim_1/new/SignExtender_tb.vhd} w ]
+add_files -fileset sim_1 {{C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sim_1/new/SignExtender_tb.vhd}}
+close [ open {C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ZeroFiller_tb.vhd} w ]
+add_files -fileset sim_1 {{C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ZeroFiller_tb.vhd}}
+update_compile_order -fileset sim_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse {{C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ZeroFiller_tb.vhd}}
+WARNING: [filemgmt 56-12] File 'C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ZeroFiller_tb.vhd' cannot be added to the project because it already exists in the project, skipping this file
+launch_runs synth_1 -jobs 6
+[Tue Mar 21 15:09:42 2023] Launched synth_1...
+Run output will be captured here: C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.runs/synth_1/runme.log
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'ProgramCounter_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ProgramCounter_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ProgramCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ProgramCounter
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ProgramCounter_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ProgramCounter_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 0afd0da3bb0341ddad0a1cad00bd95d6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ProgramCounter_tb_behav xil_defaultlib.ProgramCounter_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture pc_behavioral of entity xil_defaultlib.ProgramCounter [programcounter_default]
+Compiling architecture bench of entity xil_defaultlib.programcounter_tb
+Built simulation snapshot ProgramCounter_tb_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/thoma/Documents/DTU/_62711 -notrace
+couldn't read file "C:/Users/thoma/Documents/DTU/_62711": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Tue Mar 21 15:09:54 2023...
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ProgramCounter_tb_behav -key {Behavioral:sim_1:Functional:ProgramCounter_tb} -tclbatch {ProgramCounter_tb.tcl} -view {{C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/Datapath_tb_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config {C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/Datapath_tb_behav.wcfg}
+source ProgramCounter_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 100 ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ProgramCounter_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 100 ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 879.316 ; gain = 12.141
+set_property top ZeroFiller_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'ZeroFiller_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ZeroFiller_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ZeroFiller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ZeroFiller
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ZeroFiller_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ZeroFiller_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 0afd0da3bb0341ddad0a1cad00bd95d6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ZeroFiller_tb_behav xil_defaultlib.ZeroFiller_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture zf_behavorial of entity xil_defaultlib.ZeroFiller [zerofiller_default]
+Compiling architecture bench of entity xil_defaultlib.zerofiller_tb
+Built simulation snapshot ZeroFiller_tb_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/thoma/Documents/DTU/_62711 -notrace
+couldn't read file "C:/Users/thoma/Documents/DTU/_62711": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Tue Mar 21 15:10:53 2023...
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ZeroFiller_tb_behav -key {Behavioral:sim_1:Functional:ZeroFiller_tb} -tclbatch {ZeroFiller_tb.tcl} -view {{C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/Datapath_tb_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config {C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/Datapath_tb_behav.wcfg}
+WARNING: Simulation object /ProgramCounter_tb/RESET was not found in the design.
+WARNING: Simulation object /ProgramCounter_tb/CLK was not found in the design.
+WARNING: Simulation object /ProgramCounter_tb/PS was not found in the design.
+WARNING: Simulation object /ProgramCounter_tb/Address_In was not found in the design.
+WARNING: Simulation object /ProgramCounter_tb/Offset was not found in the design.
+WARNING: Simulation object /ProgramCounter_tb/PC was not found in the design.
+WARNING: Simulation object /ProgramCounter_tb/PC_exp was not found in the design.
+source ZeroFiller_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 100 ns
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run: Time (s): cpu = 00:00:01 ; elapsed = 00:01:00 . Memory (MB): peak = 897.676 ; gain = 0.000
+INFO: [Common 17-344] 'run' was cancelled
+INFO: [Common 17-344] 'source' was cancelled
+xsim: Time (s): cpu = 00:00:01 ; elapsed = 00:01:01 . Memory (MB): peak = 897.676 ; gain = 0.000
+INFO: [Common 17-344] 'xsim' was cancelled
+INFO: [Vivado 12-5357] 'simulate' step aborted
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:01:05 . Memory (MB): peak = 897.676 ; gain = 0.000
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+set_property top ProgramCounter_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+current_sim simulation_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'ProgramCounter_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ProgramCounter_tb_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 0afd0da3bb0341ddad0a1cad00bd95d6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ProgramCounter_tb_behav xil_defaultlib.ProgramCounter_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ProgramCounter_tb_behav -key {Behavioral:sim_1:Functional:ProgramCounter_tb} -tclbatch {ProgramCounter_tb.tcl} -view {{C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/Datapath_tb_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config {C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/Datapath_tb_behav.wcfg}
+source ProgramCounter_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 100 ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ProgramCounter_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 100 ns
+config_webtalk -user on
+set_property -name {xsim.simulate.runtime} -value {60 ns} -objects [get_filesets sim_1]
+update_ip_catalog
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ZeroFiller.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sim_1/new/SignExtender_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SignExtender.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ProgramCounter_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sim_1/new/InstructionRegister_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ZeroFiller_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/InstructionRegister.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ZeroFiller.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sim_1/new/SignExtender_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SignExtender.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ProgramCounter_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sim_1/new/InstructionRegister_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ZeroFiller_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/InstructionRegister.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ZeroFiller.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sim_1/new/SignExtender_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SignExtender.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ProgramCounter_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sim_1/new/InstructionRegister_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ZeroFiller_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/InstructionRegister.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ZeroFiller.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sim_1/new/SignExtender_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SignExtender.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ProgramCounter_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sim_1/new/InstructionRegister_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ZeroFiller_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/InstructionRegister.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ZeroFiller.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sim_1/new/SignExtender_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SignExtender.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ProgramCounter_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sim_1/new/InstructionRegister_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ZeroFiller_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/InstructionRegister.vhd:]
+update_ip_catalog
+set_property top SignExtender_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+update_ip_catalog
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'SignExtender_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj SignExtender_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SignExtender.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SignExtender
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sim_1/new/SignExtender_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SignExtender_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 0afd0da3bb0341ddad0a1cad00bd95d6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot SignExtender_tb_behav xil_defaultlib.SignExtender_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture se_behavorial of entity xil_defaultlib.SignExtender [signextender_default]
+Compiling architecture bench of entity xil_defaultlib.signextender_tb
+Built simulation snapshot SignExtender_tb_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/thoma/Documents/DTU/_62711 -notrace
+couldn't read file "C:/Users/thoma/Documents/DTU/_62711": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Wed Mar 22 12:48:10 2023...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "SignExtender_tb_behav -key {Behavioral:sim_1:Functional:SignExtender_tb} -tclbatch {SignExtender_tb.tcl} -view {{C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/Datapath_tb_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config {C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/Datapath_tb_behav.wcfg}
+WARNING: Simulation object /ProgramCounter_tb/RESET was not found in the design.
+WARNING: Simulation object /ProgramCounter_tb/CLK was not found in the design.
+WARNING: Simulation object /ProgramCounter_tb/PS was not found in the design.
+WARNING: Simulation object /ProgramCounter_tb/Address_In was not found in the design.
+WARNING: Simulation object /ProgramCounter_tb/Offset was not found in the design.
+WARNING: Simulation object /ProgramCounter_tb/PC was not found in the design.
+WARNING: Simulation object /ProgramCounter_tb/PC_exp was not found in the design.
+source SignExtender_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 60 ns
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run: Time (s): cpu = 00:00:03 ; elapsed = 00:00:17 . Memory (MB): peak = 1020.164 ; gain = 0.215
+INFO: [Common 17-344] 'run' was cancelled
+INFO: [Common 17-344] 'source' was cancelled
+xsim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:19 . Memory (MB): peak = 1020.164 ; gain = 7.953
+INFO: [Common 17-344] 'xsim' was cancelled
+INFO: [Vivado 12-5357] 'simulate' step aborted
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:25 . Memory (MB): peak = 1020.164 ; gain = 7.953
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'SignExtender_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj SignExtender_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SignExtender.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SignExtender
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 0afd0da3bb0341ddad0a1cad00bd95d6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot SignExtender_tb_behav xil_defaultlib.SignExtender_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture se_behavorial of entity xil_defaultlib.SignExtender [signextender_default]
+Compiling architecture bench of entity xil_defaultlib.signextender_tb
+Built simulation snapshot SignExtender_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "SignExtender_tb_behav -key {Behavioral:sim_1:Functional:SignExtender_tb} -tclbatch {SignExtender_tb.tcl} -view {{C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/Datapath_tb_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config {C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/Datapath_tb_behav.wcfg}
+WARNING: Simulation object /ProgramCounter_tb/RESET was not found in the design.
+WARNING: Simulation object /ProgramCounter_tb/CLK was not found in the design.
+WARNING: Simulation object /ProgramCounter_tb/PS was not found in the design.
+WARNING: Simulation object /ProgramCounter_tb/Address_In was not found in the design.
+WARNING: Simulation object /ProgramCounter_tb/Offset was not found in the design.
+WARNING: Simulation object /ProgramCounter_tb/PC was not found in the design.
+WARNING: Simulation object /ProgramCounter_tb/PC_exp was not found in the design.
+source SignExtender_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 60 ns
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run: Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 1021.688 ; gain = 0.211
+INFO: [Common 17-344] 'run' was cancelled
+INFO: [Common 17-344] 'source' was cancelled
+xsim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:14 . Memory (MB): peak = 1021.688 ; gain = 1.090
+INFO: [Common 17-344] 'xsim' was cancelled
+INFO: [Vivado 12-5357] 'simulate' step aborted
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:17 . Memory (MB): peak = 1021.688 ; gain = 1.090
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.runs/synth_1
+
+launch_runs synth_1 -jobs 6
+[Wed Mar 22 12:56:46 2023] Launched synth_1...
+Run output will be captured here: C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.runs/synth_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'SignExtender_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj SignExtender_tb_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 0afd0da3bb0341ddad0a1cad00bd95d6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot SignExtender_tb_behav xil_defaultlib.SignExtender_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "SignExtender_tb_behav -key {Behavioral:sim_1:Functional:SignExtender_tb} -tclbatch {SignExtender_tb.tcl} -view {{C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/Datapath_tb_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config {C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/Datapath_tb_behav.wcfg}
+WARNING: Simulation object /ProgramCounter_tb/RESET was not found in the design.
+WARNING: Simulation object /ProgramCounter_tb/CLK was not found in the design.
+WARNING: Simulation object /ProgramCounter_tb/PS was not found in the design.
+WARNING: Simulation object /ProgramCounter_tb/Address_In was not found in the design.
+WARNING: Simulation object /ProgramCounter_tb/Offset was not found in the design.
+WARNING: Simulation object /ProgramCounter_tb/PC was not found in the design.
+WARNING: Simulation object /ProgramCounter_tb/PC_exp was not found in the design.
+source SignExtender_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 60 ns
+FATAL_ERROR: Vivado Simulator kernel has discovered an exceptional condition from which it cannot recover. Process will terminate. For technical support on this issue, please open a WebCase with this project attached at http://www.xilinx.com/support.
+Time: 0 ps  Iteration: 0  Process: /SignExtender_tb/uut/line__15
+  File: C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SignExtender.vhd
+
+HDL Line: C:/Users/thoma/Documents/DTU/_62711 digital systems design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SignExtender.vhd:21
+run: Time (s): cpu = 00:00:03 ; elapsed = 00:01:09 . Memory (MB): peak = 1026.785 ; gain = 0.293
+xsim: Time (s): cpu = 00:00:03 ; elapsed = 00:01:11 . Memory (MB): peak = 1026.785 ; gain = 0.293
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'SignExtender_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 60 ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:01:14 . Memory (MB): peak = 1026.785 ; gain = 0.293
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 1027.848 ; gain = 0.000
+current_sim simulation_3
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:42:03 . Memory (MB): peak = 1027.848 ; gain = 0.000
+exit
