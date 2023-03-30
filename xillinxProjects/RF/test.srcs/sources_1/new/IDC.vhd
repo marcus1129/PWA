@@ -49,6 +49,8 @@ end IDC;
 architecture Behavioral of IDC is
 
 type StateType is (INF, EX0, EX1, EX2, EX3, EX4);
+type MnemonicsType is (NA, MOVA, INC, ADD, SUB, DEC, M_OR, M_AND, M_XOR, M_NOT, MOVB, LD, ST, LDI, ADI, BRZ, BRN, JMP, LRI, SRM, SLM); 
+signal Mnemonic : MnemonicsType;
 signal State, NextState: StateType;
 signal Opcode: STD_LOGIC_VECTOR(6 downto 0);
 
@@ -69,6 +71,21 @@ end process;
 
 ControlLogic : process(State, Opcode, IR, N, Z)
 begin
+    
+    NextState <= EX0;
+    IL <= '0';
+    PS <= "00";
+    DX <= "0000";
+    AX <= "0000";
+    BX <= "0000";
+    MB <= '0';
+    FS <= "0000";
+    MD <= '0';
+    RW <= '0';
+    MM <= '0';
+    MW <= '0';
+    Mnemonic <= NA;
+            
     case State is
         
         when INF =>
@@ -78,12 +95,13 @@ begin
             DX <= '-' & IR(8 downto 6);
             AX <= '-' & IR(5 downto 3);
             BX <= '-' & IR(2 downto 0);
-            MB <= '-'; --Er det her unødvendigt?
+            MB <= '-';
             FS <= "----";
             MD <= '-';
             RW <= '0';
             MM <= '1';
             MW <= '0';
+            Mnemonic <= NA;
 
         
         
@@ -102,6 +120,7 @@ begin
                 RW <= '1';
                 MM <= '-';
                 MW <= '0';
+                Mnemonic <= MOVA;
             
             elsif Opcode = "0000001" then
                 NextState <= INF;
@@ -116,6 +135,7 @@ begin
                 RW <= '1';
                 MM <= '-';
                 MW <= '0';
+                Mnemonic <= INC;
             
             elsif Opcode = "0000010" then
                 NextState <= INF;
@@ -130,7 +150,8 @@ begin
                 RW <= '1';
                 MM <= '-';
                 MW <= '0';
-            
+                Mnemonic <= ADD;
+                
             elsif Opcode = "0000101" then
                 NextState <= INF;
                 IL <= '0';
@@ -144,6 +165,7 @@ begin
                 RW <= '1';
                 MM <= '-';
                 MW <= '0';
+                Mnemonic <= SUB;
                 
             elsif Opcode = "0000110" then
                 NextState <= INF;
@@ -158,7 +180,8 @@ begin
                 RW <= '1';
                 MM <= '-';
                 MW <= '0';
-            
+                Mnemonic <= DEC;
+                
             elsif Opcode = "0001000" then
                 NextState <= INF;
                 IL <= '0';
@@ -172,6 +195,7 @@ begin
                 RW <= '1';
                 MM <= '-';
                 MW <= '0';
+                Mnemonic <= M_OR;
                 
             elsif Opcode = "0001001" then
                 NextState <= INF;
@@ -186,7 +210,8 @@ begin
                 RW <= '1';
                 MM <= '-';
                 MW <= '0';
-            
+                Mnemonic <= M_AND;
+                
             elsif Opcode = "0001010" then
                 NextState <= INF;
                 IL <= '0';
@@ -200,6 +225,7 @@ begin
                 RW <= '1';
                 MM <= '-';
                 MW <= '0';
+                Mnemonic <= M_XOR;
                 
             elsif Opcode = "0001011" then
                 NextState <= INF;
@@ -214,6 +240,7 @@ begin
                 RW <= '1';
                 MM <= '-';
                 MW <= '0';
+                Mnemonic <= M_NOT;
             
             elsif Opcode = "0001100" then
                 NextState <= INF;
@@ -228,6 +255,7 @@ begin
                 RW <= '1';
                 MM <= '-';
                 MW <= '0';
+                Mnemonic <= MOVB;
                 
             elsif Opcode = "0010000" then
                 NextState <= INF;
@@ -242,7 +270,8 @@ begin
                 RW <= '1';
                 MM <= '0';
                 MW <= '0';
-            
+                Mnemonic <= LD;
+                
             elsif Opcode = "0100000" then
                 NextState <= INF;
                 IL <= '0';
@@ -256,6 +285,7 @@ begin
                 RW <= '0';
                 MM <= '0';
                 MW <= '1';
+                Mnemonic <= ST;
                 
             elsif Opcode = "1001100" then
                 NextState <= INF;
@@ -270,6 +300,7 @@ begin
                 RW <= '1';
                 MM <= '0';
                 MW <= '0';
+                Mnemonic <= LDI;
                 
             elsif Opcode = "1000010" then
                 NextState <= INF;
@@ -284,6 +315,7 @@ begin
                 RW <= '1';
                 MM <= '0';
                 MW <= '0';
+                Mnemonic <= ADI;
                 
             elsif Opcode = "1100000" and Z = '1' then
                 NextState <= INF;
@@ -298,7 +330,8 @@ begin
                 RW <= '0';
                 MM <= '0';
                 MW <= '0';
-            
+                Mnemonic <= BRZ;
+                
             elsif Opcode = "1100000" and Z = '0' then
                 NextState <= INF;
                 IL <= '0';
@@ -312,6 +345,7 @@ begin
                 RW <= '0';
                 MM <= '0';
                 MW <= '0';
+                Mnemonic <= BRZ;
                 
             elsif Opcode = "1100001" and N = '1' then
                 NextState <= INF;
@@ -326,6 +360,7 @@ begin
                 RW <= '0';
                 MM <= '0';
                 MW <= '0';
+                Mnemonic <= BRN;
                 
             elsif Opcode = "1100001" and N = '0' then
                 NextState <= INF;
@@ -340,6 +375,7 @@ begin
                 RW <= '0';
                 MM <= '0';
                 MW <= '0';
+                Mnemonic <= BRN;
                 
             elsif Opcode = "1110000" then
                 NextState <= INF;
@@ -354,7 +390,8 @@ begin
                 RW <= '0';
                 MM <= '0';
                 MW <= '0';
-            
+                Mnemonic <= JMP;
+                
             --Anden kasse
             elsif Opcode = "0010001" then
                 NextState <= EX1;
@@ -369,7 +406,8 @@ begin
                 RW <= '1';
                 MM <= '0';
                 MW <= '0';
-            
+                Mnemonic <= LRI;
+                
             --Tredje kasse
             elsif Opcode = "0001101" and Z = '0' then
                 NextState <= EX1;
@@ -384,7 +422,8 @@ begin
                 RW <= '1';
                 MM <= '-';
                 MW <= '0';   
-             
+                Mnemonic <= SRM;
+                
              elsif Opcode = "0001101" and Z = '1' then
                 NextState <= INF;
                  IL <= '0';
@@ -398,6 +437,7 @@ begin
                  RW <= '1';
                  MM <= '-';
                  MW <= '0';
+                 Mnemonic <= SRM;
                  
              --Fjerde kasse
             elsif Opcode = "0001110" and Z = '0' then
@@ -413,6 +453,7 @@ begin
                 RW <= '1';
                 MM <= '-';
                 MW <= '0';
+                Mnemonic <= SLM;
                 
             elsif Opcode = "0001110" and Z = '1' then
                 NextState <= INF;
@@ -427,6 +468,7 @@ begin
                 RW <= '1';
                 MM <= '-';
                 MW <= '0';
+                Mnemonic <= SLM;
             
             end if;
         
@@ -446,6 +488,7 @@ begin
                 RW <= '1';
                 MM <= '0';
                 MW <= '0';
+                Mnemonic <= LRI;
             
             --Tredje kasse
             elsif Opcode = "0001101" and Z = '0' then
@@ -461,7 +504,8 @@ begin
                 RW <= '1';
                 MM <= '-';
                 MW <= '0';
-            
+                Mnemonic <= SRM;
+                
             elsif Opcode = "0001101" and Z = '1' then
                 NextState <= INF;
                 IL <= '0';
@@ -475,7 +519,8 @@ begin
                 RW <= '1';
                 MM <= '-';
                 MW <= '0';
-            
+                Mnemonic <= SRM;
+                
             --Fjerde kasse
             elsif Opcode = "0001110" and Z = '0' then
                 NextState <= EX2;
@@ -490,6 +535,7 @@ begin
                 RW <= '1';
                 MM <= '-';
                 MW <= '0';
+                Mnemonic <= SLM;
             
             elsif Opcode = "0001110" and Z = '1' then
                 NextState <= INF;
@@ -504,7 +550,8 @@ begin
                 RW <= '1';
                 MM <= '-';
                 MW <= '0';
-            
+                Mnemonic <= SLM;
+                
             end if;
             
             
@@ -523,7 +570,8 @@ begin
                 RW <= '1';
                 MM <= '-';
                 MW <= '0';
-            
+                Mnemonic <= SRM;
+                
             --Fjerde kasse
             elsif Opcode = "0001110" then
                 NextState <= EX3;
@@ -538,7 +586,8 @@ begin
                 RW <= '1';
                 MM <= '-';
                 MW <= '0';
-            
+                Mnemonic <= SLM;
+                
             end if;
         
         
@@ -557,6 +606,7 @@ begin
                 RW <= '1';
                 MM <= '-';
                 MW <= '0';
+                Mnemonic <= SRM;
                 
             elsif Opcode = "0001101" and Z = '1' then
                 NextState <= EX4;
@@ -571,7 +621,8 @@ begin
                 RW <= '1';
                 MM <= '-';
                 MW <= '0';
-            
+                Mnemonic <= SRM;
+                
             --Fjerde kasse    
             elsif Opcode = "0001110" and Z = '0' then
                 NextState <= EX2;
@@ -586,6 +637,7 @@ begin
                 RW <= '1';
                 MM <= '-';
                 MW <= '0';
+                Mnemonic <= SLM;
                 
             elsif Opcode = "0001110" and Z = '1' then
                 NextState <= EX4;
@@ -600,10 +652,11 @@ begin
                 RW <= '1';
                 MM <= '-';
                 MW <= '0';
-            
+                Mnemonic <= SLM;
+                
             end if;
         
-        when EX4 => --De to opcodes i EX4 udløser umiddelbart ens effekt
+        when EX4 => 
             --Tredje kasse
             if Opcode = "0001101" then
                 NextState <= INF;
@@ -618,6 +671,7 @@ begin
                 RW <= '1';
                 MM <= '-';
                 MW <= '0';
+                Mnemonic <= SRM;
             
             --Fjerde kasse
             elsif Opcode = "0001110" then
@@ -633,66 +687,11 @@ begin
                 RW <= '1';
                 MM <= '-';
                 MW <= '0';
-            
+                Mnemonic <= SLM;
+                
             end if;
 
     end case;
 end process;
 
 end Behavioral;        
---        when EX2 =>
---             NextState <= EX3;
---             IL <= '0';
---             PS <= "00";
---             DX <= "1000";
---             AX <= '-' & IR(5 downto 3);
---             BX <= "1000";
---             MB <= '0';
---             MD <= '0';
---             RW <= '1';
---             MM <= '-';
---             MW <= '0';
-            
---            --Tredje kasse
---            if Opcode = "0001101" then
---                FS <= "1101";
---            --Fjerde kasse
---            elsif Opcode = "0001110" then
---                FS <= "1110";
---            end if;
-        
-        
---        when EX3 => 
---            IL <= '0';
---            PS <= "00";
---            DX <= "1001";
---            AX <= "1001";
---            BX <= '-' & IR(2 downto 0);
---            MB <= '-';
---            FS <= "0110";
---            MD <= '0';
---            RW <= '1';
---            MM <= '-';
---            MW <= '0';
-            
---            if Z = '0' then
---                NextState <= EX2;
---            elsif Z = '1' then
---                NextState <= EX4;
---            end if;
-        
-        
---        when EX3 =>
---            NextState <= INF;
---            IL <= '0';
---            PS <= "01";
---            DX <= '0' & IR(8 downto 6);
---            AX <= "1000";
---            BX <= '-' & IR(2 downto 0);
---            FS <= "0000";
-            
-                
-    
-    
-    
-

@@ -10,15 +10,44 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="600000000fs"></ZoomStartTime>
-      <ZoomEndTime time="683100001fs"></ZoomEndTime>
-      <Cursor1Time time="666700000fs"></Cursor1Time>
+      <ZoomStartTime time="545152000fs"></ZoomStartTime>
+      <ZoomEndTime time="712152001fs"></ZoomEndTime>
+      <Cursor1Time time="457800000fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="175"></NameColumnWidth>
-      <ValueColumnWidth column_width="134"></ValueColumnWidth>
+      <ValueColumnWidth column_width="130"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="16" />
+   <WVObjectSize size="17" />
+   <wave_markers>
+      <marker label="" time="15000000" />
+      <marker label="" time="35000000" />
+      <marker label="" time="55000000" />
+      <marker label="" time="75000000" />
+      <marker label="" time="95000000" />
+      <marker label="" time="115000000" />
+      <marker label="" time="135000000" />
+      <marker label="" time="155000000" />
+      <marker label="" time="175000000" />
+      <marker label="" time="195000000" />
+      <marker label="" time="215000000" />
+      <marker label="" time="235000000" />
+      <marker label="" time="255000000" />
+      <marker label="" time="275000000" />
+      <marker label="" time="295000000" />
+      <marker label="" time="315000000" />
+      <marker label="" time="335000000" />
+      <marker label="" time="355000000" />
+      <marker label="" time="375000000" />
+      <marker label="" time="425000000" />
+      <marker label="" time="445000000" />
+      <marker label="" time="475000000" />
+      <marker label="" time="575000000" />
+      <marker label="" time="515067000" />
+      <marker label="" time="605000000" />
+      <marker label="" time="645067000" />
+      <marker label="" time="555000000" />
+   </wave_markers>
    <wvobject type="logic" fp_name="/IDC_tb/Reset">
       <obj_property name="ElementShortName">Reset</obj_property>
       <obj_property name="ObjectShortName">Reset</obj_property>
@@ -26,6 +55,10 @@
    <wvobject type="logic" fp_name="/IDC_tb/CLK">
       <obj_property name="ElementShortName">CLK</obj_property>
       <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/IDC_tb/uut/Mnemonic">
+      <obj_property name="ElementShortName">Mnemonic</obj_property>
+      <obj_property name="ObjectShortName">Mnemonic</obj_property>
    </wvobject>
    <wvobject type="other" fp_name="/IDC_tb/uut/State">
       <obj_property name="ElementShortName">State</obj_property>

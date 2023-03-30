@@ -325,3 +325,7 @@ INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/ad/e/169133/VHDL_PW_project/PWA/
 INFO: [VRFC 10-307] analyzing entity IDC
 INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/ad/e/169133/VHDL_PW_project/PWA/xillinxProjects/RF/test.srcs/sim_1/new/IDC_tb.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity IDC_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/ad/e/169133/VHDL_PW_project/PWA/xillinxProjects/RF/test.srcs/sources_1/new/IDC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity IDC
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/ad/e/169133/VHDL_PW_project/PWA/xillinxProjects/RF/test.srcs/sources_1/new/IDC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity IDC
