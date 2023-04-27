@@ -70,8 +70,5 @@ SE: SignExtender port map(IR_out, Offset);
 ZF: ZeroFiller port map(IR_out, Constant_Out);
 IDC3: IDC port map (RESET, CLK, IR_out, V,C,N,Z,IL,PS,DX,AX,BX,MB,FS,MD,RW,MM,MW);
     
-<<<<<<< Updated upstream
+
 End;
-=======
-End;
->>>>>>> Stashed changes

@@ -36,15 +36,12 @@ use UNIMACRO.vcomponents.all;
 entity Ram256X16 is
         Port (  clk, Reset : in STD_LOGIC;
                 Data_in : in STD_LOGIC_VECTOR (15 downto 0); 
-                Address_in : in STD_LOGIC_VECTOR (7 downto 0); 
-                MW : in STD_LOGIC;
+                Address_in : in STD_LOGIC_VECTOR (9 downto 0); 
+                MW : in STD_LOGIC_vector (1 downto 0);
                 Data_out : out STD_LOGIC_VECTOR (15 downto 0)); 
 end Ram256X16;
 
 Architecture IDC_Behavorial of Ram256X16 is
-
-signal address_signal : std_logic_vector(15 downto 0);
-signal MW_signal : std_logic_vector(1 downto 0);
 
 begin
 
@@ -214,17 +211,14 @@ begin
    
    port map (
       DO => Data_out,           -- Output data, width defined by READ_WIDTH parameter
-      ADDR => Address_signal,   -- Input address, width defined by read/write port depth
+      ADDR => Address_in,   -- Input address, width defined by read/write port depth
       CLK => clk,               -- 1-bit input clock
       DI => Data_in,            -- Input data port, width defined by WRITE_WIDTH parameter
       EN => '1',                -- 1-bit input RAM enable
       REGCE => '1',             -- 1-bit input output register enable
       RST => Reset,             -- 1-bit input reset
-      WE => MW_signal           -- Input write enable, width defined by write port depth
+      WE => MW           -- Input write enable, width defined by write port depth
    );
-   
-   MW_signal <= '0' & MW;
-   Address_signal <= "00" & Address_in;
    
    
 
