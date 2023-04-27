@@ -15,11 +15,6 @@ component Decoder4x16M
           Output : out STD_LOGIC_VECTOR (15 downto 0));
 end component;
 
-<<<<<<< Updated upstream
-=======
-signal tempLoad : STD_LOGIC_VECTOR(0 to 15);
-
->>>>>>> Stashed changes
 begin
 
 Decoder : Decoder4x16M port map(Write, D_Address, Load);
