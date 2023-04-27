@@ -4,9 +4,9 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity RegisterR16 is
     Port(CLK : in STD_LOGIC;
          Reset : in STD_LOGIC;
-         Load : in STD_LOGIC_VECTOR(0 to 15);
-         DataIn : in STD_LOGIC_VECTOR(0 to 7);
-         DataOut0, DataOut1, DataOut2, DataOut3, DataOut4, DataOut5, DataOut6, DataOut7, DataOut8, DataOut9, DataOut10, DataOut11, DataOut12, DataOut13, DataOut14, DataOut15 : out STD_LOGIC_VECTOR(0 to 7));
+         Load : in STD_LOGIC_VECTOR(15 downto 0);
+         DataIn : in STD_LOGIC_VECTOR(7 downto 0);
+         DataOut0, DataOut1, DataOut2, DataOut3, DataOut4, DataOut5, DataOut6, DataOut7, DataOut8, DataOut9, DataOut10, DataOut11, DataOut12, DataOut13, DataOut14, DataOut15 : out STD_LOGIC_VECTOR(7 downto 0));
 end RegisterR16;
 
 architecture RR16_Behavioral of RegisterR16 is
@@ -15,8 +15,8 @@ component RegisterCell
     Port (Enable : in STD_LOGIC;
           Reset : in STD_LOGIC;
           CLK : in STD_LOGIC;
-          DataIn : in STD_LOGIC_VECTOR(0 to 7);
-          DataOut : out STD_LOGIC_VECTOR(0 to 7));
+          DataIn : in STD_LOGIC_VECTOR(7 downto 0);
+          DataOut : out STD_LOGIC_VECTOR(7 downto 0));
 end component;
 
 begin
