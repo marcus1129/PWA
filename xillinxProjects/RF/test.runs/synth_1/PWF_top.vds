@@ -1,0 +1,80 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Apr 27 09:55:29 2023
+# Process ID: 28921
+# Current directory: /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.runs/synth_1
+# Command line: vivado -log PWF_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source PWF_top.tcl
+# Log file: /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.runs/synth_1/PWF_top.vds
+# Journal file: /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source PWF_top.tcl -notrace
+Command: synth_design -top PWF_top -part xc7vx485tffg1157-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-1540] The version limit for your license is '2023.01' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 28984 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 1413.715 ; gain = 87.000 ; free physical = 196328 ; free virtual = 257070
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'PWF_top' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/PWF_top.vhd:12]
+INFO: [Synth 8-3491] module 'MicroprogramController' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MicroprogramController.vhd:4' bound to instance 'MC' of component 'MicroprogramController' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/PWF_top.vhd:78]
+INFO: [Synth 8-638] synthesizing module 'MicroprogramController' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MicroprogramController.vhd:16]
+INFO: [Synth 8-3491] module 'ProgramCounter' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ProgramCounter.vhd:6' bound to instance 'PC' of component 'ProgramCounter' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MicroprogramController.vhd:67]
+INFO: [Synth 8-638] synthesizing module 'ProgramCounter' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ProgramCounter.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'ProgramCounter' (1#1) [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ProgramCounter.vhd:15]
+INFO: [Synth 8-3491] module 'InstructionRegister' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/InstructionRegister.vhd:5' bound to instance 'IR' of component 'InstructionRegister' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MicroprogramController.vhd:68]
+INFO: [Synth 8-638] synthesizing module 'InstructionRegister' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/InstructionRegister.vhd:13]
+WARNING: [Synth 8-614] signal 'IL' is read in the process but is not in the sensitivity list [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/InstructionRegister.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'InstructionRegister' (2#1) [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/InstructionRegister.vhd:13]
+INFO: [Synth 8-3491] module 'SignExtender' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SignExtender.vhd:5' bound to instance 'SE' of component 'SignExtender' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MicroprogramController.vhd:69]
+INFO: [Synth 8-638] synthesizing module 'SignExtender' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SignExtender.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'SignExtender' (3#1) [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SignExtender.vhd:10]
+INFO: [Synth 8-3491] module 'ZeroFiller' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ZeroFiller.vhd:5' bound to instance 'ZF' of component 'ZeroFiller' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MicroprogramController.vhd:70]
+INFO: [Synth 8-638] synthesizing module 'ZeroFiller' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ZeroFiller.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'ZeroFiller' (4#1) [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ZeroFiller.vhd:10]
+INFO: [Synth 8-3491] module 'IDC' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/IDC.vhd:4' bound to instance 'IDC3' of component 'IDC' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MicroprogramController.vhd:71]
+INFO: [Synth 8-638] synthesizing module 'IDC' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/IDC.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'IDC' (5#1) [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/IDC.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'MicroprogramController' (6#1) [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MicroprogramController.vhd:16]
+INFO: [Synth 8-3491] module 'Datapath' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd:4' bound to instance 'DP' of component 'Datapath' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/PWF_top.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'Datapath' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd:12]
+INFO: [Synth 8-3491] module 'RF' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:4' bound to instance 'RegisterFile' of component 'RF' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd:44]
+INFO: [Synth 8-638] synthesizing module 'RF' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:16]
+INFO: [Synth 8-3491] module 'DestinationDecoder' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DestinationDecoder.vhd:4' bound to instance 'D16_1' of component 'DestinationDecoder' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:59]
+INFO: [Synth 8-638] synthesizing module 'DestinationDecoder' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DestinationDecoder.vhd:10]
+INFO: [Synth 8-3491] module 'Decoder4x16M' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DD.vhd:4' bound to instance 'Decoder' of component 'Decoder4x16M' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DestinationDecoder.vhd:22]
+INFO: [Synth 8-638] synthesizing module 'Decoder4x16M' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DD.vhd:10]
+INFO: [Synth 8-3491] module 'SubDecoder' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SubDecoder.vhd:4' bound to instance 'SubDecoder1' of component 'SubDecoder' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DD.vhd:21]
+INFO: [Synth 8-638] synthesizing module 'SubDecoder' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SubDecoder.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'SubDecoder' (7#1) [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SubDecoder.vhd:10]
+INFO: [Synth 8-3491] module 'SubDecoder' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SubDecoder.vhd:4' bound to instance 'SubDecoder2' of component 'SubDecoder' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DD.vhd:22]
+INFO: [Synth 8-3491] module 'SubDecoder' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SubDecoder.vhd:4' bound to instance 'SubDecoder3' of component 'SubDecoder' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DD.vhd:23]
+INFO: [Synth 8-3491] module 'SubDecoder' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SubDecoder.vhd:4' bound to instance 'SubDecoder4' of component 'SubDecoder' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DD.vhd:24]
+INFO: [Synth 8-3491] module 'SubDecoder' declared at '/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SubDecoder.vhd:4' bound to instance 'SubDecoder5' of component 'SubDecoder' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DD.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'Decoder4x16M' (8#1) [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DD.vhd:10]
+ERROR: [Synth 8-549] port width mismatch for port 'Output': port width = 16, actual width = 8 [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DestinationDecoder.vhd:22]
+ERROR: [Synth 8-97] array index 8 out of range [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DestinationDecoder.vhd:23]
+ERROR: [Synth 8-97] array index 9 out of range [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DestinationDecoder.vhd:23]
+ERROR: [Synth 8-97] array index 10 out of range [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DestinationDecoder.vhd:23]
+ERROR: [Synth 8-97] array index 11 out of range [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DestinationDecoder.vhd:23]
+ERROR: [Synth 8-97] array index 12 out of range [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DestinationDecoder.vhd:23]
+ERROR: [Synth 8-97] array index 13 out of range [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DestinationDecoder.vhd:23]
+ERROR: [Synth 8-97] array index 14 out of range [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DestinationDecoder.vhd:23]
+ERROR: [Synth 8-97] array index 15 out of range [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DestinationDecoder.vhd:23]
+ERROR: [Synth 8-285] failed synthesizing module 'DestinationDecoder' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DestinationDecoder.vhd:10]
+ERROR: [Synth 8-285] failed synthesizing module 'RF' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd:16]
+ERROR: [Synth 8-285] failed synthesizing module 'Datapath' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd:12]
+ERROR: [Synth 8-285] failed synthesizing module 'PWF_top' [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/PWF_top.vhd:12]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1460.340 ; gain = 133.625 ; free physical = 196286 ; free virtual = 257029
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+38 Infos, 1 Warnings, 0 Critical Warnings and 14 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 27 09:55:51 2023...
