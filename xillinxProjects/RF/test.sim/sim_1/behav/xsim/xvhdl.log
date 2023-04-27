@@ -1,2 +1,5 @@
+<<<<<<< Updated upstream
 INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/ad/e/169133/VHDL_PW_project/PWA/xillinxProjects/RF/test.srcs/sources_1/new/IDC.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity IDC
+=======
+>>>>>>> Stashed changes
