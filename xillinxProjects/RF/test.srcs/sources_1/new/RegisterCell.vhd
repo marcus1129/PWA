@@ -5,8 +5,8 @@ entity RegisterCell is
     Port (Enable : in STD_LOGIC;
           Reset : in STD_LOGIC;
           CLK : in STD_LOGIC;
-          DataIn : in STD_LOGIC_VECTOR(0 to 7);
-          DataOut : out STD_LOGIC_VECTOR(0 to 7));
+          DataIn : in STD_LOGIC_VECTOR(7 downto 0);
+          DataOut : out STD_LOGIC_VECTOR(7 downto 0));
 end RegisterCell;
 
 architecture Behavioral of RegisterCell is
