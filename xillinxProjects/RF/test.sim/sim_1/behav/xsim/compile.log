@@ -1,0 +1,782 @@
+<<<<<<< Updated upstream
+=======
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DD.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity DD
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FlipFlop.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FlipFlop
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RL.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RL
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RegisterCell.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegisterCell
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SubDecoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SubDecoder
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SubMUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SubMUX
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RF
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FlipFlop.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FlipFlop
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/FlipFlop_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FlipFlop_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/FlipFlop_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FlipFlop_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/FlipFlop_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FlipFlop_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/FlipFlop_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FlipFlop_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/FlipFlop_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FlipFlop_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FlipFlop.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FlipFlop
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/FlipFlop_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FlipFlop_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/FlipFlop_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FlipFlop_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FlipFlop.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FlipFlop
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/FlipFlop_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FlipFlop_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FlipFlop.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FlipFlop
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FlipFlop.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FlipFlop
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FlipFlop.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FlipFlop
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/FlipFlop_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FlipFlop_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/FlipFlop_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FlipFlop_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FlipFlop.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FlipFlop
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/RegisterCell_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegisterCell_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/RegisterCell_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegisterCell_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/RegisterCell_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegisterCell_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RL.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegisterR16
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/RegisterLogic_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegisterLogic_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/RegisterLogic_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegisterLogic_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/RegisterLogic_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegisterLogic_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/And8_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity And8_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/And8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity And8
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/And8_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity And8_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/And8_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity And8_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/And8_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity And8_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SubDecoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SubDecoder
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/SubDecoder_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SubDecoder_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SubDecoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SubDecoder
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SubDecoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SubDecoder
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/SubDecoder_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SubDecoder_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SubDecoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SubDecoder
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/SubDecoder_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SubDecoder_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SubDecoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SubDecoder
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SubDecoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SubDecoder
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SubMUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SubMUX
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/SubMux_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SubMux_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MUX_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX16x1x8
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MUX_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DD.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder4x16
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Decoder4x16_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder4x16_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DD.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder4x16
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DD.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder4x16M
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DestinationDecoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity DestinationDecoder
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RF
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/RF_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RF_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/RF_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RF_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/RF_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RF_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/RF_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RF_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/RF_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RF_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/RF_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RF_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MUX_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MUX_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Decoder4x16_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder4x16_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ADD_SUBB_8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ADD_SUBB_8bit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Adder_Subtractor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Adder_Subtractor
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Enabler.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Enabler
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Full_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Full_adder
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FunctionSelect.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionSelect
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FunctionUnit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionUnit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Half_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Half_adder
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX2x1
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX2x1x8
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX4x1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX4x1
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/NegZero.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity NegZero
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Shifter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Shifter
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder2x4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder2x4
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder4x16.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder4x16
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/enabler8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity enabler8bit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity logic_unit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity logic_unit8bit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Datapath_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Datapath_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Datapath_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Datapath_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Datapath_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Datapath_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Datapath_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Datapath_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Datapath_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Datapath_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Datapath_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Datapath_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Datapath_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Datapath_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Datapath_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Datapath_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Datapath_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Datapath_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Datapath_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Datapath_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Datapath_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Datapath_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Datapath_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Datapath_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ADD_SUBB_8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ADD_SUBB_8bit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Adder_Subtractor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Adder_Subtractor
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/And8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity And8
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DD.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder4x16M
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DestinationDecoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity DestinationDecoder
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Enabler.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Enabler
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FlipFlop.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FlipFlop
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Full_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Full_adder
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FunctionSelect.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionSelect
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FunctionUnit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionUnit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Half_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Half_adder
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX16x1x8
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX2x1
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX2x1x8
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX4x1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX4x1
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/NegZero.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity NegZero
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RF
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RL.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegisterR16
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RegisterCell.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegisterCell
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Shifter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Shifter
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SubDecoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SubDecoder
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SubMUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SubMUX
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder2x4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder2x4
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder4x16.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder4x16
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/enabler8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity enabler8bit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity logic_unit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity logic_unit8bit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Datapath_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Datapath_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Datapath_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Datapath_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Datapath
+ERROR: [VRFC 10-91] f is not declared [/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd:53]
+ERROR: [VRFC 10-1504] unit datapath_behavioral ignored due to previous errors [/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd:12]
+INFO: [VRFC 10-240] VHDL file /zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FunctionUnit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionUnit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+ERROR: [VRFC 10-91] fs3 is not declared [/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd:94]
+ERROR: [VRFC 10-2123] 0 definitions of operator "and" match here [/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd:94]
+ERROR: [VRFC 10-1504] unit alu_behavorial ignored due to previous errors [/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd:41]
+INFO: [VRFC 10-240] VHDL file /zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity logic_unit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity logic_unit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Shifter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Shifter
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Shifter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Shifter
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FunctionUnit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionUnit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FunctionUnit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionUnit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Datapath_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Datapath_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Decoder4x16_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder4x16_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SignExtender.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SignExtender
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/SignExtender_tb_min.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SignExtender_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/IDC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity IDC
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/InstructionRegister.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity InstructionRegister
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MicroprogramController.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ProgramCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ProgramCounter
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ZeroFiller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ZeroFiller
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MicroprogramController.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+ERROR: [VRFC 10-91] word is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd:86]
+ERROR: [VRFC 10-91] word is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd:87]
+ERROR: [VRFC 10-1504] unit bench ignored due to previous errors [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd:8]
+INFO: [VRFC 10-240] VHDL file /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ADD_SUBB_8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ADD_SUBB_8bit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Adder_Subtractor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Adder_Subtractor
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/And8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity And8
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DD.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder4x16M
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DestinationDecoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity DestinationDecoder
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Enabler.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Enabler
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FlipFlop.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FlipFlop
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Full_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Full_adder
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FunctionSelect.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionSelect
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FunctionUnit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionUnit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Half_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Half_adder
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX16x1x8
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX2x1
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX2x1x8
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX4x1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX4x1
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/NegZero.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity NegZero
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RF
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RL.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegisterR16
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RegisterCell.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegisterCell
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Shifter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Shifter
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SubDecoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SubDecoder
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SubMUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SubMUX
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/enabler8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity enabler8bit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity logic_unit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity logic_unit8bit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder2x4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder2x4
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder4x16.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder4x16
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+ERROR: [VRFC 10-1412] syntax error near range [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd:64]
+ERROR: [XSIM 43-3316] Signal SIGSEGV received.
+Printing stacktrace...
+
+[0] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(Verific::VhdlForScheme::VhdlForScheme(Verific::VhdlIdRef*, Verific::VhdlDiscreteRange*, unsigned int)+0xc7) [0x7fb8ceec4fb7]
+[1] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(vhdlparse()+0x764c) [0x7fb8cefba29c]
+[2] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(Verific::vhdl_file::Analyze(char const*, char const*, unsigned int)+0xb9) [0x7fb8cef90029]
+[3] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl() [0x46d418]
+[4] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl(main+0x3e0) [0x44bfd0]
+[5] /lib64/libc.so.6(__libc_start_main+0xf5) [0x7fb8cd238555]
+[6] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl() [0x4655f1]
+
+Done
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ADD_SUBB_8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ADD_SUBB_8bit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Adder_Subtractor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Adder_Subtractor
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/And8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity And8
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DD.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder4x16M
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DestinationDecoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity DestinationDecoder
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Enabler.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Enabler
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FlipFlop.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FlipFlop
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Full_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Full_adder
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FunctionSelect.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionSelect
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FunctionUnit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionUnit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Half_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Half_adder
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX16x1x8
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX2x1
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX2x1x8
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX4x1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX4x1
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/NegZero.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity NegZero
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RF
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RL.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegisterR16
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RegisterCell.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegisterCell
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Shifter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Shifter
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SubDecoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SubDecoder
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SubMUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SubMUX
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/enabler8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity enabler8bit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity logic_unit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity logic_unit8bit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder2x4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder2x4
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder4x16.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder4x16
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+ERROR: [VRFC 10-1412] syntax error near range [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd:64]
+ERROR: [XSIM 43-3316] Signal SIGSEGV received.
+Printing stacktrace...
+
+[0] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(Verific::VhdlForScheme::VhdlForScheme(Verific::VhdlIdRef*, Verific::VhdlDiscreteRange*, unsigned int)+0xc7) [0x7f5995486fb7]
+[1] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(vhdlparse()+0x764c) [0x7f599557c29c]
+[2] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(Verific::vhdl_file::Analyze(char const*, char const*, unsigned int)+0xb9) [0x7f5995552029]
+[3] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl() [0x46d418]
+[4] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl(main+0x3e0) [0x44bfd0]
+[5] /lib64/libc.so.6(__libc_start_main+0xf5) [0x7f59937fa555]
+[6] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl() [0x4655f1]
+
+Done
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ADD_SUBB_8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ADD_SUBB_8bit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Adder_Subtractor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Adder_Subtractor
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/And8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity And8
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DD.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder4x16M
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DestinationDecoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity DestinationDecoder
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Enabler.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Enabler
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FlipFlop.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FlipFlop
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Full_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Full_adder
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FunctionSelect.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionSelect
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FunctionUnit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionUnit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Half_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Half_adder
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX16x1x8
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX2x1
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX2x1x8
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX4x1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX4x1
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/NegZero.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity NegZero
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RF
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RL.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegisterR16
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RegisterCell.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegisterCell
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Shifter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Shifter
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SubDecoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SubDecoder
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SubMUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SubMUX
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/enabler8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity enabler8bit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity logic_unit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity logic_unit8bit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder2x4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder2x4
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder4x16.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder4x16
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+ERROR: [VRFC 10-1412] syntax error near range [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd:64]
+ERROR: [XSIM 43-3316] Signal SIGSEGV received.
+Printing stacktrace...
+
+[0] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(Verific::VhdlForScheme::VhdlForScheme(Verific::VhdlIdRef*, Verific::VhdlDiscreteRange*, unsigned int)+0xc7) [0x7f15c0f5cfb7]
+[1] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(vhdlparse()+0x764c) [0x7f15c105229c]
+[2] /zhome/1d/1/78867/Vivado/2018.2/lib/lnx64.o/libxsimverific.so(Verific::vhdl_file::Analyze(char const*, char const*, unsigned int)+0xb9) [0x7f15c1028029]
+[3] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl() [0x46d418]
+[4] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl(main+0x3e0) [0x44bfd0]
+[5] /lib64/libc.so.6(__libc_start_main+0xf5) [0x7f15bf2d0555]
+[6] /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xvhdl() [0x4655f1]
+
+Done
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ADD_SUBB_8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ADD_SUBB_8bit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Adder_Subtractor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Adder_Subtractor
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/And8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity And8
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DD.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder4x16M
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DestinationDecoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity DestinationDecoder
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Enabler.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Enabler
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FlipFlop.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FlipFlop
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Full_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Full_adder
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FunctionSelect.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionSelect
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FunctionUnit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionUnit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Half_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Half_adder
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX16x1x8
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX2x1
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX2x1x8
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX4x1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX4x1
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/NegZero.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity NegZero
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RF
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RL.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegisterR16
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RegisterCell.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegisterCell
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Shifter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Shifter
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SubDecoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SubDecoder
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SubMUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SubMUX
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/enabler8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity enabler8bit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity logic_unit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity logic_unit8bit
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder2x4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder2x4
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder4x16.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoder4x16
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/And8_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity And8_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Datapath_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Datapath_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Decoder4x16_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder4x16_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/FlipFlop_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FlipFlop_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MUX_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/RF_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RF_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/RegisterCell_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegisterCell_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/RegisterLogic_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegisterLogic_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/SubDecoder_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SubDecoder_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/SubMux_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SubMux_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ProgramCounter_tb2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ProgramCounter_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ProgramCounter_tb2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ProgramCounter_tb
+ERROR: [VRFC 10-91] pc_exp is not declared [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ProgramCounter_tb2.vhd:45]
+ERROR: [VRFC 10-1504] unit bench ignored due to previous errors [/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ProgramCounter_tb2.vhd:8]
+INFO: [VRFC 10-240] VHDL file /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ProgramCounter_tb2.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ProgramCounter_tb2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ProgramCounter_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ProgramCounter_tb2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ProgramCounter_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ProgramCounter_tb2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ProgramCounter_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ProgramCounter_tb2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ProgramCounter_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ProgramCounter_tb2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ProgramCounter_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ProgramCounter_tb2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ProgramCounter_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ProgramCounter_tb2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ProgramCounter_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ProgramCounter_tb2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ProgramCounter_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ProgramCounter_tb2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ProgramCounter_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ProgramCounter_tb2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ProgramCounter_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ProgramCounter_tb2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ProgramCounter_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ProgramCounter_tb2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ProgramCounter_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ProgramCounter_tb2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ProgramCounter_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ProgramCounter_tb2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ProgramCounter_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Ram256X16.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Ram256X16
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/ProgramCounter_tb2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ProgramCounter_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Ram256X16_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Ram256X16_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Ram256X16_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Ram256X16_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Ram256X16_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Ram256X16_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Ram256X16_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Ram256X16_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Ram256X16_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Ram256X16_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Ram256X16_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Ram256X16_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Ram256X16_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Ram256X16_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Ram256X16.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Ram256X16
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Ram256X16_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Ram256X16_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Ram256X16_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Ram256X16_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Ram256X16_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Ram256X16_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Ram256X16_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Ram256X16_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Ram256X16_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Ram256X16_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Ram256X16_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Ram256X16_tb
+>>>>>>> Stashed changes

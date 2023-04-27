@@ -1,7 +1,7 @@
 # compile vhdl design source files
 vhdl xil_defaultlib  \
 "../../../../test.srcs/sources_1/new/SignExtender.vhd" \
-"../../../../test.srcs/sim_1/new/SignExtender_tb.vhd" \
+"../../../../test.srcs/sim_1/new/SignExtender_tb_min.vhd" \
 
 # Do not sort compile order
 nosort

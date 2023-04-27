@@ -1,7 +1,32 @@
 Vivado Simulator 2018.2
 Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+<<<<<<< Updated upstream
 Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 0afd0da3bb0341ddad0a1cad00bd95d6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot SignExtender_tb_behav xil_defaultlib.SignExtender_tb -log elaborate.log 
 Using 2 slave threads.
+=======
+Running: /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab -wto 0afd0da3bb0341ddad0a1cad00bd95d6 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot Ram256X16_tb_behav xil_defaultlib.Ram256X16_tb -log elaborate.log 
+Using 8 slave threads.
+>>>>>>> Stashed changes
 Starting static elaboration
 Completed static elaboration
-INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package unimacro.vcomponents
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package ieee.std_logic_textio
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling architecture rb18_internal_vhdl_v of entity unisim.RB18_INTERNAL_VHDL [\RB18_INTERNAL_VHDL(bram_size=18...]
+Compiling architecture ramb18e1_v of entity unisim.RAMB18E1 [\RAMB18E1(rdaddr_collision_hwcon...]
+Compiling architecture bram_v of entity unimacro.BRAM_SINGLE_MACRO [\BRAM_SINGLE_MACRO(device="7SERI...]
+Compiling architecture idc_behavorial of entity xil_defaultlib.Ram256X16 [ram256x16_default]
+Compiling architecture bench of entity xil_defaultlib.ram256x16_tb
+Built simulation snapshot Ram256X16_tb_behav

@@ -3,7 +3,11 @@
 <!--                                                         -->
 <!-- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   -->
 
+<<<<<<< Updated upstream
 <Project Version="7" Minor="38" Path="C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.xpr">
+=======
+<Project Version="7" Minor="38" Path="/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.xpr">
+>>>>>>> Stashed changes
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="0afd0da3bb0341ddad0a1cad00bd95d6"/>
@@ -17,9 +21,13 @@
     <Option Name="CompiledLibDirVCS" Val="$PCACHEDIR/compile_simlib/vcs"/>
     <Option Name="CompiledLibDirRiviera" Val="$PCACHEDIR/compile_simlib/riviera"/>
     <Option Name="CompiledLibDirActivehdl" Val="$PCACHEDIR/compile_simlib/activehdl"/>
+<<<<<<< Updated upstream
     <Option Name="TargetLanguage" Val="VHDL"/>
+=======
+>>>>>>> Stashed changes
     <Option Name="SimulatorLanguage" Val="VHDL"/>
     <Option Name="BoardPart" Val=""/>
+    <Option Name="SourceMgmtMode" Val="DisplayOnly"/>
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
     <Option Name="ProjectType" Val="Default"/>
@@ -33,7 +41,11 @@
     <Option Name="EnableBDX" Val="FALSE"/>
     <Option Name="DSAVendor" Val="xilinx"/>
     <Option Name="DSANumComputeUnits" Val="60"/>
+<<<<<<< Updated upstream
     <Option Name="WTXSimLaunchSim" Val="218"/>
+=======
+    <Option Name="WTXSimLaunchSim" Val="270"/>
+>>>>>>> Stashed changes
     <Option Name="WTModelSimLaunchSim" Val="0"/>
     <Option Name="WTQuestaLaunchSim" Val="0"/>
     <Option Name="WTIesLaunchSim" Val="0"/>
@@ -61,12 +73,48 @@
   <FileSets Version="1" Minor="31">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
       <Filter Type="Srcs"/>
+<<<<<<< Updated upstream
+=======
+      <File Path="$PSRCDIR/sources_1/new/IDC.vhd">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/InstructionRegister.vhd">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+>>>>>>> Stashed changes
       <File Path="$PSRCDIR/sources_1/new/ProgramCounter.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+<<<<<<< Updated upstream
+=======
+      <File Path="$PSRCDIR/sources_1/new/SignExtender.vhd">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/ZeroFiller.vhd">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/MicroprogramController.vhd">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+>>>>>>> Stashed changes
       <File Path="$PSRCDIR/sources_1/new/ADD_SUBB_8bit.vhd">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
@@ -258,42 +306,69 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/decoder2x4.vhd">
         <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PSRCDIR/sources_1/new/decoder4x16.vhd">
         <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+<<<<<<< Updated upstream
       <File Path="$PSRCDIR/sources_1/new/InstructionRegister.vhd">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
+=======
+      <File Path="$PSRCDIR/sources_1/new/Ram256X16.vhd">
+        <FileInfo>
+>>>>>>> Stashed changes
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+<<<<<<< Updated upstream
       <File Path="$PSRCDIR/sources_1/new/ZeroFiller.vhd">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
+=======
+      <File Path="$PSRCDIR/sources_1/new/PortReg8x8.vhd">
+        <FileInfo>
+>>>>>>> Stashed changes
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+<<<<<<< Updated upstream
       <File Path="$PSRCDIR/sources_1/new/SignExtender.vhd">
+=======
+      <File Path="$PSRCDIR/sources_1/new/SevenSeg8.vhd">
         <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/PWF_top.vhd">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/MUX2x1x16.vhd">
+>>>>>>> Stashed changes
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
+<<<<<<< Updated upstream
         <Option Name="TopModule" Val="ProgramCounter"/>
+=======
+        <Option Name="TopModule" Val="PWF_top"/>
+>>>>>>> Stashed changes
       </Config>
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
@@ -310,7 +385,23 @@
     </FileSet>
     <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
       <Filter Type="Srcs"/>
+<<<<<<< Updated upstream
       <File Path="$PSRCDIR/sim_1/new/SignExtender_tb.vhd">
+=======
+      <File Path="$PSRCDIR/sim_1/new/MicroprogramController_tb.vhd">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/new/SignExtender_tb_min.vhd">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/new/And8_tb.vhd">
+>>>>>>> Stashed changes
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -340,12 +431,12 @@
       </File>
       <File Path="$PSRCDIR/sim_1/new/Datapath_tb.vhd">
         <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PSRCDIR/sim_1/new/Decoder4x16_tb.vhd">
+<<<<<<< Updated upstream
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -390,13 +481,51 @@
       <File Path="$PSRCDIR/sim_1/new/RegisterCell_tb.vhd">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
+=======
+        <FileInfo>
+>>>>>>> Stashed changes
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PSRCDIR/sim_1/new/FlipFlop_tb.vhd">
         <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/new/MUX_tb.vhd">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/new/RF_tb.vhd">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/new/RegisterCell_tb.vhd">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/new/RegisterLogic_tb.vhd">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/new/SubDecoder_tb.vhd">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/new/SubMux_tb.vhd">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
@@ -406,22 +535,65 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+<<<<<<< Updated upstream
       <File Path="$PSRCDIR/sim_1/new/InstructionRegister_tb.vhd">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
+=======
+      <File Path="$PSRCDIR/sim_1/imports/xsim.dir/SignExtender_tb_behav/xsim.mem">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PSIMDIR/sim_1/behav/xsim/xsim.dir/SignExtender_tb_behav/xsim.mem"/>
+          <Attr Name="ImportTime" Val="1679654863"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/xsim.dir/ProgramCounter_tb_behav/xsim.mem">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PSIMDIR/sim_1/behav/xsim/xsim.dir/ProgramCounter_tb_behav/xsim.mem"/>
+          <Attr Name="ImportTime" Val="1679654863"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/ProgramCounter_tb_behav/xsim.mem">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PSIMDIR/sim_1/behav/xsim/xsim.dir/ProgramCounter_tb_behav/xsim.mem"/>
+          <Attr Name="ImportTime" Val="1679654863"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/new/ProgramCounter_tb2.vhd">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/new/Ram256X16_tb.vhd">
+        <FileInfo>
+>>>>>>> Stashed changes
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
+<<<<<<< Updated upstream
         <Option Name="TopModule" Val="SignExtender_tb"/>
+=======
+        <Option Name="TopModule" Val="Ram256X16_tb"/>
+>>>>>>> Stashed changes
         <Option Name="TopLib" Val="xil_defaultlib"/>
         <Option Name="TransportPathDelay" Val="0"/>
         <Option Name="TransportIntDelay" Val="0"/>
         <Option Name="SrcSet" Val="sources_1"/>
         <Option Name="XSimWcfgFile" Val="$PPRDIR/Datapath_tb_behav.wcfg"/>
+<<<<<<< Updated upstream
         <Option Name="xsim.simulate.runtime" Val="60 ns"/>
+=======
+        <Option Name="xsim.simulate.runtime" Val="90 ns"/>
+>>>>>>> Stashed changes
       </Config>
     </FileSet>
   </FileSets>
@@ -444,7 +616,11 @@
     </Simulator>
   </Simulators>
   <Runs Version="1" Minor="10">
+<<<<<<< Updated upstream
     <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7k70tfbv676-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true">
+=======
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7vx485tffg1157-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true">
+>>>>>>> Stashed changes
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
         <Step Id="synth_design"/>
