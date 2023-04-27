@@ -1,0 +1,4 @@
+Running: xsim.dir/MicroprogramController_tb_behav/xsimk -simmode gui -wdb MicroprogramController_tb_behav.wdb -simrunnum 0 -socket 46253
+Design successfully loaded
+Design Loading Memory Usage: 42416 KB (Peak: 42416 KB)
+Design Loading CPU Usage: 20 ms

@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../test.srcs/sources_1/new/IDC.vhd" \
+"../../../../test.srcs/sources_1/new/InstructionRegister.vhd" \
+"../../../../test.srcs/sources_1/new/MicroprogramController.vhd" \
+"../../../../test.srcs/sources_1/new/ProgramCounter.vhd" \
+"../../../../test.srcs/sources_1/new/SignExtender.vhd" \
+"../../../../test.srcs/sources_1/new/ZeroFiller.vhd" \
+"../../../../test.srcs/sim_1/new/MicroprogramController_tb.vhd" \
+
+# Do not sort compile order
+nosort

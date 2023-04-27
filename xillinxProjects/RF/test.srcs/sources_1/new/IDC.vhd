@@ -72,7 +72,7 @@ end process;
 ControlLogic : process(State, Opcode, IR, N, Z)
 begin
     
-    NextState <= EX0;
+    NextState <= INF;
     IL <= '0';
     PS <= "00";
     DX <= "0000";
