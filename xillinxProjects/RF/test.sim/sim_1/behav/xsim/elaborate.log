@@ -1,6 +1,10 @@
 Vivado Simulator 2018.2
 Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+<<<<<<< Updated upstream
 Running: /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab -wto 0afd0da3bb0341ddad0a1cad00bd95d6 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot IDC_tb_behav xil_defaultlib.IDC_tb -log elaborate.log 
+=======
+Running: /zhome/1d/1/78867/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab -wto 0afd0da3bb0341ddad0a1cad00bd95d6 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot MicroprogramController_tb_behav xil_defaultlib.MicroprogramController_tb -log elaborate.log 
+>>>>>>> Stashed changes
 Using 8 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -11,6 +15,19 @@ Compiling package std.standard
 Compiling package std.textio
 Compiling package ieee.std_logic_1164
 Compiling package ieee.numeric_std
+<<<<<<< Updated upstream
 Compiling architecture behavioral of entity xil_defaultlib.IDC [idc_default]
 Compiling architecture bench of entity xil_defaultlib.idc_tb
 Built simulation snapshot IDC_tb_behav
+=======
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture pc_behavioral of entity xil_defaultlib.ProgramCounter [programcounter_default]
+Compiling architecture ir_behavorial of entity xil_defaultlib.InstructionRegister [instructionregister_default]
+Compiling architecture se_behavorial of entity xil_defaultlib.SignExtender [signextender_default]
+Compiling architecture zf_behavorial of entity xil_defaultlib.ZeroFiller [zerofiller_default]
+Compiling architecture behavioral of entity xil_defaultlib.IDC [idc_default]
+Compiling architecture mcu_behavorial of entity xil_defaultlib.MicroprogramController [microprogramcontroller_default]
+Compiling architecture bench of entity xil_defaultlib.microprogramcontroller_tb
+Built simulation snapshot MicroprogramController_tb_behav
+>>>>>>> Stashed changes

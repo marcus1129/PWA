@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="MicroprogramController_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="MicroprogramController_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="215614000fs"></ZoomStartTime>
+      <ZoomEndTime time="301114001fs"></ZoomEndTime>
+      <Cursor1Time time="239334000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="110"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject type="logic" fp_name="/MicroprogramController_tb/RESET">
+      <obj_property name="ElementShortName">RESET</obj_property>
+      <obj_property name="ObjectShortName">RESET</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MicroprogramController_tb/CLK">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/MicroprogramController_tb/uut/IDC3/State">
+      <obj_property name="ElementShortName">State</obj_property>
+      <obj_property name="ObjectShortName">State</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/MicroprogramController_tb/uut/IDC3/Mnemonic">
+      <obj_property name="ElementShortName">Mnemonic</obj_property>
+      <obj_property name="ObjectShortName">Mnemonic</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/MicroprogramController_tb/Address_In">
+      <obj_property name="ElementShortName">Address_In[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Address_In[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/MicroprogramController_tb/Address_Out">
+      <obj_property name="ElementShortName">Address_Out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Address_Out[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/MicroprogramController_tb/Instruction_In">
+      <obj_property name="ElementShortName">Instruction_In[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Instruction_In[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/MicroprogramController_tb/Constant_Out">
+      <obj_property name="ElementShortName">Constant_Out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Constant_Out[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/MicroprogramController_tb/uut/PS">
+      <obj_property name="ElementShortName">PS[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PS[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/MicroprogramController_tb/uut/Offset">
+      <obj_property name="ElementShortName">Offset[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Offset[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="vbus" fp_name="vbus270">
+      <obj_property name="label">Expected Offset[5:0]</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <wvobject type="logic" fp_name="/MicroprogramController_tb/uut/IR_out[8]">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/MicroprogramController_tb/uut/IR_out[7]">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/MicroprogramController_tb/uut/IR_out[6]">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/MicroprogramController_tb/uut/IR_out[2]">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">[2]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/MicroprogramController_tb/uut/IR_out[1]">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/MicroprogramController_tb/uut/IR_out[0]">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/MicroprogramController_tb/uut/IR_out">
+      <obj_property name="ElementShortName">IR_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">IR_out[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group33">
+      <obj_property name="label">VCNZ</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/MicroprogramController_tb/V">
+         <obj_property name="ElementShortName">V</obj_property>
+         <obj_property name="ObjectShortName">V</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/MicroprogramController_tb/C">
+         <obj_property name="ElementShortName">C</obj_property>
+         <obj_property name="ObjectShortName">C</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/MicroprogramController_tb/N">
+         <obj_property name="ElementShortName">N</obj_property>
+         <obj_property name="ObjectShortName">N</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/MicroprogramController_tb/Z">
+         <obj_property name="ElementShortName">Z</obj_property>
+         <obj_property name="ObjectShortName">Z</obj_property>
+      </wvobject>
+      <wvobject type="group" fp_name="group34">
+         <obj_property name="label">Control word</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="array" fp_name="/MicroprogramController_tb/DX">
+            <obj_property name="ElementShortName">DX[3:0]</obj_property>
+            <obj_property name="ObjectShortName">DX[3:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/MicroprogramController_tb/AX">
+            <obj_property name="ElementShortName">AX[3:0]</obj_property>
+            <obj_property name="ObjectShortName">AX[3:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/MicroprogramController_tb/BX">
+            <obj_property name="ElementShortName">BX[3:0]</obj_property>
+            <obj_property name="ObjectShortName">BX[3:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/MicroprogramController_tb/FS">
+            <obj_property name="ElementShortName">FS[3:0]</obj_property>
+            <obj_property name="ObjectShortName">FS[3:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/MicroprogramController_tb/MB">
+            <obj_property name="ElementShortName">MB</obj_property>
+            <obj_property name="ObjectShortName">MB</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/MicroprogramController_tb/MD">
+            <obj_property name="ElementShortName">MD</obj_property>
+            <obj_property name="ObjectShortName">MD</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/MicroprogramController_tb/RW">
+            <obj_property name="ElementShortName">RW</obj_property>
+            <obj_property name="ObjectShortName">RW</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/MicroprogramController_tb/MM">
+            <obj_property name="ElementShortName">MM</obj_property>
+            <obj_property name="ObjectShortName">MM</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/MicroprogramController_tb/MW">
+            <obj_property name="ElementShortName">MW</obj_property>
+            <obj_property name="ObjectShortName">MW</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MicroprogramController_tb/uut/IDC3/IL">
+      <obj_property name="ElementShortName">IL</obj_property>
+      <obj_property name="ObjectShortName">IL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/MicroprogramController_tb/uut/IDC3/Opcode">
+      <obj_property name="ElementShortName">Opcode[6:0]</obj_property>
+      <obj_property name="ObjectShortName">Opcode[6:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+</wave_config>

@@ -2,22 +2,11 @@
 # Webtalk v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-<<<<<<< Updated upstream
-# Start of session at: Thu Mar 23 22:01:12 2023
-# Process ID: 28063
-# Current directory: /zhome/ad/e/169133/VHDL_PW_project/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim
-# Command line: wbtcv -mode batch -source /zhome/ad/e/169133/VHDL_PW_project/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim/xsim.dir/IDC_tb_behav/webtalk/xsim_webtalk.tcl -notrace
-# Log file: /zhome/ad/e/169133/VHDL_PW_project/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim/webtalk.log
-# Journal file: /zhome/ad/e/169133/VHDL_PW_project/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim/webtalk.jou
-#-----------------------------------------------------------
-source /zhome/ad/e/169133/VHDL_PW_project/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim/xsim.dir/IDC_tb_behav/webtalk/xsim_webtalk.tcl -notrace
-=======
-# Start of session at: Tue Apr 25 16:29:39 2023
-# Process ID: 21321
+# Start of session at: Mon Apr 24 12:06:31 2023
+# Process ID: 20044
 # Current directory: /zhome/ad/e/169133/VHDL_PW_project/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim
 # Command line: wbtcv -mode batch -source /zhome/ad/e/169133/VHDL_PW_project/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim/xsim.dir/MicroprogramController_tb_behav/webtalk/xsim_webtalk.tcl -notrace
 # Log file: /zhome/ad/e/169133/VHDL_PW_project/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim/webtalk.log
 # Journal file: /zhome/ad/e/169133/VHDL_PW_project/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim/webtalk.jou
 #-----------------------------------------------------------
 source /zhome/ad/e/169133/VHDL_PW_project/PWA/xillinxProjects/RF/test.sim/sim_1/behav/xsim/xsim.dir/MicroprogramController_tb_behav/webtalk/xsim_webtalk.tcl -notrace
->>>>>>> Stashed changes

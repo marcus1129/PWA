@@ -2,5 +2,15 @@
 2018.2
 Jun 14 2018
 20:07:38
+<<<<<<< Updated upstream
 /zhome/ad/e/169133/VHDL_PW_project/PWA/xillinxProjects/RF/test.srcs/sim_1/new/IDC_tb.vhd,1679262240,vhdl,,,,idc_tb,,,,,,,,
 /zhome/ad/e/169133/VHDL_PW_project/PWA/xillinxProjects/RF/test.srcs/sources_1/new/IDC.vhd,1679605253,vhdl,,,,idc,,,,,,,,
+=======
+/zhome/ad/e/169133/VHDL_PW_project/PWA/xillinxProjects/RF/test.srcs/sim_1/new/MicroprogramController_tb.vhd,1682433734,vhdl,,,,microprogramcontroller_tb,,,,,,,,
+/zhome/ad/e/169133/VHDL_PW_project/PWA/xillinxProjects/RF/test.srcs/sources_1/new/IDC.vhd,1682333468,vhdl,,,,idc,,,,,,,,
+/zhome/ad/e/169133/VHDL_PW_project/PWA/xillinxProjects/RF/test.srcs/sources_1/new/InstructionRegister.vhd,1680167804,vhdl,,,,instructionregister,,,,,,,,
+/zhome/ad/e/169133/VHDL_PW_project/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MicroprogramController.vhd,1680169252,vhdl,,,,microprogramcontroller,,,,,,,,
+/zhome/ad/e/169133/VHDL_PW_project/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ProgramCounter.vhd,1680167804,vhdl,,,,programcounter,,,,,,,,
+/zhome/ad/e/169133/VHDL_PW_project/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SignExtender.vhd,1680167804,vhdl,,,,signextender,,,,,,,,
+/zhome/ad/e/169133/VHDL_PW_project/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ZeroFiller.vhd,1680167804,vhdl,,,,zerofiller,,,,,,,,
+>>>>>>> Stashed changes
