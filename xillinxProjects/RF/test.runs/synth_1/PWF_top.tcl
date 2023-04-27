@@ -29,17 +29,12 @@ set_property target_language Verilog [current_project]
 set_property ip_output_repo /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_vhdl -library xil_defaultlib {
-  /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/IDC.vhd
-  /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/InstructionRegister.vhd
-  /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ProgramCounter.vhd
-  /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SignExtender.vhd
-  /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ZeroFiller.vhd
-  /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MicroprogramController.vhd
   /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ADD_SUBB_8bit.vhd
   /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd
   /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Adder_Subtractor.vhd
   /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/And8.vhd
   /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DD.vhd
+  /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd
   /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DestinationDecoder.vhd
   /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Enabler.vhd
   /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FlipFlop.vhd
@@ -47,28 +42,31 @@ read_vhdl -library xil_defaultlib {
   /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FunctionSelect.vhd
   /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/FunctionUnit.vhd
   /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Half_adder.vhd
+  /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/IDC.vhd
+  /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/InstructionRegister.vhd
   /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX.vhd
   /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1.vhd
+  /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x16.vhd
   /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x8.vhd
   /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX4x1.vhd
+  /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MicroprogramController.vhd
   /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/NegZero.vhd
+  /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/PortReg8x8.vhd
+  /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ProgramCounter.vhd
   /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RF.vhd
   /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RL.vhd
+  /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Ram256X16.vhd
   /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/RegisterCell.vhd
+  /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SevenSeg8.vhd
   /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Shifter.vhd
+  /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SignExtender.vhd
   /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SubDecoder.vhd
   /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SubMUX.vhd
+  /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ZeroFiller.vhd
   /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/enabler8bit.vhd
   /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit.vhd
   /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit8bit.vhd
-  /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Datapath.vhd
-  /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder2x4.vhd
-  /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/decoder4x16.vhd
-  /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Ram256X16.vhd
-  /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/PortReg8x8.vhd
-  /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SevenSeg8.vhd
   /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/PWF_top.vhd
-  /zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x16.vhd
 }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the

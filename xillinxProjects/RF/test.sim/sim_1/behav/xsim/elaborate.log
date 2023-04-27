@@ -15,6 +15,7 @@ Time Resolution for simulation is 1ps
 Compiling package std.standard
 Compiling package std.textio
 Compiling package ieee.std_logic_1164
+<<<<<<< Updated upstream
 Compiling package ieee.numeric_std
 Compiling package unisim.vcomponents
 Compiling package unimacro.vcomponents
@@ -30,3 +31,9 @@ Compiling architecture bram_v of entity unimacro.BRAM_SINGLE_MACRO [\BRAM_SINGLE
 Compiling architecture idc_behavorial of entity xil_defaultlib.Ram256X16 [ram256x16_default]
 Compiling architecture bench of entity xil_defaultlib.ram256x16_tb
 Built simulation snapshot Ram256X16_tb_behav
+=======
+Compiling architecture behavioral of entity xil_defaultlib.SubDecoder [subdecoder_default]
+Compiling architecture behavioral_4x16 of entity xil_defaultlib.Decoder4x16M [decoder4x16m_default]
+Compiling architecture behavioral of entity xil_defaultlib.decoder4x16_tb
+Built simulation snapshot Decoder4x16_tb_behav
+>>>>>>> Stashed changes

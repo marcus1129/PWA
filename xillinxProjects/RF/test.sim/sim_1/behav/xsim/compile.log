@@ -315,6 +315,7 @@ INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/
 INFO: [VRFC 10-307] analyzing entity Datapath_tb
 INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/39/2/168854/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Decoder4x16_tb.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity Decoder4x16_tb
+<<<<<<< Updated upstream
 INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SignExtender.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity SignExtender
 INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/SignExtender_tb_min.vhd" into library xil_defaultlib
@@ -779,4 +780,12 @@ INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinx
 INFO: [VRFC 10-307] analyzing entity Ram256X16_tb
 INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Ram256X16_tb.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity Ram256X16_tb
+>>>>>>> Stashed changes
+=======
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DD.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder4x16M
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SubDecoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SubDecoder
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/4a/d/162008/project1/PWA/xillinxProjects/RF/test.srcs/sim_1/new/Decoder4x16_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder4x16_tb
 >>>>>>> Stashed changes

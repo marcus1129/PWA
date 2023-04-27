@@ -12,14 +12,6 @@ End SignExtender;
 Architecture SE_Behavorial of SignExtender is 
 Begin
 
-<<<<<<< Updated upstream
-    Extended_8 <= IR(8) & IR(8) & IR(8) & IR(7) & IR(6) & IR(2) & IR(1) & IR(0);
-
-
-End SE_Behavorial;
-
-=======
 Extended_8 <= IR(8) & IR(8) & IR(8) & IR(7) & IR(6) & IR(2) & IR(1) & IR(0);
 
 End SE_Behavorial;
->>>>>>> Stashed changes
