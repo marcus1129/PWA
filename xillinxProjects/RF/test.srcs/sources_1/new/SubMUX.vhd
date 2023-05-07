@@ -25,10 +25,10 @@ Signal AndSig4 : STD_LOGIC_VECTOR(7 downto 0);
 
 begin
 
-And1 : And8 port map(InputA, Toggle(3), AndSig1); 
-And2 : And8 port map(InputB, Toggle(2), AndSig2); 
-And3 : And8 port map(InputC, Toggle(1), AndSig3); 
-And4 : And8 port map(InputD, Toggle(0), AndSig4); 
+And1 : And8 port map(InputA, Toggle(0), AndSig1); 
+And2 : And8 port map(InputB, Toggle(1), AndSig2); 
+And3 : And8 port map(InputC, Toggle(2), AndSig3); 
+And4 : And8 port map(InputD, Toggle(3), AndSig4); 
 Output <= AndSig1 or AndSig2 or AndSig3 or AndSig4;
 
 end Behavioral;

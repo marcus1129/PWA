@@ -3,40 +3,69 @@
    <wave_state>
    </wave_state>
    <db_ref_list>
-      <db_ref path="ProgramCounter_tb_behav.wdb" id="1">
+      <db_ref path="PWF_top_tb_behav.wdb" id="1">
          <top_modules>
-            <top_module name="ProgramCounter_tb" />
+            <top_module name="PWF_top_tb" />
          </top_modules>
       </db_ref>
    </db_ref_list>
    <zoom_setting>
       <ZoomStartTime time="0fs"></ZoomStartTime>
-      <ZoomEndTime time="263741738fs"></ZoomEndTime>
-      <Cursor1Time time="100000000fs"></Cursor1Time>
+      <ZoomEndTime time="541978599fs"></ZoomEndTime>
+      <Cursor1Time time="105000000fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="175"></NameColumnWidth>
-      <ValueColumnWidth column_width="134"></ValueColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="5" />
-   <wvobject type="group" fp_name="group291">
-      <obj_property name="label">Datapath</obj_property>
-      <obj_property name="DisplayName">label</obj_property>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/PWF_top_tb/Reset" type="logic">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
    </wvobject>
-   <wvobject type="group" fp_name="group290">
-      <obj_property name="label">RF</obj_property>
-      <obj_property name="DisplayName">label</obj_property>
+   <wvobject fp_name="/PWF_top_tb/Clk_fast" type="logic">
+      <obj_property name="ElementShortName">Clk_fast</obj_property>
+      <obj_property name="ObjectShortName">Clk_fast</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/Decoder4x16_tb/Enable">
-      <obj_property name="ElementShortName">Enable</obj_property>
-      <obj_property name="ObjectShortName">Enable</obj_property>
+   <wvobject fp_name="/PWF_top_tb/uut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/Decoder4x16_tb/Input">
-      <obj_property name="ElementShortName">Input[0:3]</obj_property>
-      <obj_property name="ObjectShortName">Input[0:3]</obj_property>
+   <wvobject fp_name="/PWF_top_tb/uut/RAM/Address_in" type="array">
+      <obj_property name="ElementShortName">Address_in[9:0]</obj_property>
+      <obj_property name="ObjectShortName">Address_in[9:0]</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/Decoder4x16_tb/Output">
-      <obj_property name="ElementShortName">Output[0:15]</obj_property>
-      <obj_property name="ObjectShortName">Output[0:15]</obj_property>
+   <wvobject fp_name="/PWF_top_tb/uut/RAM/Data_out" type="array">
+      <obj_property name="ElementShortName">Data_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_out[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PWF_top_tb/SW" type="array">
+      <obj_property name="ElementShortName">SW[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SW[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PWF_top_tb/uut/MUXMR/output" type="array">
+      <obj_property name="ElementShortName">output[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PWF_top_tb/uut/DP/RegisterFile/RegisterLogic/DataOut0" type="array">
+      <obj_property name="ElementShortName">DataOut0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DataOut0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PWF_top_tb/uut/DP/RegisterFile/DataOut1Sig" type="array">
+      <obj_property name="ElementShortName">DataOut1Sig[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DataOut1Sig[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PWF_top_tb/uut/DP/RegisterFile/DataOut2Sig" type="array">
+      <obj_property name="ElementShortName">DataOut2Sig[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DataOut2Sig[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PWF_top_tb/uut/DP/RegisterFile/DataOut3Sig" type="array">
+      <obj_property name="ElementShortName">DataOut3Sig[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DataOut3Sig[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PWF_top_tb/BTNC" type="logic">
+      <obj_property name="ElementShortName">BTNC</obj_property>
+      <obj_property name="ObjectShortName">BTNC</obj_property>
    </wvobject>
 </wave_config>

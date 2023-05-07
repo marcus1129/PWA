@@ -3,26 +3,26 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 entity Decoder4x16M is
     port( Enable : in STD_LOGIC;
-          Input : in STD_LOGIC_VECTOR (0 to 3);
-          Output : out STD_LOGIC_VECTOR (0 to 15));
+          Input : in STD_LOGIC_VECTOR (3 downto 0);
+          Output : out STD_LOGIC_VECTOR (15 downto 0));
 end Decoder4x16M;
 
 architecture Behavioral_4x16 of Decoder4x16M is
 
 component SubDecoder
-    Port(Input : in STD_LOGIC_VECTOR(0 to 1);
+    Port(Input : in STD_LOGIC_VECTOR(1 downto 0);
          enable : in STD_LOGIC;
-         Output : out STD_LOGIC_VECTOR(0 to 3));
+         Output : out STD_LOGIC_VECTOR(3 downto 0));
 end component;
 
-signal SubOutput: STD_LOGIC_VECTOR(0 to 3);
+signal SubOutput: STD_LOGIC_VECTOR(3 downto 0);
 
 begin
-SubDecoder1 : SubDecoder port map(Input(0 to 1), enable, SubOutput);
-SubDecoder2 : SubDecoder port map(Input(2 to 3), SubOutput(0), Output(0 to 3));
-SubDecoder3 : SubDecoder port map(Input(2 to 3), SubOutput(1), Output(4 to 7));
-SubDecoder4 : SubDecoder port map(Input(2 to 3), SubOutput(2), Output(8 to 11));
-SubDecoder5 : SubDecoder port map(Input(2 to 3), SubOutput(3), Output(12 to 15));
+SubDecoder1 : SubDecoder port map(Input(3 downto 2), enable, SubOutput);
+SubDecoder2 : SubDecoder port map(Input(1 downto 0), SubOutput(0), Output(3 downto 0));
+SubDecoder3 : SubDecoder port map(Input(1 downto 0), SubOutput(1), Output(7 downto 4));
+SubDecoder4 : SubDecoder port map(Input(1 downto 0), SubOutput(2), Output(11 downto 8));
+SubDecoder5 : SubDecoder port map(Input(1 downto 0), SubOutput(3), Output(15 downto 12));
 
 
 end Behavioral_4x16;

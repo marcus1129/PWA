@@ -2,7 +2,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
 entity PWF_top is
-    Port (  Clk, Reset : in std_logic;
+    Port (  Clk_fast, Reset : in std_logic;
             BTNC, BTNU, BTNL, BTNR, BTND : in std_logic;
             SW: in std_logic_vector (7 downto 0);
             LED : out std_logic_vector (7 downto 0);
@@ -69,6 +69,7 @@ component SevenSeg8 is
            an :     out std_logic_vector(3 downto 0)); -- Common Anodes
 end component;
 
+signal clk: std_logic := '0';
 signal V,C,N,Z,MB,MD,RW,MM,MW, MMR: std_logic;
 signal MW_sig: std_logic_vector(1 downto 0);
 signal DX,AX,BX,FS : std_logic_vector (3 downto 0);
@@ -84,7 +85,7 @@ address_sig <= "00" & address3;
 MC: MicroprogramController port map(reset, clk, address1, address2, bus1, Const, V,C,N,Z, DX,AX,BX,FS, MB,MD,RW,MM,MW);
 DP: Datapath port map(reset, clk, RW, MB, FS(3), FS(2), FS(1), FS(0), MD, DX, AX, BX, Const, bus1(7 downto 0), address1, bus2, V,C,N,Z);
 MUXM: MUX2x1x8 port map(address2, address1, MM, address3);
-RAM: Ram256X16 port map(clk, reset, bus3, address_sig, MW_sig, Data_OutM);
+RAM: Ram256X16 port map(clk_fast, reset, bus3, address_sig, MW_sig, Data_OutM);
 PR: PortReg8x8 port map(clk, reset, MW, bus2, address3, SW, BTNC, BTNU, BTNL, BTNR, BTND, MMR, D_word, Data_outR, LED);
 MUXMR: MUX2x1x16 port map(Data_outR, Data_outM, MMR, bus1);
 SS8: SevenSeg8 port map(reset, clk, D_word, Catode, Anode);
@@ -93,5 +94,12 @@ ZeroFiller2: process(bus2)
 begin
     bus3 <= x"00" & bus2;
 end process ZeroFiller2;
+
+clk_scaler: process(clk_fast)
+begin
+    if clk_fast = '1' then
+        clk <= not clk;
+    end if;
+end process clk_scaler;
 
 end Behavioral;

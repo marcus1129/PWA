@@ -15,12 +15,12 @@ component RF is
     Port ( CLK : in STD_LOGIC;
            Reset : in STD_LOGIC;
            RW : in STD_LOGIC;
-           D_Data : in STD_LOGIC_VECTOR (0 to 7);
-           DA : in STD_LOGIC_VECTOR (0 to 3);
-           AA : in STD_LOGIC_VECTOR (0 to 3);
-           BA : in STD_LOGIC_VECTOR (0 to 3);
-           A_Data : out STD_LOGIC_VECTOR(0 to 7);
-           B_Data : out STD_LOGIC_VECTOR(0 to 7));
+           D_Data : in STD_LOGIC_VECTOR (7 downto 0);
+           DA : in STD_LOGIC_VECTOR (3 downto 0);
+           AA : in STD_LOGIC_VECTOR (3 downto 0);
+           BA : in STD_LOGIC_VECTOR (3 downto 0);
+           A_Data : out STD_LOGIC_VECTOR(7 downto 0);
+           B_Data : out STD_LOGIC_VECTOR(7 downto 0));
 end component;
 
 component FunctionUnit is 
@@ -43,8 +43,8 @@ begin
 
 RegisterFile: RF port map (CLK, RESET, RW, D, DA, AA, BA, A_out, B_Data);
 FU: FunctionUnit port map (A_out, D_out,FS3,FS2,FS1,FS0,Vsig,Csig,Nsig,Zsig,Fsig);
-MUXD: MUX2x1x8 port map (Fsig, DataIn, MD, D);
-MUXB: MUX2x1x8 port map (B_Data, ConstantIn, MB, D_out);
+MUXD: MUX2x1x8 port map (DataIn,Fsig, MD, D);
+MUXB: MUX2x1x8 port map (ConstantIn,B_Data, MB, D_out);
 
 V <= Vsig;
 C <= Csig;

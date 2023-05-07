@@ -8,13 +8,13 @@ architecture Behavioral of Decoder4x16_tb is
 
 component Decoder4x16M
     port( Enable : in STD_LOGIC;
-          Input : in STD_LOGIC_VECTOR (0 to 3);
-          Output : out STD_LOGIC_VECTOR (0 to 15));
+          Input : in STD_LOGIC_VECTOR (3 downto 0);
+          Output : out STD_LOGIC_VECTOR (15 downto 0));
 end component;
 
 Signal Enable : STD_LOGIC;
-Signal Input : STD_LOGIC_VECTOR(0 to 3);
-Signal Output : STD_LOGIC_VECTOR(0 to 15);
+Signal Input : STD_LOGIC_VECTOR(3 downto 0);
+Signal Output : STD_LOGIC_VECTOR(15 downto 0);
 
 begin
 

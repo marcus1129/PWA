@@ -1,0 +1,474 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri May  5 11:21:30 2023
+# Process ID: 5312
+# Current directory: C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.runs/synth_1
+# Command line: vivado.exe -log ALU.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ALU.tcl
+# Log file: C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.runs/synth_1/ALU.vds
+# Journal file: C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ALU.tcl -notrace
+Command: synth_design -top ALU -part xc7k70tfbv676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 33972 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 356.336 ; gain = 99.566
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'ALU' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd:42]
+INFO: [Synth 8-3491] module 'ADD_SUBB_8bit' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ADD_SUBB_8bit.vhd:34' bound to instance 'ADD_SUB' of component 'ADD_SUBB_8bit' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd:96]
+INFO: [Synth 8-638] synthesizing module 'ADD_SUBB_8bit' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ADD_SUBB_8bit.vhd:43]
+INFO: [Synth 8-3491] module 'Adder_Subtractor' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Adder_Subtractor.vhd:34' bound to instance 'U0' of component 'Adder_Subtractor' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ADD_SUBB_8bit.vhd:61]
+INFO: [Synth 8-638] synthesizing module 'Adder_Subtractor' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Adder_Subtractor.vhd:43]
+INFO: [Synth 8-3491] module 'Full_adder' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Full_adder.vhd:34' bound to instance 'ADD_SUB' of component 'Full_adder' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Adder_Subtractor.vhd:59]
+INFO: [Synth 8-638] synthesizing module 'Full_adder' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Full_adder.vhd:42]
+INFO: [Synth 8-3491] module 'Half_adder' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Half_adder.vhd:34' bound to instance 'HA1' of component 'Half_adder' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Full_adder.vhd:56]
+INFO: [Synth 8-638] synthesizing module 'Half_adder' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Half_adder.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'Half_adder' (1#1) [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Half_adder.vhd:41]
+INFO: [Synth 8-3491] module 'Half_adder' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Half_adder.vhd:34' bound to instance 'HA2' of component 'Half_adder' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Full_adder.vhd:57]
+INFO: [Synth 8-256] done synthesizing module 'Full_adder' (2#1) [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Full_adder.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'Adder_Subtractor' (3#1) [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Adder_Subtractor.vhd:43]
+INFO: [Synth 8-3491] module 'Adder_Subtractor' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Adder_Subtractor.vhd:34' bound to instance 'UX' of component 'Adder_Subtractor' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ADD_SUBB_8bit.vhd:65]
+INFO: [Synth 8-3491] module 'Adder_Subtractor' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Adder_Subtractor.vhd:34' bound to instance 'UX' of component 'Adder_Subtractor' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ADD_SUBB_8bit.vhd:65]
+INFO: [Synth 8-3491] module 'Adder_Subtractor' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Adder_Subtractor.vhd:34' bound to instance 'UX' of component 'Adder_Subtractor' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ADD_SUBB_8bit.vhd:65]
+INFO: [Synth 8-3491] module 'Adder_Subtractor' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Adder_Subtractor.vhd:34' bound to instance 'UX' of component 'Adder_Subtractor' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ADD_SUBB_8bit.vhd:65]
+INFO: [Synth 8-3491] module 'Adder_Subtractor' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Adder_Subtractor.vhd:34' bound to instance 'UX' of component 'Adder_Subtractor' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ADD_SUBB_8bit.vhd:65]
+INFO: [Synth 8-3491] module 'Adder_Subtractor' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Adder_Subtractor.vhd:34' bound to instance 'UX' of component 'Adder_Subtractor' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ADD_SUBB_8bit.vhd:65]
+INFO: [Synth 8-3491] module 'Adder_Subtractor' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Adder_Subtractor.vhd:34' bound to instance 'U7' of component 'Adder_Subtractor' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ADD_SUBB_8bit.vhd:69]
+INFO: [Synth 8-256] done synthesizing module 'ADD_SUBB_8bit' (4#1) [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ADD_SUBB_8bit.vhd:43]
+INFO: [Synth 8-3491] module 'Decoder4x16M' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DD.vhd:4' bound to instance 'DEC' of component 'decoder4x16M' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd:97]
+INFO: [Synth 8-638] synthesizing module 'Decoder4x16M' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DD.vhd:10]
+INFO: [Synth 8-3491] module 'SubDecoder' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SubDecoder.vhd:4' bound to instance 'SubDecoder1' of component 'SubDecoder' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DD.vhd:21]
+INFO: [Synth 8-638] synthesizing module 'SubDecoder' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SubDecoder.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'SubDecoder' (5#1) [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SubDecoder.vhd:10]
+INFO: [Synth 8-3491] module 'SubDecoder' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SubDecoder.vhd:4' bound to instance 'SubDecoder2' of component 'SubDecoder' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DD.vhd:22]
+INFO: [Synth 8-3491] module 'SubDecoder' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SubDecoder.vhd:4' bound to instance 'SubDecoder3' of component 'SubDecoder' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DD.vhd:23]
+INFO: [Synth 8-3491] module 'SubDecoder' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SubDecoder.vhd:4' bound to instance 'SubDecoder4' of component 'SubDecoder' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DD.vhd:24]
+INFO: [Synth 8-3491] module 'SubDecoder' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/SubDecoder.vhd:4' bound to instance 'SubDecoder5' of component 'SubDecoder' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DD.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'Decoder4x16M' (6#1) [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/DD.vhd:10]
+INFO: [Synth 8-3491] module 'enabler8bit' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/enabler8bit.vhd:34' bound to instance 'ENABLE' of component 'enabler8bit' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd:98]
+INFO: [Synth 8-638] synthesizing module 'enabler8bit' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/enabler8bit.vhd:40]
+INFO: [Synth 8-3491] module 'Enabler' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Enabler.vhd:34' bound to instance 'ENABLE' of component 'Enabler' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/enabler8bit.vhd:51]
+INFO: [Synth 8-638] synthesizing module 'Enabler' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Enabler.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'Enabler' (7#1) [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Enabler.vhd:40]
+INFO: [Synth 8-3491] module 'Enabler' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Enabler.vhd:34' bound to instance 'ENABLE' of component 'Enabler' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/enabler8bit.vhd:51]
+INFO: [Synth 8-3491] module 'Enabler' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Enabler.vhd:34' bound to instance 'ENABLE' of component 'Enabler' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/enabler8bit.vhd:51]
+INFO: [Synth 8-3491] module 'Enabler' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Enabler.vhd:34' bound to instance 'ENABLE' of component 'Enabler' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/enabler8bit.vhd:51]
+INFO: [Synth 8-3491] module 'Enabler' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Enabler.vhd:34' bound to instance 'ENABLE' of component 'Enabler' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/enabler8bit.vhd:51]
+INFO: [Synth 8-3491] module 'Enabler' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Enabler.vhd:34' bound to instance 'ENABLE' of component 'Enabler' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/enabler8bit.vhd:51]
+INFO: [Synth 8-3491] module 'Enabler' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Enabler.vhd:34' bound to instance 'ENABLE' of component 'Enabler' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/enabler8bit.vhd:51]
+INFO: [Synth 8-3491] module 'Enabler' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/Enabler.vhd:34' bound to instance 'ENABLE' of component 'Enabler' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/enabler8bit.vhd:51]
+INFO: [Synth 8-256] done synthesizing module 'enabler8bit' (8#1) [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/enabler8bit.vhd:40]
+INFO: [Synth 8-3491] module 'logic_unit8bit' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit8bit.vhd:34' bound to instance 'LU' of component 'logic_unit8bit' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd:99]
+INFO: [Synth 8-638] synthesizing module 'logic_unit8bit' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit8bit.vhd:42]
+INFO: [Synth 8-3491] module 'logic_unit' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit.vhd:34' bound to instance 'LU' of component 'logic_unit' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit8bit.vhd:55]
+INFO: [Synth 8-638] synthesizing module 'logic_unit' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit.vhd:42]
+INFO: [Synth 8-3491] module 'MUX4x1' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX4x1.vhd:34' bound to instance 'MUX' of component 'MUX4x1' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit.vhd:65]
+INFO: [Synth 8-638] synthesizing module 'MUX4x1' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX4x1.vhd:44]
+INFO: [Synth 8-3491] module 'MUX2x1' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1.vhd:34' bound to instance 'MUX1' of component 'MUX2x1' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX4x1.vhd:57]
+INFO: [Synth 8-638] synthesizing module 'MUX2x1' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'MUX2x1' (9#1) [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1.vhd:41]
+INFO: [Synth 8-3491] module 'MUX2x1' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1.vhd:34' bound to instance 'MUX2' of component 'MUX2x1' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX4x1.vhd:58]
+INFO: [Synth 8-3491] module 'MUX2x1' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1.vhd:34' bound to instance 'MUX3' of component 'MUX2x1' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX4x1.vhd:59]
+INFO: [Synth 8-256] done synthesizing module 'MUX4x1' (10#1) [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX4x1.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'logic_unit' (11#1) [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit.vhd:42]
+INFO: [Synth 8-3491] module 'logic_unit' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit.vhd:34' bound to instance 'LU' of component 'logic_unit' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit8bit.vhd:55]
+INFO: [Synth 8-3491] module 'logic_unit' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit.vhd:34' bound to instance 'LU' of component 'logic_unit' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit8bit.vhd:55]
+INFO: [Synth 8-3491] module 'logic_unit' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit.vhd:34' bound to instance 'LU' of component 'logic_unit' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit8bit.vhd:55]
+INFO: [Synth 8-3491] module 'logic_unit' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit.vhd:34' bound to instance 'LU' of component 'logic_unit' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit8bit.vhd:55]
+INFO: [Synth 8-3491] module 'logic_unit' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit.vhd:34' bound to instance 'LU' of component 'logic_unit' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit8bit.vhd:55]
+INFO: [Synth 8-3491] module 'logic_unit' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit.vhd:34' bound to instance 'LU' of component 'logic_unit' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit8bit.vhd:55]
+INFO: [Synth 8-3491] module 'logic_unit' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit.vhd:34' bound to instance 'LU' of component 'logic_unit' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit8bit.vhd:55]
+INFO: [Synth 8-256] done synthesizing module 'logic_unit8bit' (12#1) [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/logic_unit8bit.vhd:42]
+INFO: [Synth 8-3491] module 'MUX2x1x8' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x8.vhd:4' bound to instance 'MUX' of component 'MUX2x1x8' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd:100]
+INFO: [Synth 8-638] synthesizing module 'MUX2x1x8' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x8.vhd:10]
+INFO: [Synth 8-3491] module 'MUX2x1' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1.vhd:34' bound to instance 'MUX' of component 'MUX2x1' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x8.vhd:22]
+INFO: [Synth 8-3491] module 'MUX2x1' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1.vhd:34' bound to instance 'MUX' of component 'MUX2x1' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x8.vhd:22]
+INFO: [Synth 8-3491] module 'MUX2x1' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1.vhd:34' bound to instance 'MUX' of component 'MUX2x1' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x8.vhd:22]
+INFO: [Synth 8-3491] module 'MUX2x1' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1.vhd:34' bound to instance 'MUX' of component 'MUX2x1' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x8.vhd:22]
+INFO: [Synth 8-3491] module 'MUX2x1' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1.vhd:34' bound to instance 'MUX' of component 'MUX2x1' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x8.vhd:22]
+INFO: [Synth 8-3491] module 'MUX2x1' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1.vhd:34' bound to instance 'MUX' of component 'MUX2x1' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x8.vhd:22]
+INFO: [Synth 8-3491] module 'MUX2x1' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1.vhd:34' bound to instance 'MUX' of component 'MUX2x1' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x8.vhd:22]
+INFO: [Synth 8-3491] module 'MUX2x1' declared at 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1.vhd:34' bound to instance 'MUX' of component 'MUX2x1' [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x8.vhd:22]
+INFO: [Synth 8-256] done synthesizing module 'MUX2x1x8' (13#1) [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/MUX2x1x8.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (14#1) [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.srcs/sources_1/new/ALU.vhd:42]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 411.973 ; gain = 155.203
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 411.973 ; gain = 155.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 411.973 ; gain = 155.203
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc]
+CRITICAL WARNING: [Common 17-163] Missing value for option 'objects', please type 'set_property -help' for usage info. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:9]
+WARNING: [Vivado 12-584] No ports matched 'CLK'. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CLK'. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:14]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports CLK]'. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:14]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'SW[0]'. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[1]'. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[2]'. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[3]'. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[4]'. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[5]'. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[6]'. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[7]'. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[0]'. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[1]'. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[2]'. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[3]'. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[4]'. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[5]'. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[6]'. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[7]'. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Catode[0]'. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Catode[1]'. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:65]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:65]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Catode[2]'. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Catode[3]'. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Catode[4]'. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:68]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Catode[5]'. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:69]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:69]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Catode[6]'. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'dp'. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[0]'. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:74]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:74]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[1]'. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:75]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:75]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[2]'. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:76]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:76]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[3]'. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:77]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:77]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[4]'. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:78]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:78]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[5]'. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:79]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:79]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[6]'. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:80]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:80]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Anode[7]'. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:81]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:81]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'RESET'. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:86]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:86]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNC'. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:88]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:88]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNU'. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:89]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:89]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNL'. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:90]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:90]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNR'. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:91]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:91]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTND'. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:92]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc:92]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/Nexys_4_DDR_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ALU_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/ALU_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 737.160 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 737.160 ; gain = 480.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbv676-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 737.160 ; gain = 480.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 737.160 ; gain = 480.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 737.160 ; gain = 480.391
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 33    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module ALU 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module Half_adder 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module Adder_Subtractor 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module logic_unit 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 737.160 ; gain = 480.391
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:24 . Memory (MB): peak = 737.160 ; gain = 480.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:24 . Memory (MB): peak = 737.160 ; gain = 480.391
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:24 . Memory (MB): peak = 738.676 ; gain = 481.906
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 739.805 ; gain = 483.035
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 739.805 ; gain = 483.035
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 739.805 ; gain = 483.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 739.805 ; gain = 483.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 739.805 ; gain = 483.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 739.805 ; gain = 483.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT3 |     1|
+|2     |LUT4 |     3|
+|3     |LUT5 |    18|
+|4     |LUT6 |    17|
+|5     |IBUF |    20|
+|6     |OBUF |    10|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    69|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 739.805 ; gain = 483.035
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:17 . Memory (MB): peak = 739.812 ; gain = 157.855
+Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 739.812 ; gain = 483.043
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 20 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+89 Infos, 40 Warnings, 41 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:28 . Memory (MB): peak = 759.922 ; gain = 516.199
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/thoma/Documents/DTU/_62711_digital_systems_design/PWA/PWA/xillinxProjects/RF/test.runs/synth_1/ALU.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file ALU_utilization_synth.rpt -pb ALU_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.041 . Memory (MB): peak = 759.922 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri May  5 11:22:08 2023...

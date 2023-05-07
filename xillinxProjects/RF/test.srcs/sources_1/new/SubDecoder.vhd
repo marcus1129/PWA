@@ -14,10 +14,10 @@ signal D : STD_LOGIC_VECTOR(3 downto 0);
 
 begin
 A <= Input;
-D(3) <= (not A(1)) and (not A(0)) and enable;
-D(1) <= A(1) and (not A(0)) and enable;
-D(2) <= (not A(1)) and A(0) and enable;
-D(0) <= A(1) and A(0) and enable;
+D(0) <= (not A(1)) and (not A(0)) and enable;
+D(2) <= A(1) and (not A(0)) and enable;
+D(1) <= (not A(1)) and A(0) and enable;
+D(3) <= A(1) and A(0) and enable;
 Output <= D;
 
 end Behavioral;
